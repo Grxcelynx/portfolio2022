@@ -50,9 +50,12 @@ function grxcelyn_p2022_setup() {
 	register_nav_menus(
 		array(
 			'menu-1' => esc_html__( 'Primary', 'grxcelyn-p2022' ),
+			'footer-menu' => esc_html__('Footer Menu', 'grxcelyn-p2022')
+
 		)
 	);
-
+    register_nav_menu('footer-menu2', 'Footer Menu 2');
+    register_nav_menu('footer-menu3', 'Footer Menu 3');
 	/*
 		* Switch default core markup for search form, comment form, and comments
 		* to output valid HTML5.
