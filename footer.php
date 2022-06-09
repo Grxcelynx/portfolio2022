@@ -12,18 +12,33 @@
 ?>
 
 	<footer id="colophon" class="site-footer">
-		<footer>
-			<div class="footerBox">
-			<?php
-				wp_nav_menu(array(
-					'menu' => 'Nav Menu',
-					'theme_location' => 'footer-menu',
-					'menu_class' => 'footer-menu',
-					'menu_id' => 'footer-id'
-				))
-			?>
+		
+			<div class="container">
+				<div class="footer-menu1">
+					<?php 
+						wp_nav_menu(array(
+							'menu' => 'Nav Menu',
+							'theme_location' => 'footer-side1',
+							'menu_class' => 'footer-side1',
+							'menu_id' => 'footer-id'
+						))
+					?>
+				</div>
 
+				<div class="footer-menu2">
+					<?php 
+						wp_nav_menu(array(
+							'menu' => 'Nav Menu',
+							'theme_location' => 'footer-side2',
+							'menu_class' => 'footer-side2',
+							'menu_id' => 'footer-id'
+						))
+					?>
+				</div>
 			</div>
+	
+
+		
 			<div class="footerBox">
 				<p>&copy; Grxcelyn Development</p>
 			</div>
@@ -34,7 +49,7 @@
 					<a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-square fa-2x"></i></a>
 				</div>
 			</div>
-		</footer>
+		
 	</footer><!-- #colophon -->
 </body>
 </html>
