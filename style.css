@@ -887,6 +887,46 @@ textarea {
 
 /* Homepage
 --------------------------------------------- */
+.about-expt {
+  height: 20vh;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+}
+.about-expt div {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.about-expt p {
+  text-align: center;
+  padding: 1% 10% 0% 10%;
+  margin: 0;
+}
+.about-expt button {
+  margin: 2%;
+  padding: 2%;
+  text-align: center;
+  height: auto;
+  width: 10%;
+  background-color: transparent;
+}
+.about-expt button a {
+  color: #f29602;
+  text-decoration: none;
+}
+.about-expt .border-gradient {
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+}
+.about-expt .border-gradient-yellow {
+  border-image-source: linear-gradient(to left, transparent, #f29602, transparent);
+}
+
 /* About
 --------------------------------------------- */
 /* Contact
@@ -897,21 +937,31 @@ textarea {
 --------------------------------------------- */
 /* Art
 --------------------------------------------- */
+/* Banner
+--------------------------------------------- */
+main {
+  background-image: radial-gradient(#471414, #6d1515, #8a0808);
+  height: 60vh;
+  margin: 0;
+  padding: 0;
+}
+
 /* Footer
 --------------------------------------------- */
 /* This is the start of footer  */
 footer {
   width: 100%;
   height: auto;
-  border: black solid 1px;
+  border-top: black solid 1px;
   position: relative;
+  padding: 0;
+  margin: 0;
 }
 
 .site-footer {
   width: 100%;
   height: auto;
   background-color: white;
-  border: black solid 1px;
 }
 
 .container {
@@ -957,11 +1007,11 @@ footer {
 }
 
 .footerBox ul li:hover {
-  color: darkmagenta;
+  color: #8a0808;
 }
 
 .footerBox ul li:active {
-  color: cornflowerblue;
+  color: #f29602;
 }
 
 .socialMedia i {
@@ -969,11 +1019,15 @@ footer {
 }
 
 .socialMedia i:hover {
-  color: darkmagenta;
+  color: #8a0808;
 }
 
 .socialMedia i:active {
-  color: cornflowerblue;
+  color: #f29602;
+}
+
+.footer-menu3 a, .footer-menu2 a {
+  color: black;
 }
 
 /*--------------------------------------------------------------

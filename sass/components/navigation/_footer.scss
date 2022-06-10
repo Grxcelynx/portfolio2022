@@ -2,8 +2,10 @@
 footer{
     width: 100%;
     height: auto;
-    border: black solid 1px;
+    border-top: black solid 1px;
     position: relative;
+    padding: 0;
+    margin: 0;
     // background:linear-gradient(0deg, rgba(252, 170, 252, 0.1), rgba(252, 170, 252, 0.1));
 }
 
@@ -12,7 +14,7 @@ footer{
     // height: 20vh;
     height: auto;
     background-color: white;
-    border: black solid 1px;
+    // border: black solid 1px;
 }
 
 .container {
@@ -60,18 +62,25 @@ footer{
     // margin: 20px 20px;
 }
 .footerBox ul li:hover{
-    color: darkmagenta;
+    color: #8a0808;
 }
 .footerBox ul li:active{
-    color:cornflowerblue;
+    color:#f29602;
 }
 
 .socialMedia i{
     color: #000;
 }
 .socialMedia i:hover{
-    color: darkmagenta;
+    color: #8a0808;
 }
 .socialMedia i:active{
-    color:cornflowerblue;
+    color: #f29602;
+}
+
+.footer-menu3,.footer-menu2 {
+    a{
+        color: black;
+
+    }
 }
