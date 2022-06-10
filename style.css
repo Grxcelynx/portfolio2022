@@ -929,6 +929,34 @@ textarea {
 
 /* About
 --------------------------------------------- */
+.about-img-sec {
+  height: 45vh;
+  width: 100%;
+}
+
+.about-info {
+  height: 55vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-shadow: 1px 1px rgba(255, 255, 255, 0.5);
+}
+.about-info h1 {
+  font-size: 3em;
+  padding: 0%;
+  margin: 0%;
+}
+.about-info h3 {
+  font-size: 1.5em;
+  padding: 0%;
+  margin: 0%;
+}
+.about-info p {
+  padding: 0% 12%;
+}
+
 /* Contact
 --------------------------------------------- */
 /* work
