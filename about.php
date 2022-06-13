@@ -7,13 +7,13 @@
 */
 ?>
 <?php get_header(); ?>
-    <div>
+    <div class="about">
         <section class="about-img-sec">
-            <div class="about-img">
+            <div class="fade-in-image">
                 <img src="http://grxcelyn2022.local/wp-content/uploads/2022/06/IMG_9628.jpg" alt="">
             </div>
         </section>
-
+        
         <section class="about-info">
             <div class="info-text-about">
                 <h1>

@@ -1,37 +1,85 @@
+.about {
+    padding: 5% 0% 0% 0%;
+    margin: 0% 0% 1% 0%;
+}
+
 .about-img-sec {
     height: 45vh;
     width: 100%;
-    // align-items: center;
-    // justify-content: center;
-    // display: flex;
+    position: relative;
+}
 
-
-  
-
+.fade-in-image { animation: fadeIn 5s; }
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
 .about-info {
     height:  55vh;
     width: 100%;
     display: flex;
+    position: relative;
     align-items: center;
     justify-content: center;
     text-align: center;
-    text-shadow: 1px 1px rgb(255, 255, 255, 0.5);
+    color: black;
+    .info-t3ext-about{
 
+    }
     h1 {
         font-size: 3em;
         padding: 0%;
         margin: 0%;
+        text-shadow: 1px 1px rgb(255, 255, 255, 0.5);
     }
 
     h3 {
         font-size: 1.5em;
         padding: 0%;
         margin: 0%;
+        text-shadow: 1px 1px rgb(255, 255, 255, 0.5);
     }
 
     p {
         padding: 0% 12%;
+        background: linear-gradient( to left ,transparent,rgba(236, 234, 234, 0.4), rgb(236, 234, 234, 0.4), transparent);
+    }
+}
+
+@media screen and (max-width: 555px) {
+
+    .about {
+        padding: 0%;
+        margin: 0%;
+    }
+    .about-info {
+        height: auto;
+
+        h1 {
+            font-size: 2em ;
+            top: -10%;
+        }
+    
+        h3 {
+            font-size: 1em ;
+        }
+
+        p {
+            font-size: 1em;
+        }
+
+    }
+
+}
+
+@media screen and (max-width: 541px) {
+    .about-img-sec {
+        height: auto;
+    }
+
+    .about {
+        padding: 0%;
+        margin: 0%;
     }
 }

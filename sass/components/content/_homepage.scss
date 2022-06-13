@@ -1,48 +1,16 @@
 .about-expt {
-    height: 20vh;
+    height: auto;
     width: 100%;
     padding: 0;
     margin: 0;
     background-color: transparent;
 
-    div {
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        margin: 0;
-        padding: 0;
-    }
 
     p {
         text-align: center;
-        padding: 1% 10% 0% 10%;
+        padding: 1% 10% 2% 10%;
         margin: 0;
-    }
-    button {
-        margin: 2%;
-        padding: 2%;
-        text-align: center;
         height: auto;
-        width: 10%;
-        background-color: transparent;
-       
-        // .about-btn {
-        //     border: 10px solid;
-        //     border-image-slice: 1;
-        //     border-width: 5px;
-        // }
-        a {
-            color: #f29602;
-            text-decoration: none;
-        }
     }
 
-    .border-gradient {
-        border: 10px solid;
-        border-image-slice: 1;
-        border-width: 5px;
-      }
-      .border-gradient-yellow {
-        border-image-source: linear-gradient(to left, transparent,#f29602, transparent);
-      }
 }

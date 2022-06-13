@@ -888,75 +888,101 @@ textarea {
 /* Homepage
 --------------------------------------------- */
 .about-expt {
-  height: 20vh;
+  height: auto;
   width: 100%;
   padding: 0;
   margin: 0;
   background-color: transparent;
 }
-.about-expt div {
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  margin: 0;
-  padding: 0;
-}
 .about-expt p {
   text-align: center;
-  padding: 1% 10% 0% 10%;
+  padding: 1% 10% 2% 10%;
   margin: 0;
-}
-.about-expt button {
-  margin: 2%;
-  padding: 2%;
-  text-align: center;
   height: auto;
-  width: 10%;
-  background-color: transparent;
-}
-.about-expt button a {
-  color: #f29602;
-  text-decoration: none;
-}
-.about-expt .border-gradient {
-  border: 10px solid;
-  border-image-slice: 1;
-  border-width: 5px;
-}
-.about-expt .border-gradient-yellow {
-  border-image-source: linear-gradient(to left, transparent, #f29602, transparent);
 }
 
 /* About
 --------------------------------------------- */
+.about {
+  padding: 5% 0% 0% 0%;
+  margin: 0% 0% 1% 0%;
+}
+
 .about-img-sec {
   height: 45vh;
   width: 100%;
+  position: relative;
 }
 
+.fade-in-image {
+  animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .about-info {
   height: 55vh;
   width: 100%;
   display: flex;
+  position: relative;
   align-items: center;
   justify-content: center;
   text-align: center;
-  text-shadow: 1px 1px rgba(255, 255, 255, 0.5);
+  color: black;
 }
 .about-info h1 {
   font-size: 3em;
   padding: 0%;
   margin: 0%;
+  text-shadow: 1px 1px rgba(255, 255, 255, 0.5);
 }
 .about-info h3 {
   font-size: 1.5em;
   padding: 0%;
   margin: 0%;
+  text-shadow: 1px 1px rgba(255, 255, 255, 0.5);
 }
 .about-info p {
   padding: 0% 12%;
+  background: linear-gradient(to left, transparent, rgba(236, 234, 234, 0.4), rgba(236, 234, 234, 0.4), transparent);
 }
 
+@media screen and (max-width: 555px) {
+  .about {
+    padding: 0%;
+    margin: 0%;
+  }
+
+  .about-info {
+    height: auto;
+  }
+  .about-info h1 {
+    font-size: 2em;
+    top: -10%;
+  }
+  .about-info h3 {
+    font-size: 1em;
+  }
+  .about-info p {
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 541px) {
+  .about-img-sec {
+    height: auto;
+  }
+
+  .about {
+    padding: 0%;
+    margin: 0%;
+  }
+}
 /* Contact
 --------------------------------------------- */
 /* work
