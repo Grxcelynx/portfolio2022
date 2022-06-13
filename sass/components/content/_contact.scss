@@ -1,0 +1,67 @@
+
+
+.grid {
+    width: 100%;
+    height: auto;
+
+}
+
+
+.form-grid {
+    display: grid;
+    position: relative;
+    // justify-content:start;
+    grid-template-columns: 40% 30% 30%;
+    grid-template-rows: auto;
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    float: right;
+    z-index: 1;
+
+    form {
+        border: 1px grey solid;
+        margin: 0%;
+    }
+
+    .art-form {
+        padding: 10%;
+        margin: 0%;
+        
+        fieldset {
+            border-bottom: 1px grey solid;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            margin: 0%;
+        }
+
+        #art-title {
+            font-size: 2em;
+            padding: 3%;
+        }
+    }
+
+    .web-form {
+        padding: 10%;
+        margin: 0%;
+
+        fieldset {
+            border-bottom: 1px grey solid;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+        }
+
+        #web-title {
+            font-size: 2em;
+            padding: 5%;
+        }
+    }
+
+    .test {
+    
+    background-color: aqua;
+}
+}
+

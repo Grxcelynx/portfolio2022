@@ -985,6 +985,59 @@ textarea {
 }
 /* Contact
 --------------------------------------------- */
+.grid {
+  width: 100%;
+  height: auto;
+}
+
+.form-grid {
+  display: grid;
+  position: relative;
+  grid-template-columns: 40% 30% 30%;
+  grid-template-rows: auto;
+  padding: 0%;
+  margin: 0%;
+  width: 100%;
+  float: right;
+  z-index: 1;
+}
+.form-grid form {
+  border: 1px grey solid;
+  margin: 0%;
+}
+.form-grid .art-form {
+  padding: 10%;
+  margin: 0%;
+}
+.form-grid .art-form fieldset {
+  border-bottom: 1px grey solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin: 0%;
+}
+.form-grid .art-form #art-title {
+  font-size: 2em;
+  padding: 3%;
+}
+.form-grid .web-form {
+  padding: 10%;
+  margin: 0%;
+}
+.form-grid .web-form fieldset {
+  border-bottom: 1px grey solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.form-grid .web-form #web-title {
+  font-size: 2em;
+  padding: 5%;
+}
+.form-grid .test {
+  background-color: aqua;
+}
+
 /* work
 --------------------------------------------- */
 /* Tutorials
