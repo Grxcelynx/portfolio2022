@@ -1165,6 +1165,130 @@ textarea {
 --------------------------------------------- */
 /* Tutorials
 --------------------------------------------- */
+h1 {
+  text-align: center;
+  margin: 0%;
+  padding: 5%;
+  text-transform: uppercase;
+}
+
+.tut-grid {
+  display: grid;
+  position: relative;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  padding: 0%;
+  margin: 0% 0% 3% 0%;
+  width: 100%;
+}
+.tut-grid .github {
+  border: 1px solid grey;
+  margin: 2%;
+  padding: 1%;
+  display: list-item;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  text-align: center;
+  list-style-type: none;
+}
+.tut-grid .github h4 {
+  text-decoration: none;
+  text-align: center;
+}
+.tut-grid .github ul {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0%;
+  padding: 0%;
+}
+.tut-grid .github button {
+  margin: 2% 0% 5% 0%;
+}
+.tut-grid .github button a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.tut-grid .html-t {
+  margin: 2%;
+  padding: 1%;
+  display: list-item;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid grey;
+  text-decoration: none;
+  text-align: center;
+  list-style-type: none;
+}
+.tut-grid .html-t h4 {
+  text-decoration: none;
+  text-align: center;
+}
+.tut-grid .html-t ul {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0%;
+  padding: 0%;
+}
+.tut-grid .html-t button {
+  margin: 2% 0% 5% 0%;
+}
+.tut-grid .html-t button a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.tut-grid .css-t {
+  margin: 2%;
+  padding: 1%;
+  display: list-item;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid grey;
+  text-decoration: none;
+  text-align: center;
+  list-style-type: none;
+}
+.tut-grid .css-t h4 {
+  text-decoration: none;
+  text-align: center;
+}
+.tut-grid .css-t ul {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0%;
+  padding: 0%;
+}
+.tut-grid .css-t button {
+  margin: 2% 0% 5% 0%;
+}
+.tut-grid .css-t button a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.about-tut {
+  text-align: start;
+  padding: 0% 0% 3% 5%;
+  margin: 0%;
+}
+.about-tut p {
+  margin: 0%;
+  padding: 3% 10% 2% 0%;
+}
+.about-tut button {
+  margin: 0%;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 471px) {
+  .tut-grid {
+    display: list-item;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
+  }
+}
 /* Art
 --------------------------------------------- */
 /* Banner

@@ -1,0 +1,140 @@
+h1 {
+    text-align: center;
+    margin: 0%;
+    padding: 5%;
+    text-transform: uppercase;
+}
+
+.tut-grid {
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    padding: 0%;
+    margin: 0% 0% 3% 0%;
+    width: 100%;
+    // border-bottom: 1px grey solid;
+    // z-index: 1;
+
+    .github {
+        border: 1px solid grey;
+        margin: 2%;
+        padding: 1%;
+        display: list-item;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        text-align: center;
+        list-style-type: none;
+        h4 {
+            text-decoration: none;
+            text-align: center;
+        }
+        ul {
+            text-decoration: none;
+            list-style-type:none;
+            margin: 0%;
+            padding: 0%;
+        }
+
+        button {
+            margin: 2% 0% 5% 0%;
+
+            a {
+                text-decoration: none;
+                text-transform: uppercase;
+
+            }
+        }
+    }
+
+    .html-t {
+        margin: 2%;
+        padding: 1%;
+        display: list-item;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid grey;
+        text-decoration: none;
+        text-align: center;
+        list-style-type: none;
+        h4 {
+            text-decoration: none;
+            text-align: center;
+        }
+        ul {
+            text-decoration: none;
+            list-style-type:none;
+            margin: 0%;
+            padding: 0%;
+        }
+        button {
+            margin: 2% 0% 5% 0%;
+
+            a {
+                text-decoration: none;
+                text-transform: uppercase;
+
+            }  
+        }
+    }
+
+    .css-t {
+        margin: 2%;
+        padding: 1%;
+        display: list-item;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid grey;
+        text-decoration: none;
+        text-align: center;
+        list-style-type: none;
+        h4 {
+            text-decoration: none;
+            text-align: center;
+        }
+        ul {
+            text-decoration: none;
+            list-style-type:none;
+            margin: 0%;
+            padding: 0%;
+        }
+        button {
+            margin: 2% 0% 5% 0%;
+            a {
+                text-decoration: none;
+                text-transform: uppercase;
+
+            }       
+         }
+    }
+}
+
+.about-tut {
+    text-align: start;
+    padding: 0% 0% 3% 5%;
+    margin: 0%;
+
+    p {
+        margin: 0%;
+        padding: 3% 10% 2% 0%;
+    }
+
+    button {
+        margin: 0%;
+        text-transform: uppercase;
+    }
+}
+
+@media screen and (max-width: 471px) {
+  
+    .tut-grid {
+      display: list-item;
+      align-items: center;
+      justify-content: center;
+      margin: 0%;
+      padding: 0%;
+  
+  
+    }
+  }
