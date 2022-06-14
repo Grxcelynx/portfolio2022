@@ -1129,6 +1129,38 @@ textarea {
   padding: 3% 10% 2% 10%;
 }
 
+@media screen and (max-width: 820px) {
+  .buttons {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 1%;
+    padding: 0%;
+  }
+  .buttons div {
+    font-size: 1.2em;
+  }
+
+  .form-grid {
+    display: list-item;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
+  }
+}
+@media screen and (max-width: 819px) {
+  .buttons {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 1%;
+    padding: 0%;
+  }
+  .buttons div {
+    font-size: 0.8em;
+  }
+}
 /* work
 --------------------------------------------- */
 /* Tutorials

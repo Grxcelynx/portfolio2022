@@ -42,7 +42,6 @@
 
 <section class="grid">
 <div class="form-grid">
-        
         <form class="art-form" action="" id="AformBtn">
             <label id="art-title" for="">Art Inquiry Form</label>
             <hr>
@@ -90,11 +89,13 @@
             <button id="art-btn" type="submit">Submit</button>
 
         </form>
-    
+       
         <section class="test">
 
         </section>
-    
+        
+
+        
         <form class="web-form" action="" id="WformBtn">
             <label id="web-title" for="">Web Development Inquiry Form</label>
             <hr>
@@ -135,7 +136,6 @@
 
             <button id="web-btn" type="submit">Submit</button>
         </form>
-   
 </div>
 </section>
 
