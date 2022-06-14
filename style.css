@@ -1000,7 +1000,7 @@ textarea {
 }
 .main-contact h1 {
   text-transform: uppercase;
-  font-size: 2em;
+  font-size: 2.5em;
   padding: 0%;
   margin: 0%;
 }
@@ -1078,13 +1078,13 @@ textarea {
   grid-template-columns: 40% 20% 40%;
   grid-template-rows: auto;
   padding: 0%;
-  margin: 0%;
+  margin: 0% 0% 3% 0%;
   width: 100%;
   float: right;
   z-index: 1;
 }
 .form-grid form {
-  border: 1px grey solid;
+  border-bottom: solid 1px grey;
   margin: 0%;
 }
 .form-grid .art-form {
@@ -1102,11 +1102,8 @@ textarea {
   font-size: 2em;
   padding: 3%;
 }
-.form-grid .art-form .art-btn {
-  text-align: center;
-  align-items: center;
-  display: flex;
-  justify-content: center;
+.form-grid .art-form #art-btn {
+  margin-top: 3%;
 }
 .form-grid .web-form {
   padding: 10%;
@@ -1119,17 +1116,17 @@ textarea {
   border-right: none;
 }
 .form-grid .web-form #web-title {
-  font-size: 2em;
+  font-size: 1.5em;
   padding: 5%;
 }
-.form-grid .web-form .web-btn {
-  text-align: center;
-  align-items: center;
-  display: flex;
-  justify-content: center;
+.form-grid .web-form #web-btn {
+  margin-top: 3%;
 }
-.form-grid .test {
-  background-color: aqua;
+
+.reminder {
+  text-align: center;
+  margin: 0%;
+  padding: 3% 10% 2% 10%;
 }
 
 /* work
