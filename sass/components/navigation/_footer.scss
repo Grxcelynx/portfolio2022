@@ -81,6 +81,38 @@ footer{
 .footer-menu3,.footer-menu2 {
     a{
         color: black;
-
     }
+}
+
+.copyright {
+    margin: 0%;
+    padding: 3%;
+    text-align: center;
+}
+
+@media screen and (max-width: 691px) {
+
+    .footer-menu2 {
+        margin: 0%;
+        padding: 0%;
+        height: auto;
+
+        ul {
+            margin: 0%;
+            padding: 8%;
+        }
+    }
+
+    .footer-menu3 {
+        margin: 0%;
+        padding: 0%;
+        height: auto;
+
+        ul {
+            margin: 0%;
+            padding: 8%;
+        }
+    }
+
+
 }

@@ -1260,6 +1260,33 @@ footer {
   color: black;
 }
 
+.copyright {
+  margin: 0%;
+  padding: 3%;
+  text-align: center;
+}
+
+@media screen and (max-width: 691px) {
+  .footer-menu2 {
+    margin: 0%;
+    padding: 0%;
+    height: auto;
+  }
+  .footer-menu2 ul {
+    margin: 0%;
+    padding: 8%;
+  }
+
+  .footer-menu3 {
+    margin: 0%;
+    padding: 0%;
+    height: auto;
+  }
+  .footer-menu3 ul {
+    margin: 0%;
+    padding: 8%;
+  }
+}
 /*--------------------------------------------------------------
 # Plugins
 --------------------------------------------------------------*/
