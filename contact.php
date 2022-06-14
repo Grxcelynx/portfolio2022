@@ -7,16 +7,43 @@
 */
 ?>
 <?php get_header(); ?>
+
+<section class="main-contact">
+    <div class="banner-img-contact">
+        <div class="banner-text">
+            <h1>Contact Me</h1>
+            <h4><strong>General Questions <i>only</i></strong></h4>
+            <form action="">
+                <fieldset>
+                    <input type="text" name="fullname" id="fullname" placeholder="Full Name">
+                </fieldset>
+                <fieldset>
+                    <input type="email" name="email" id="email" placeholder="Email">
+                </fieldset>
+                <fieldset>
+                    <input type="text" name="message" id="msg" placeholder="Message">
+                </fieldset>
+                <fieldset>
+                    <button type="submit" id="general-msg">Submit</button>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</section>
+
+<div class="buttons">
+        <div class="formButtonArt" id="artBtn">
+            <a href="#AformBtn">Art Inquiry</a>
+        </div>
+        <div class="formButtonWeb" id="webBtn">
+            <a href="#WformBtn">Web Development Inquiry</a>
+        </div>
+</div>
+
 <section class="grid">
-
-
-
 <div class="form-grid">
-        <section class="test">
-
-        </section>
         
-        <form class="art-form" action="">
+        <form class="art-form" action="" id="AformBtn">
             <label id="art-title" for="">Art Inquiry Form</label>
             <hr>
             <fieldset class="art-input">
@@ -64,9 +91,11 @@
 
         </form>
     
+        <section class="test">
 
+        </section>
     
-        <form class="web-form" action="">
+        <form class="web-form" action="" id="WformBtn">
             <label id="web-title" for="">Web Development Inquiry Form</label>
             <hr>
             <fieldset class="web-input">

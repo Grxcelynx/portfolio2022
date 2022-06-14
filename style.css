@@ -985,15 +985,97 @@ textarea {
 }
 /* Contact
 --------------------------------------------- */
+.main-contact {
+  width: 100%;
+  height: 70vh;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 0%;
+  margin: 0%;
+}
+.main-contact fieldset {
+  border: none;
+}
+.main-contact h1 {
+  text-transform: uppercase;
+  font-size: 2em;
+  padding: 0%;
+  margin: 0%;
+}
+.main-contact h4 {
+  font-size: 1em;
+  padding: 0%;
+  margin: 0%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.formButtonArt {
+  display: flex;
+  margin: 5%;
+}
+
+.formButtonArt a {
+  padding: 0px 15px;
+  background-color: transparent;
+  border: 2px solid #8a0808;
+  border-radius: 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  align-items: center;
+  box-shadow: #471414 2px 2px;
+}
+
+.formButtonArt a:hover {
+  background-color: #fff8f0;
+}
+
+.formButtonArt a:active {
+  background-color: #f29602;
+}
+
+.formButtonWeb {
+  display: flex;
+  margin: 5%;
+}
+
+.formButtonWeb a {
+  padding: 0px 15px;
+  background-color: transparent;
+  border: 2px solid #8a0808;
+  border-radius: 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  align-items: center;
+  box-shadow: #471414 -2px 2px;
+}
+
+.formButtonWeb a:hover {
+  background-color: #fff8f0;
+}
+
+.formButtonWeb a:active {
+  background-color: #f29602;
+}
+
 .grid {
   width: 100%;
   height: auto;
+  padding: 0%;
+  margin: 0% 0% 0% 0%;
 }
 
 .form-grid {
   display: grid;
   position: relative;
-  grid-template-columns: 40% 30% 30%;
+  grid-template-columns: 40% 20% 40%;
   grid-template-rows: auto;
   padding: 0%;
   margin: 0%;
@@ -1020,6 +1102,12 @@ textarea {
   font-size: 2em;
   padding: 3%;
 }
+.form-grid .art-form .art-btn {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
 .form-grid .web-form {
   padding: 10%;
   margin: 0%;
@@ -1033,6 +1121,12 @@ textarea {
 .form-grid .web-form #web-title {
   font-size: 2em;
   padding: 5%;
+}
+.form-grid .web-form .web-btn {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 .form-grid .test {
   background-color: aqua;
