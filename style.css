@@ -1426,13 +1426,13 @@ h1 {
     align-content: center;
   }
   .artwork-grid .gallery-preview {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) !important;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     margin: 0%;
-    padding: 0%;
-    width: fit-content;
+    padding: 10%;
+    width: 100%;
   }
   .artwork-grid .shop-prev {
-    width: 500px;
+    width: 100%;
     margin: 0% !important;
     padding: 1%;
   }
