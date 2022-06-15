@@ -26,8 +26,8 @@
 
     <div class="shop-prev">
         etsy page preview link
-        <a href="http://">
-        <img src="" alt="">
+        <!-- <a href="http://">
+        <img src="" alt=""> -->
         </a>
     </div>
 
