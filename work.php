@@ -11,7 +11,7 @@
 <div>
     <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
-    <img src="http://grxcelyn2022.local/wp-content/uploads/2022/06/IMG_0288-scaled.jpg" style="width:100%">
+    <img src="http://grxcelyn2022.local/wp-content/uploads/2022/06/coding-for-beginners-1.gif" style="width:100%">
     <div class="text">Caption Text</div>
     </div>
 

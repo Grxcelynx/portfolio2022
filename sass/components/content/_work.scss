@@ -3,8 +3,9 @@ body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
 img {
     vertical-align: middle;
-    height: 300px;
-    width: 100%;
+    height: auto;
+    width: auto;
+    padding: 5%;
 }
 
 /* Slideshow container */
@@ -12,6 +13,7 @@ img {
   max-width: 1000px;
   position: relative;
   margin: auto;
+
 }
 
 /* Next & previous buttons */
@@ -77,6 +79,13 @@ img {
   background-color: #717171;
 }
 
+.more-work {
+  padding: auto;
+  margin: 3% 8% 3% 4%;
+  text-transform: uppercase;
+}
+
+
 /* Fading animation */
 .fade {
   animation-name: fade;
@@ -85,7 +94,7 @@ img {
 
 @keyframes fade {
   from {opacity: .4} 
-  to {opacity: 1}
+  to {opacity: 1} 
 }
 
 // .more-work {
@@ -161,7 +170,77 @@ img {
 }
 
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
+/* On smaller screens */
+@media only screen and (max-width: 870px) {
   .prev, .next,.text {font-size: 11px}
+
+    .more-work {
+        padding: auto;
+        margin: 3% 8% 3% 4%;
+        text-transform: uppercase;
+    }
+
+    .work-info {
+      display: list-item;
+      position: relative;
+      padding: 0%;
+      width: 100%;
+      height: auto;
+
+      .web-inquiry {
+          padding: 3%;
+          margin: 1%;
+      
+          h2 {
+              padding: 3% 8% 0% 4%;
+              margin: 0%;
+              font-size: 1.1em;
+          }
+          p {
+              padding: 3% 8% 3% 4%;
+              margin: 0%;
+              font-size: 0.9em;
+          }
+          button {
+              padding: auto;
+              margin: 3% 8% 3% 4%;
+              text-transform: uppercase;
+          }
+      }
+
+      .work-about {
+
+          h2 {
+              font-size: 1.3em;
+              margin: 0%;
+              padding: 0% 0% 0% 4%;
+              text-transform: uppercase;
+          }
+          .skills {
+              margin: 0%;
+              padding: 0%;
+
+
+              p {
+                  margin: 0%;
+                  padding: 3% 10% 5% 10%;
+              }
+          }
+
+          .process {
+              margin: 0%;
+              padding: 0%;
+
+              p {
+                  margin: 0%;
+                  padding: 3% 10% 5% 10%;
+                  text-align: right;
+
+              }
+          }
+
+      }
+
+  }
+
 }

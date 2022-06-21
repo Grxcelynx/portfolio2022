@@ -631,7 +631,11 @@ textarea {
   float: left;
   margin: 0px 15px;
   height: 100px;
-  width: 120px;
+  width: 150px;
+}
+.site-header .site-branding a img {
+  height: 70px;
+  width: 140px;
 }
 
 .main-navigation {
@@ -904,18 +908,14 @@ textarea {
 /* About
 --------------------------------------------- */
 .about {
-  padding: 5% 0% 0% 0%;
+  padding: 0%;
   margin: 0% 0% 1% 0%;
+  height: auto;
 }
 
 .about-img-sec {
-  height: 45vh;
-  width: 100%;
-  position: relative;
-}
-
-.fade-in-image {
-  animation: fadeIn 5s;
+  visibility: hidden;
+  height: 0px;
 }
 
 @keyframes fadeIn {
@@ -927,7 +927,7 @@ textarea {
   }
 }
 .about-info {
-  height: 55vh;
+  height: auto;
   width: 100%;
   display: flex;
   position: relative;
@@ -935,52 +935,73 @@ textarea {
   justify-content: center;
   text-align: center;
   color: black;
+  animation: fadeIn 5s;
+  background-image: url("http://grxcelyn2022.local/wp-content/uploads/2022/06/IMG_9628.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.about-info h1 {
+.about-info .info-text-about {
+  margin: 50% 0% 0% 0%;
+}
+.about-info .info-text-about h1 {
   font-size: 3em;
   padding: 0%;
   margin: 0%;
   text-shadow: 1px 1px rgba(255, 255, 255, 0.5);
 }
-.about-info h3 {
+.about-info .info-text-about h3 {
   font-size: 1.5em;
   padding: 0%;
   margin: 0%;
   text-shadow: 1px 1px rgba(255, 255, 255, 0.5);
 }
-.about-info p {
+.about-info .info-text-about p {
   padding: 0% 12%;
   background: linear-gradient(to left, transparent, rgba(236, 234, 234, 0.4), rgba(236, 234, 234, 0.4), transparent);
 }
 
-@media screen and (max-width: 555px) {
+@media screen and (max-width: 816px) {
   .about {
     padding: 0%;
     margin: 0%;
   }
-
-  .about-info {
-    height: auto;
-  }
-  .about-info h1 {
-    font-size: 2em;
-    top: -10%;
-  }
-  .about-info h3 {
-    font-size: 1em;
-  }
-  .about-info p {
-    font-size: 1em;
-  }
-}
-@media screen and (max-width: 541px) {
-  .about-img-sec {
-    height: auto;
-  }
-
-  .about {
+  .about .about-img-sec {
+    visibility: visible;
+    position: relative;
     padding: 0%;
     margin: 0%;
+    height: auto;
+    animation: fadeIn 5s;
+  }
+  .about .about-img-sec img {
+    height: auto;
+    width: 100%;
+    position: relative;
+    padding: 0%;
+    margin: 0%;
+  }
+  .about .about-info {
+    animation: none;
+    background-image: none;
+    margin: 0%;
+    padding: 0%;
+    height: auto;
+    position: relative;
+  }
+  .about .about-info .info-text-about {
+    margin: 0% 0% 0% 0%;
+  }
+  .about .about-info .info-text-about h1 {
+    font-size: 1.2em;
+    margin: 0%;
+    padding: 0%;
+  }
+  .about .about-info .info-text-about h3 {
+    font-size: 0.9em;
+  }
+  .about .about-info .info-text-about p {
+    font-size: 0.7em;
   }
 }
 /* Contact
@@ -1178,8 +1199,9 @@ body {
 
 img {
   vertical-align: middle;
-  height: 300px;
-  width: 100%;
+  height: auto;
+  width: auto;
+  padding: 5%;
 }
 
 /* Slideshow container */
@@ -1252,6 +1274,12 @@ img {
   background-color: #717171;
 }
 
+.more-work {
+  padding: auto;
+  margin: 3% 8% 3% 4%;
+  text-transform: uppercase;
+}
+
 /* Fading animation */
 .fade {
   animation-name: fade;
@@ -1317,10 +1345,66 @@ img {
   text-align: right;
 }
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
+/* On smaller screens */
+@media only screen and (max-width: 870px) {
   .prev, .next, .text {
     font-size: 11px;
+  }
+
+  .more-work {
+    padding: auto;
+    margin: 3% 8% 3% 4%;
+    text-transform: uppercase;
+  }
+
+  .work-info {
+    display: list-item;
+    position: relative;
+    padding: 0%;
+    width: 100%;
+    height: auto;
+  }
+  .work-info .web-inquiry {
+    padding: 3%;
+    margin: 1%;
+  }
+  .work-info .web-inquiry h2 {
+    padding: 3% 8% 0% 4%;
+    margin: 0%;
+    font-size: 1.1em;
+  }
+  .work-info .web-inquiry p {
+    padding: 3% 8% 3% 4%;
+    margin: 0%;
+    font-size: 0.9em;
+  }
+  .work-info .web-inquiry button {
+    padding: auto;
+    margin: 3% 8% 3% 4%;
+    text-transform: uppercase;
+  }
+  .work-info .work-about h2 {
+    font-size: 1.3em;
+    margin: 0%;
+    padding: 0% 0% 0% 4%;
+    text-transform: uppercase;
+  }
+  .work-info .work-about .skills {
+    margin: 0%;
+    padding: 0%;
+  }
+  .work-info .work-about .skills p {
+    margin: 0%;
+    padding: 3% 10% 5% 10%;
+  }
+  .work-info .work-about .process {
+    margin: 0%;
+    padding: 0%;
+  }
+  .work-info .work-about .process p {
+    margin: 0%;
+    padding: 3% 10% 5% 10%;
+    text-align: right;
   }
 }
 /* Tutorials

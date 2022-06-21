@@ -1,22 +1,26 @@
 .about {
-    padding: 5% 0% 0% 0%;
+    padding: 0%;
     margin: 0% 0% 1% 0%;
+    height: auto;
 }
 
 .about-img-sec {
-    height: 45vh;
-    width: 100%;
-    position: relative;
+   visibility: hidden;
+   height: 0px;
 }
 
-.fade-in-image { animation: fadeIn 5s; }
+// .fade-in-image {
+//     animation: fadeIn 5s;
+//     padding: 0%;
+//     margin: 0%;
+//  }
 @keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
 
 .about-info {
-    height:  55vh;
+    height: auto;
     width: 100%;
     display: flex;
     position: relative;
@@ -24,60 +28,88 @@
     justify-content: center;
     text-align: center;
     color: black;
+    animation: fadeIn 5s;
+    background-image: url('http://grxcelyn2022.local/wp-content/uploads/2022/06/IMG_9628.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 
-    h1 {
-        font-size: 3em;
-        padding: 0%;
-        margin: 0%;
-        text-shadow: 1px 1px rgb(255, 255, 255, 0.5);
-    }
-
-    h3 {
-        font-size: 1.5em;
-        padding: 0%;
-        margin: 0%;
-        text-shadow: 1px 1px rgb(255, 255, 255, 0.5);
-    }
-
-    p {
-        padding: 0% 12%;
-        background: linear-gradient( to left ,transparent,rgba(236, 234, 234, 0.4), rgb(236, 234, 234, 0.4), transparent);
-    }
-}
-
-@media screen and (max-width: 555px) {
-
-    .about {
-        padding: 0%;
-        margin: 0%;
-    }
-    .about-info {
-        height: auto;
-
+    .info-text-about{
+        margin: 50% 0% 0% 0%;
         h1 {
-            font-size: 2em ;
-            top: -10%;
+            font-size: 3em;
+            padding: 0%;
+            margin: 0%;
+            text-shadow: 1px 1px rgb(255, 255, 255, 0.5);
         }
     
         h3 {
-            font-size: 1em ;
+            font-size: 1.5em;
+            padding: 0%;
+            margin: 0%;
+            text-shadow: 1px 1px rgb(255, 255, 255, 0.5);
         }
-
+    
         p {
-            font-size: 1em;
+            padding: 0% 12%;
+            background: linear-gradient( to left ,transparent,rgba(236, 234, 234, 0.4), rgb(236, 234, 234, 0.4), transparent);
         }
-
     }
 
 }
 
-@media screen and (max-width: 541px) {
-    .about-img-sec {
-        height: auto;
-    }
+
+@media screen and (max-width: 816px) {
+ 
 
     .about {
         padding: 0%;
         margin: 0%;
+    
+
+        .about-img-sec {
+            visibility: visible;
+            position: relative;
+            padding: 0%;
+            margin: 0%;
+            height: auto;
+            animation: fadeIn 5s;
+
+            img {
+                height: auto;
+                width: 100%;
+                position: relative;
+                padding: 0%;
+                margin: 0%;
+            }
+        }
+
+        .about-info {
+            animation: none;
+            background-image: none;
+            margin: 0%;
+            padding: 0%;
+            height: auto;
+            position: relative;
+
+            .info-text-about{
+                margin: 0% 0% 0% 0%;
+                h1 {
+                    font-size: 1.2em ;
+                    margin: 0%;
+                    padding: 0%;
+                    // top: -10%;
+                }
+            
+                h3 {
+                    font-size: 0.9em ;
+                }
+        
+                p {
+                    font-size: 0.7em;
+                }
+            }
+        }
+
     }
 }
