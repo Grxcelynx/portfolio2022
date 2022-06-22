@@ -8,31 +8,8 @@
 ?>
 <?php get_header(); ?>
 
-<div>
-    <div class="mySlides fade">
-    <img src="http://grxcelyn2022.local/wp-content/uploads/2022/06/coding-for-beginners-2.gif" style="width:100%">
-    </div>
+<?php get_template_part('template-parts/banner')?> 
 
-    <div class="mySlides fade">
-    <img src="http://grxcelyn2022.local/wp-content/uploads/2022/06/Code.gif" style="width:100%">
-    </div>
-
-    <div class="mySlides fade">
-    <img src="http://grxcelyn2022.local/wp-content/uploads/2022/06/Client-Work.gif" style="width:100%">
-    </div>
-
-    <!-- <a class="prev" onclick="plusSlides(-1)">❮</a>
-    <a class="next" onclick="plusSlides(1)">❯</a> -->
-
-    </div>
-    <br>
-
-    <div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span> 
-    <span class="dot" onclick="currentSlide(2)"></span> 
-    <span class="dot" onclick="currentSlide(3)"></span> 
-    </div>
-</div>
 
 <div>
     <button class="more-work">See more work</button>
