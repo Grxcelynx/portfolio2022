@@ -144,7 +144,7 @@ function grxcelyn_p2022_scripts() {
 	wp_enqueue_style( 'grxcelyn-p2022-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'grxcelyn-p2022-style', 'rtl', 'replace' );
 
-	wp_enqueue_script( 'grxcelyn-p2022-carousel', get_template_directory_uri() . '/js/carousel.js', array(), _S_VERSION, true );
+	// wp_enqueue_script( 'grxcelyn-p2022-projects', get_template_directory_uri() . '/js/carousel.js', array(), _S_VERSION, true );
 
 	wp_enqueue_script( 'grxcelyn-p2022-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
 
