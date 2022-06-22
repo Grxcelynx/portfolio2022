@@ -703,6 +703,11 @@ textarea {
 .main-navigation.toggled {
   display: block;
   right: 0px;
+  width: 100%;
+}
+.main-navigation.toggled .menu-primary-menu-container {
+  width: 50%;
+  background-color: aqua;
 }
 .main-navigation.toggled ul {
   width: 50%;
@@ -713,7 +718,7 @@ textarea {
   margin: 48px 0 0 1px;
   background-color: white;
   text-align: center;
-  transform: translateX(-10%);
+  transform: translateX(10%);
   transition: transform 5s ease-in;
   background-color: transparent;
 }

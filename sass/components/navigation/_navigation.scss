@@ -122,11 +122,18 @@
     border-radius: 0;
 }
 .main-navigation.toggled {
+
     display: block;
     right: 0px;
+	width: 100%;
 	// transform: translate3d(-1px, 0, 0);
 	// transform: translateX(-1%);
 	// transition: transform 2s ease-in;
+
+	.menu-primary-menu-container {
+		width: 50%;
+		background-color: aqua;
+	}
     
     ul {
         width: 50%;
@@ -137,7 +144,7 @@
         margin: 48px 0 0 1px;
         background-color: white;
         text-align: center;
-		transform: translateX(-10%);
+		transform: translateX(10%);
 		transition: transform 5s ease-in;
 		background-color: transparent;
 	
