@@ -97,7 +97,7 @@
 
         
         <form class="web-form" action="" id="WformBtn">
-            <label id="web-title" for="">Web Development Inquiry Form</label>
+            <label id="web-title" for="">Web Development <br> Inquiry Form</label>
             <hr>
             <fieldset class="web-input">
                 <input id="fname-web" type="text" placeholder="First Name">

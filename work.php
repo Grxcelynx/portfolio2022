@@ -10,25 +10,19 @@
 
 <div>
     <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
-    <img src="http://grxcelyn2022.local/wp-content/uploads/2022/06/coding-for-beginners-1.gif" style="width:100%">
-    <div class="text">Caption Text</div>
+    <img src="http://grxcelyn2022.local/wp-content/uploads/2022/06/coding-for-beginners-2.gif" style="width:100%">
     </div>
 
     <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
-    <img src="http://grxcelyn2022.local/wp-content/uploads/2022/06/IMG_2829.jpg" style="width:100%">
-    <div class="text">Caption Two</div>
+    <img src="http://grxcelyn2022.local/wp-content/uploads/2022/06/Code.gif" style="width:100%">
     </div>
 
     <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
-    <img src="http://grxcelyn2022.local/wp-content/uploads/2022/06/633768651.546887-2-scaled.jpg" style="width:100%">
-    <div class="text">Caption Three</div>
+    <img src="http://grxcelyn2022.local/wp-content/uploads/2022/06/Client-Work.gif" style="width:100%">
     </div>
 
-    <a class="prev" onclick="plusSlides(-1)">❮</a>
-    <a class="next" onclick="plusSlides(1)">❯</a>
+    <!-- <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a> -->
 
     </div>
     <br>
