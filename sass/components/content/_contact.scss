@@ -115,44 +115,24 @@
     .art-form {
         padding: 10%;
         margin: 0%;
-        
-        fieldset {
-            border-bottom: 1px grey solid;
-            border-top: none;
-            border-left: none;
-            border-right: none;
-            margin: 0%;
-        }
 
         #art-title {
-            font-size: 2em;
-            padding: 3%;
-        }
-
-        #art-btn {
-            margin-top: 3%;
+            font-size: 1.5em;
+            padding: 0%;
+            text-align: center;
         }
     }
-        .web-form {
-            padding: 10%;
-            margin: 0%;
+    .web-form {
+        padding: 10%;
+        margin: 0%;
 
-            fieldset {
-                border-bottom: 1px grey solid;
-                border-top: none;
-                border-left: none;
-                border-right: none;
-            }
-
-            #web-title {
-                font-size: 1.5em;
-                padding: 5%;
-            }
-
-            #web-btn {
-                margin-top: 3%;
-            }
+        #web-title {
+            font-size: 1.5em;
+            padding: 0%;
+            text-align: center;
         }
+
+    }
 
     // .test {
     
@@ -163,6 +143,13 @@
     text-align: center;
     margin: 0%;
     padding: 3% 10% 2% 10%;
+}
+
+.wpcf7 {
+    padding: 5%;
+    font-weight: bold;
+   
+
 }
 
 
@@ -197,8 +184,14 @@
       margin: 1%;
       padding: 0%;
        div {
-          font-size: 0.8em;
+          font-size: 0.9em;
        }
     }
 
+}
+
+@media screen and (max-width: 454px) {
+    .buttons {
+        display: list-item;
+    }
 }

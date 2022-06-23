@@ -1117,42 +1117,30 @@ textarea {
   padding: 10%;
   margin: 0%;
 }
-.form-grid .art-form fieldset {
-  border-bottom: 1px grey solid;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  margin: 0%;
-}
 .form-grid .art-form #art-title {
-  font-size: 2em;
-  padding: 3%;
-}
-.form-grid .art-form #art-btn {
-  margin-top: 3%;
+  font-size: 1.5em;
+  padding: 0%;
+  text-align: center;
 }
 .form-grid .web-form {
   padding: 10%;
   margin: 0%;
 }
-.form-grid .web-form fieldset {
-  border-bottom: 1px grey solid;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-}
 .form-grid .web-form #web-title {
   font-size: 1.5em;
-  padding: 5%;
-}
-.form-grid .web-form #web-btn {
-  margin-top: 3%;
+  padding: 0%;
+  text-align: center;
 }
 
 .reminder {
   text-align: center;
   margin: 0%;
   padding: 3% 10% 2% 10%;
+}
+
+.wpcf7 {
+  padding: 5%;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 820px) {
@@ -1184,7 +1172,12 @@ textarea {
     padding: 0%;
   }
   .buttons div {
-    font-size: 0.8em;
+    font-size: 0.9em;
+  }
+}
+@media screen and (max-width: 454px) {
+  .buttons {
+    display: list-item;
   }
 }
 /* work
