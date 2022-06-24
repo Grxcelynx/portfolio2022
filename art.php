@@ -7,8 +7,6 @@
 */
 ?>
 <?php get_header(); ?>
-
-<div class="artwork-grid">
         <div class="gallery-preview">
             <h1>Feautred Work </h1>
                 <div><img src="http://grxcelyn2022.local/wp-content/uploads/2022/06/IMG_0288-scaled.jpg"/></div>
@@ -19,8 +17,10 @@
                 <div><img src="http://grxcelyn2022.local/wp-content/uploads/2022/06/633768651.546887-2-scaled.jpg"/></div>
                 <div class="vertical"><img src="http://grxcelyn2022.local/wp-content/uploads/2022/06/633768586.188566-2-scaled.jpg"/></div>
         </div>
+<div class="artwork-grid">
+ 
 
-        <div class="reviews">
+        <!-- <div class="reviews">
             <h2>Reviews</h2>
             <hr>
             <div class="one">
@@ -36,19 +36,18 @@
             <button>
                 <a href="https://www.etsy.com/shop/GracelynArts?ref=l2-about-shopname" target="_blank"id="shop_home_reviews_section">Read more</a>
             </button>
-        </div>
+        </div> -->
 
 
 
         <div class="inquiry-ex">
             <h2>Interested in commissioning Grxcelyn Arts?</h2>
             <hr>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo itaque consequuntur corrupti inventore dicta, eum quis nostrum a ducimus quam ipsam sed labore iste eveniet perspiciatis quia quas enim eaque!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo itaque consequuntur corrupti inventore dicta, eum quis nostrum a ducimus quam ipsam sed labore iste eveniet perspiciatis quia quas enim eaque!
-            </p>
+            <h4>
+            All finished products (canvas/prints) are available on Etsy at Grxcelyn Arts. For Any and all showcases and murals, please submit an inquiry.
+</h4>
             <button>
-                <a href="<?php echo get_permalink(get_page_by_path('contact'))?>">Book now</a>
+                <a href="<?php echo get_permalink(get_page_by_path('contact'))?>">Inquire now</a>
             </button>
         </div>
 

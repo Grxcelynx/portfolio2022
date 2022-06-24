@@ -99,10 +99,12 @@
     <div class="web-inquiry">
         <h2>Interested in commissioning <br> Grxcelyn Development?</h2>
         <hr>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo itaque consequuntur corrupti inventore dicta, eum quis nostrum a ducimus quam ipsam sed labore iste eveniet perspiciatis quia quas enim eaque!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo itaque consequuntur corrupti inventore dicta, eum quis nostrum a ducimus quam ipsam sed labore iste eveniet perspiciatis quia quas enim eaque!
-        </p>
+            <h4 class="text-start">Want to create a portfolio?</h4>
+           <h4 class="text-middle">Have an idea for your website?</h4> 
+           <h4 class="text-end">Expand your small business to an online store?</h4> 
+           <h4 class="text-center">
+            Get connected with Grxcelyn Development and set up your first Discovery Meeting TODAY
+            </h4>
         <button>
         <a href="<?php echo get_permalink(get_page_by_path('contact'))?>">Inquire Now</a>
         </button>
@@ -113,16 +115,10 @@
             <h2>Skills</h2>
             <hr>
             <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt facilis modi molestiae perspiciatis ab pariatur commodi quo optio, tempora, quod ipsum exercitationem placeat nostrum voluptatibus quibusdam laborum aliquid at odit.
+            Wordpress | Javascript | PHP | HTML | CSS/SASS | Python | PostgreSQL | SQLAlchemy | Flask | Bootstrap | GitHub | Heroku
             </p>
         </div>
-        <div class="process">
-            <h2>Process</h2>
-            <hr>
-            <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt facilis modi molestiae perspiciatis ab pariatur commodi quo optio, tempora, quod ipsum exercitationem placeat nostrum voluptatibus quibusdam laborum aliquid at odit.
-            </p>      
-        </div>
+ 
     </div>
 </div>
 

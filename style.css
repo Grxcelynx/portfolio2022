@@ -1299,9 +1299,29 @@ textarea {
   padding: 3% 8% 0% 4%;
   margin: 0%;
 }
-.work-info .web-inquiry p {
+.work-info .web-inquiry h4 {
   padding: 3% 8% 3% 4%;
   margin: 0%;
+}
+.work-info .web-inquiry .text-start {
+  text-align: left;
+  margin: 0%;
+  padding: 0% 0% 0% 5%;
+}
+.work-info .web-inquiry .text-middle {
+  text-align: left;
+  margin: 0%;
+  padding: 0% 0% 0% 10%;
+}
+.work-info .web-inquiry .text-end {
+  text-align: left;
+  margin: 0%;
+  padding: 0% 0% 0% 15%;
+}
+.work-info .web-inquiry .text-center {
+  text-align: center;
+  margin: 0%;
+  padding: 5%;
 }
 .work-info .web-inquiry button {
   padding: auto;
@@ -1316,20 +1336,11 @@ textarea {
 }
 .work-info .work-about .skills {
   margin: 0%;
-  padding: 0%;
+  padding: 25% 0% 0% 0%;
 }
 .work-info .work-about .skills p {
   margin: 0%;
   padding: 3% 10% 5% 10%;
-}
-.work-info .work-about .process {
-  margin: 0%;
-  padding: 0%;
-}
-.work-info .work-about .process p {
-  margin: 0%;
-  padding: 3% 10% 5% 10%;
-  text-align: right;
 }
 
 /* On smaller screens */
@@ -1388,15 +1399,6 @@ textarea {
     margin: 0%;
     padding: 3% 10% 5% 10%;
   }
-  .work-info .work-about .process {
-    margin: 0%;
-    padding: 0%;
-  }
-  .work-info .work-about .process p {
-    margin: 0%;
-    padding: 3% 10% 5% 10%;
-    text-align: right;
-  }
 }
 @media only screen and (max-width: 480px) {
   .load-more-container ul li {
@@ -1412,14 +1414,6 @@ textarea {
 }
 /* Tutorials
 --------------------------------------------- */
-h1 {
-  text-align: center;
-  margin: 0%;
-  padding: 2%;
-  text-transform: uppercase;
-  font-size: 3em;
-}
-
 .tut-grid {
   display: grid;
   position: relative;
@@ -1525,6 +1519,11 @@ h1 {
   padding: 0% 0% 3% 5%;
   margin: 0%;
 }
+.about-tut h2 {
+  margin: 0%;
+  padding: 0%;
+  text-transform: uppercase;
+}
 .about-tut p {
   margin: 0%;
   padding: 3% 10% 2% 0%;
@@ -1551,19 +1550,10 @@ h1 {
 }
 /* Art
 --------------------------------------------- */
-.artwork-grid {
-  display: grid;
-  position: relative;
-  grid-template-columns: 63% 37%;
-  grid-template-rows: auto auto;
-  grid-gap: 0%;
-  padding: 0%;
-  width: 100%;
-  height: auto;
-}
-.artwork-grid .gallery-preview {
+.gallery-preview {
   animation: fadeIn 5s;
   display: grid;
+  width: 100%;
   grid-gap: 5px;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-auto-rows: auto;
@@ -1579,43 +1569,54 @@ h1 {
     opacity: 1;
   }
 }
-.artwork-grid .gallery-preview h1 {
+.gallery-preview h1 {
   padding: 2%;
   text-align: center;
   margin: 3%;
   font-size: 2.5em;
 }
-.artwork-grid .gallery-preview div {
+.gallery-preview div {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 2em;
   color: #ffeead;
 }
-.artwork-grid .gallery-preview div img {
+.gallery-preview div img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.artwork-grid .gallery-preview .horizontal {
+.gallery-preview .horizontal {
   grid-column: span 2;
 }
-.artwork-grid .gallery-preview .vertical {
+.gallery-preview .vertical {
   grid-row: span 2;
 }
-.artwork-grid .gallery-preview .big {
+.gallery-preview .big {
   grid-column: span 2;
   grid-row: span 2;
 }
-.artwork-grid .gallery-preview button {
+.gallery-preview button {
   margin: auto;
   padding: auto;
   background-color: white;
 }
-.artwork-grid .gallery-preview button a {
+.gallery-preview button a {
   text-decoration: none;
   color: black;
   font-size: 1.6em;
+}
+
+.artwork-grid {
+  display: grid;
+  position: relative;
+  grid-template-columns: 63% 37%;
+  grid-template-rows: auto auto;
+  grid-gap: 0%;
+  padding: 0%;
+  width: 100%;
+  height: auto;
 }
 .artwork-grid .shop-prev {
   width: auto;
@@ -1635,7 +1636,7 @@ h1 {
   padding: 3% 8% 0% 4%;
   margin: 0%;
 }
-.artwork-grid .inquiry-ex p {
+.artwork-grid .inquiry-ex h4 {
   padding: 3% 8% 3% 4%;
   margin: 0%;
 }
@@ -1644,48 +1645,17 @@ h1 {
   margin: 3% 8% 3% 4%;
   text-transform: uppercase;
 }
-.artwork-grid .reviews h2 {
-  font-size: 1.8em;
-  margin: 0%;
-  padding: 0%;
-  text-transform: uppercase;
-}
-.artwork-grid .reviews .one {
-  margin: 0%;
-  padding: 0%;
-}
-.artwork-grid .reviews .one p {
-  margin: 0%;
-  padding: 3% 10% 5% 10%;
-}
-.artwork-grid .reviews .two {
-  margin: 0%;
-  padding: 0%;
-}
-.artwork-grid .reviews .two p {
-  margin: 0%;
-  padding: 3% 10% 5% 10%;
-  text-align: right;
-}
-.artwork-grid .reviews button {
-  margin: auto auto 3% auto;
-  padding: auto;
-  background-color: white;
-  text-align: center;
-  align-items: flex-end;
-  display: flex;
-  justify-content: end;
-}
-.artwork-grid .reviews button a {
+.artwork-grid .inquiry-ex button a {
   text-decoration: none;
-  color: black;
-  font-size: 1.2em;
-  text-align: center;
-  align-items: center;
 }
-
 @media screen and (max-width: 820px) {
-  .artwork-grid {
+  .artwork-grid .gallery-preview {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    margin: 0%;
+    padding: 10%;
+    width: 100%;
+  }
+  .artwork-grid .artwork-grid {
     display: list-item;
     list-style-type: none;
     align-items: center !important;
@@ -1694,41 +1664,29 @@ h1 {
     padding: 0%;
     align-content: center;
   }
-  .artwork-grid .gallery-preview {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    margin: 0%;
-    padding: 10%;
-    width: 100%;
-  }
-  .artwork-grid .shop-prev {
+  .artwork-grid .artwork-grid .shop-prev {
     width: 100%;
     margin: 0% !important;
     padding: 1%;
   }
-  .artwork-grid .inquiry-ex {
+  .artwork-grid .artwork-grid .inquiry-ex {
     width: fit-content;
     padding: 0%;
     margin: 0%;
   }
-  .artwork-grid .inquiry-ex p {
+  .artwork-grid .artwork-grid .inquiry-ex p {
     padding-right: 20%;
   }
-  .artwork-grid .reviews {
-    width: fit-content;
-  }
-  .artwork-grid .reviews h2 {
-    padding-left: 3%;
-    margin: 0%;
-  }
-  .artwork-grid .reviews .one, .artwork-grid .reviews .two {
+  .artwork-grid .artwork-grid .one, .artwork-grid .artwork-grid .two {
     align-items: center;
   }
-  .artwork-grid .reviews .one p, .artwork-grid .reviews .two p {
+  .artwork-grid .artwork-grid .one p, .artwork-grid .artwork-grid .two p {
     width: 100%;
     padding: 0% 10% 0% 10%;
     margin: 0%;
   }
 }
+
 /* Banner
 --------------------------------------------- */
 main {
@@ -1866,6 +1824,8 @@ footer {
     padding: 8%;
   }
 }
+/* Banner
+--------------------------------------------- */
 /*--------------------------------------------------------------
 # Plugins
 --------------------------------------------------------------*/

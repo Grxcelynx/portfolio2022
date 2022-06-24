@@ -55,6 +55,6 @@
 
 
 <div class="reminder">
-    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, itaque dolore quia dolor eaque, similique delectus recusandae laborum, error molestias necessitatibus illo! Beatae, explicabo. Perspiciatis quas eos veritatis quidem sequi.</h3>
+    <h3>Please allow 3-5 business days for any and all follow up responses upon initial inquiry</h3>
 </div>
 <?php get_footer(); ?>
