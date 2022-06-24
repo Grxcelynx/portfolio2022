@@ -103,7 +103,9 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo itaque consequuntur corrupti inventore dicta, eum quis nostrum a ducimus quam ipsam sed labore iste eveniet perspiciatis quia quas enim eaque!
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo itaque consequuntur corrupti inventore dicta, eum quis nostrum a ducimus quam ipsam sed labore iste eveniet perspiciatis quia quas enim eaque!
         </p>
-        <button>Inquire now</button>
+        <button>
+        <a href="<?php echo get_permalink(get_page_by_path('contact'))?>">Inquire Now</a>
+        </button>
     </div>
 
     <div class="work-about">

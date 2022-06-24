@@ -22,13 +22,15 @@ footer{
     color: black;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 15vh;
+    grid-template-rows: 10vh;
     grid-gap: 0%;
     position: relative;
     justify-content: center;
     margin: 0;
     width: 100%;
     list-style-type: none;
+    padding: 0%;
+    height: auto;
 
     li, a{
         list-style-type: none;
@@ -79,6 +81,7 @@ footer{
 }
 
 .footer-menu3,.footer-menu2 {
+    height: auto;
     a{
         color: black;
     }
@@ -86,8 +89,12 @@ footer{
 
 .copyright {
     margin: 0%;
-    padding: 3%;
+    padding: 1%;
     text-align: center;
+
+    p {
+        margin: 0%;
+    }
 }
 
 @media screen and (max-width: 691px) {

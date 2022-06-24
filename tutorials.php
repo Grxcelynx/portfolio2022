@@ -27,7 +27,7 @@
         </ul>
         <hr>
         <button>
-            <a href="">Watch now</a>
+            <a href="https://www.youtube.com/playlist?list=PLTdtY7KAwkuc7cWvWSv0ArvnYOHsYjTf_" target="_blank">Watch now</a>
         </button>
     </div>
 
@@ -74,7 +74,7 @@
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi laudantium exercitationem qui ea repudiandae ab dicta magni facilis recusandae quisquam. Illo libero exercitationem quibusdam asperiores fugiat maiores veniam id magni.
     </p>
     <button>
-        Visit Channel
+        <a href="https://www.youtube.com/channel/UCQ0uVps2WIkXbMINDw7x7iA" target="_blank">Visit Channel</a>
     </button>
 </div>
 <?php get_footer(); ?>
