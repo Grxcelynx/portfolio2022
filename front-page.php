@@ -11,7 +11,9 @@
 
     <section class="about-expt">
         <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, autem nihil. Assumenda quisquam facere voluptatem obcaecati quas id rem explicabo! Hic, esse quaerat nisi sit tempore nulla repellendus corrupti blanditiis?
+        "Failure Is Only The Opportunity To Try Again, Only More Wisely This Time" 
+        <br>
+        - Iroh
         </p>
     </section>
     
