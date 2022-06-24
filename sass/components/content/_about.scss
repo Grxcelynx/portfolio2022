@@ -40,20 +40,21 @@
             font-size: 3em;
             padding: 0%;
             margin: 0%;
-            text-shadow: 1px 1px rgb(255, 255, 255, 0.5);
+            text-shadow:  rgb(255, 255, 255, 0.8) 1px 0 10px;
         }
     
         h3 {
-            font-size: 1.5em;
+            font-size: 1.6em;
             padding: 0%;
             margin: 0%;
-            color: darkgrey;
-            text-shadow: 1px 1px rgb(255, 255, 255, 0.5);
+            color: black;
+            text-shadow:  rgb(255, 255, 255, 0.8) 1px 0 10px;
         }
     
         p {
             padding: 0% 12%;
-            background: linear-gradient( to left ,transparent,rgba(236, 234, 234, 0.7), rgb(236, 234, 234, 0.7), transparent);
+            margin: 1% 0% 0% 0%;
+            background: linear-gradient( to left ,transparent,rgba(224,230,250,0.7), rgb(224,230,250, 0.7), transparent);
         }
     }
 

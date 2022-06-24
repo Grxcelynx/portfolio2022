@@ -109,7 +109,10 @@
         h2 {
             padding: 3% 8% 0% 4%;
             margin: 0%;
-        }
+            background: linear-gradient(to right, $red 50%, $yellow 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
         h4 {
             padding: 3% 8% 3% 4%;
             margin: 0%;
@@ -150,15 +153,19 @@
 
     .work-about {
 
-        h2 {
-            font-size: 1.8em;
-            margin: 0%;
-            padding: 0%;
-            text-transform: uppercase;
-        }
+    
         .skills {
             margin: 0%;
             padding: 25% 0% 0% 0%;
+
+            h2 {
+                font-size: 1.8em;
+                margin: 0%;
+                padding: 0%;
+                text-transform: uppercase;
+      
+            
+            }
 
 
             p {

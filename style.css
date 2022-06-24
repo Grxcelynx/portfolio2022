@@ -683,10 +683,10 @@ textarea {
   margin: 20px 20px;
 }
 .main-navigation a:hover {
-  color: darkmagenta;
+  color: #8a0808;
 }
 .main-navigation a:active {
-  color: cornflowerblue;
+  color: #f29602;
 }
 /* Small menu. */
 .menu-toggle {
@@ -953,18 +953,19 @@ textarea {
   font-size: 3em;
   padding: 0%;
   margin: 0%;
-  text-shadow: 1px 1px rgba(255, 255, 255, 0.5);
+  text-shadow: rgba(255, 255, 255, 0.8) 1px 0 10px;
 }
 .about-info .info-text-about h3 {
-  font-size: 1.5em;
+  font-size: 1.6em;
   padding: 0%;
   margin: 0%;
-  color: darkgrey;
-  text-shadow: 1px 1px rgba(255, 255, 255, 0.5);
+  color: black;
+  text-shadow: rgba(255, 255, 255, 0.8) 1px 0 10px;
 }
 .about-info .info-text-about p {
   padding: 0% 12%;
-  background: linear-gradient(to left, transparent, rgba(236, 234, 234, 0.7), rgba(236, 234, 234, 0.7), transparent);
+  margin: 1% 0% 0% 0%;
+  background: linear-gradient(to left, transparent, rgba(224, 230, 250, 0.7), rgba(224, 230, 250, 0.7), transparent);
 }
 
 @media screen and (max-width: 816px) {
@@ -1030,6 +1031,9 @@ textarea {
   font-size: 2.5em;
   padding: 0%;
   margin: 0%;
+  background: linear-gradient(to right, #8a0808 50%, #f29602 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .main-contact h4 {
   font-size: 1em;
@@ -1109,6 +1113,11 @@ textarea {
   width: 100%;
   float: right;
   z-index: 1;
+}
+.form-grid h2 {
+  background: linear-gradient(to right, #8a0808 50%, #f29602 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .form-grid form {
   border-bottom: solid 1px grey;
@@ -1298,6 +1307,9 @@ textarea {
 .work-info .web-inquiry h2 {
   padding: 3% 8% 0% 4%;
   margin: 0%;
+  background: linear-gradient(to right, #8a0808 50%, #f29602 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .work-info .web-inquiry h4 {
   padding: 3% 8% 3% 4%;
@@ -1328,15 +1340,15 @@ textarea {
   margin: 3% 8% 3% 4%;
   text-transform: uppercase;
 }
-.work-info .work-about h2 {
+.work-info .work-about .skills {
+  margin: 0%;
+  padding: 25% 0% 0% 0%;
+}
+.work-info .work-about .skills h2 {
   font-size: 1.8em;
   margin: 0%;
   padding: 0%;
   text-transform: uppercase;
-}
-.work-info .work-about .skills {
-  margin: 0%;
-  padding: 25% 0% 0% 0%;
 }
 .work-info .work-about .skills p {
   margin: 0%;
@@ -1711,7 +1723,6 @@ main .banner-img img {
 footer {
   width: 100%;
   height: auto;
-  border-top: black solid 1px;
   position: relative;
   padding: 0;
   margin: 0;
@@ -1762,36 +1773,37 @@ footer {
 }
 
 .footerBox ul li {
-  color: #000;
+  color: #8a0808;
   font-weight: bolder;
   text-transform: uppercase;
 }
 
 .footerBox ul li:hover {
-  color: #8a0808;
+  color: #f29602;
 }
 
 .footerBox ul li:active {
-  color: #f29602;
+  color: #fff8f0;
 }
 
 .socialMedia i {
-  color: #000;
+  color: #8a0808;
+  padding: 1%;
 }
 
 .socialMedia i:hover {
-  color: #8a0808;
+  color: #f29602;
 }
 
 .socialMedia i:active {
-  color: #f29602;
+  color: #fff8f0;
 }
 
 .footer-menu3, .footer-menu2 {
   height: auto;
 }
 .footer-menu3 a, .footer-menu2 a {
-  color: black;
+  color: #8a0808;
 }
 
 .copyright {
@@ -1801,6 +1813,10 @@ footer {
 }
 .copyright p {
   margin: 0%;
+  color: #471414;
+}
+.copyright p span {
+  color: #f29602;
 }
 
 @media screen and (max-width: 691px) {
@@ -1824,7 +1840,7 @@ footer {
     padding: 8%;
   }
 }
-/* Banner
+/* variables
 --------------------------------------------- */
 /*--------------------------------------------------------------
 # Plugins

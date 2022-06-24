@@ -39,15 +39,18 @@
 		
 					<div class="footerBox">
 						<div class="socialMedia">
-							<a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
-							<a href="https://twitter.com/i/flow/login" target="_blank"><i class="fa-brands fa-twitter-square fa-2x"></i></a>
-							<a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-square fa-2x"></i></a>
+							<a href="https://www.instagram.com/gracelyn.__/" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
+							<a href="https://www.linkedin.com/in/grace-birnam-74a761163/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+							<a href="https://www.youtube.com/channel/UCQ0uVps2WIkXbMINDw7x7iA" target="_blank"><i class="fa fa-youtube fa-2x"></i></a>
+							<a href="https://github.com/Grxcelynx" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+
+
 						</div>
 					</div>
 		</div>
   
 		<div class="copyright">
-		<p>&copy; Grxcelyn Development</p>
+		<p> <span>&copy;</span> Grxcelyn Development</p>
 		</div>
 	</footer><!-- #colophon -->
 </body>

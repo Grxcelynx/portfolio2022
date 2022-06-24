@@ -2,7 +2,6 @@
 footer{
     width: 100%;
     height: auto;
-    border-top: black solid 1px;
     position: relative;
     padding: 0;
     margin: 0;
@@ -35,6 +34,7 @@ footer{
     li, a{
         list-style-type: none;
         text-decoration: none;
+        
 
     }
  
@@ -57,33 +57,34 @@ footer{
     text-decoration: none;
 }
 .footerBox ul li{
-    color: #000;
+    color: $red;
     
     font-weight: bolder;
     text-transform: uppercase;
     // margin: 20px 20px;
 }
 .footerBox ul li:hover{
-    color: #8a0808;
+    color: $yellow;
 }
 .footerBox ul li:active{
-    color:#f29602;
+    color: $offwhite;
 }
 
 .socialMedia i{
-    color: #000;
+    color: $red;
+    padding: 1%;
 }
 .socialMedia i:hover{
-    color: #8a0808;
+    color: $yellow;
 }
 .socialMedia i:active{
-    color: #f29602;
+    color: $offwhite;
 }
 
 .footer-menu3,.footer-menu2 {
     height: auto;
     a{
-        color: black;
+        color: $red;;
     }
 }
 
@@ -94,6 +95,11 @@ footer{
 
     p {
         margin: 0%;
+        color: $darkred;
+
+        span {
+            color: $yellow;
+        }
     }
 }
 
