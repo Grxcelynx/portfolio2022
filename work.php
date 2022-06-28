@@ -97,15 +97,15 @@
 
 <div class="work-info">
     <div class="web-inquiry">
-        <h2>Interested in commissioning <br> Grxcelyn Development?</h2>
+        <h2>Grxcelyn Development</h2>
         <hr>
             <h4 class="text-start">Want to create a portfolio?</h4>
-           <h4 class="text-middle">Have an idea for your website?</h4> 
-           <h4 class="text-end">Expand your small business to an online store?</h4> 
-           <h4 class="text-center">
+            <h4 class="text-middle">Have an idea for your website?</h4> 
+            <h4 class="text-end">Expand your small business to an online store?</h4> 
+            <h3 class="text-center">
             Get connected with Grxcelyn Development and set up your first Discovery Meeting TODAY
-            </h4>
-        <button>
+            </h3>
+        <button class="fancy">
         <a href="<?php echo get_permalink(get_page_by_path('contact'))?>">Inquire Now</a>
         </button>
     </div>
@@ -114,9 +114,10 @@
         <div class="skills">
             <h2>Skills</h2>
             <hr>
-            <p>
-            Wordpress | Javascript | PHP | HTML | CSS/SASS | Python | PostgreSQL | SQLAlchemy | Flask | Bootstrap | GitHub | Heroku
-            </p>
+            <h4>
+            Wordpress<span>&#42;</span> | Javascript<span>&#42;</span> | PHP<span>&#42;</span> | HTML<span>&#42;</span> | CSS/SASS<span>&#42;</span> | Bootstrap<span>&#42;</span> | GitHub<span>&#42;</span> | Python | PostgreSQL | SQLAlchemy | Flask | Heroku | Jinja2 | Ajax | Jquery | AWS | React
+</h4>
+            <h5><span>&#42;</span> Proficient</h5>
         </div>
  
     </div>

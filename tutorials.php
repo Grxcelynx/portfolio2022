@@ -24,7 +24,7 @@
             <li>Errors</li>
         </ul>
         <hr>
-        <button>
+        <button class="" >
             <a href="https://www.youtube.com/playlist?list=PLTdtY7KAwkuc7cWvWSv0ArvnYOHsYjTf_" target="_blank">Watch now</a>
         </button>
     </div>
@@ -41,7 +41,7 @@
             <li>And More!</li>
         </ul>
         <hr>
-        <button>
+        <button class="">
             <a href="">Coming Soon</a>
         </button>
     </div>
@@ -58,7 +58,7 @@
             <li>And more!</li>
         </ul>
         <hr>
-        <button>
+        <button class="">
             <a href="">Coming Soon</a>
         </button>
     </div>
@@ -77,7 +77,7 @@
     understanding of the fundamentals to further not just your knowledge but your 
     confidence in code. Remembering that anyone can code!
     </p>
-    <button>
+    <button class="fancy">
         <a href="https://www.youtube.com/channel/UCQ0uVps2WIkXbMINDw7x7iA" target="_blank">Visit Channel</a>
     </button>
 </div>

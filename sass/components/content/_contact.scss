@@ -1,3 +1,51 @@
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 input[type="tel"],
+.wpcf7 input[type="date"],
+.wpcf7 input[type="submit"]
+{
+    color: #000;
+    width: 70%;
+    height: auto;
+
+}
+
+.wpcf7-select[type="select"]
+{
+    width: 70%;
+    height: auto;
+}
+
+.wpcf7 textarea {
+    width: 70%;
+    height: 60px;
+}
+
+input.wpcf7-form-control {
+    background: linear-gradient(to left, $darkred, $yellow, $red, $yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+textarea.wpcf7-form-control {
+    background: linear-gradient(to left, $darkred, $yellow, $red, $yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+select.wpcf7-form-control {
+    background: linear-gradient(to left, $darkred, $yellow, $red, $yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+input.wpcf7-form-control.has-spinner.wpcf7-submit {
+    width: 40%;
+    transition: box-shadow .15s,transform .15s;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset; 
+
+}
+
 .main-contact {
     width: 100%;
     height: 70vh;
@@ -17,11 +65,6 @@
         font-size: 2.5em;
         padding: 0%;
         margin: 0%;
-        // color: $offwhite;
-        // text-shadow: -1px 1px 0 $red,
-        //   1px 1px 0 $yellow,
-        //  1px -1px 0 $red,
-        // -1px -1px 0 $yellow;
         background: linear-gradient(to right, $red 50%, $yellow 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -32,10 +75,6 @@
         padding: 0%;
         margin: 0%;
     }
-
-   
-
-    
 }
 
 .buttons {
@@ -45,20 +84,16 @@
 .formButtonArt{
     display: flex;
     margin: 5%;
-    
-
-    
+    transition: box-shadow .15s,transform .15s;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset; 
 }
 .formButtonArt a{
     padding: 0px 15px;
     background-color: transparent;
-    border: 2px solid #8a0808;
-    border-radius: 40px;
     text-decoration: none;
     text-transform: uppercase;
     color: black;
     align-items: center;
-    box-shadow: #471414 2px 2px;
 
     
 }
@@ -72,19 +107,16 @@
 .formButtonWeb{
     display: flex;
     margin: 5%;
-
-    
+    transition: box-shadow .15s,transform .15s;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
 }
 .formButtonWeb a{
     padding: 0px 15px;
     background-color: transparent;
-    border: 2px solid #8a0808;
-    border-radius: 40px;
     text-decoration: none;
     text-transform: uppercase;
     color: black;
     align-items: center;
-    box-shadow: #471414 -2px 2px;
 
     
 }
