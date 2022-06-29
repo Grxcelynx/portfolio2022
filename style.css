@@ -953,7 +953,8 @@ textarea {
   font-size: 3em;
   padding: 0%;
   margin: 0%;
-  text-shadow: rgba(255, 255, 255, 0.8) 1px 0 10px;
+  color: black;
+  text-shadow: rgba(255, 255, 255, 0.9) 1px 0 10px;
 }
 .about-info .info-text-about h3 {
   font-size: 1.6em;
@@ -1033,19 +1034,7 @@ textarea {
   height: 60px;
 }
 
-input.wpcf7-form-control {
-  background: linear-gradient(to left, #471414, #f29602, #8a0808, #f29602);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-textarea.wpcf7-form-control {
-  background: linear-gradient(to left, #471414, #f29602, #8a0808, #f29602);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-select.wpcf7-form-control {
+input.wpcf7-form-control, textarea.wpcf7-form-control, select.wpcf7-form-control {
   background: linear-gradient(to left, #471414, #f29602, #8a0808, #f29602);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1088,6 +1077,9 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
 .buttons {
   display: flex;
   justify-content: space-between;
+  background: linear-gradient(to left, #471414, #f29602, #8a0808, #f29602);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .formButtonArt {
@@ -1295,6 +1287,9 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
   height: auto;
   width: fit-content;
   text-transform: uppercase;
+  background: linear-gradient(to left, #471414, #f29602, #8a0808, #f29602);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   box-shadow: -6px 8px 10px rgba(81, 41, 10, 0.1), 0px 2px 2px rgba(81, 41, 10, 0.2);
 }
 .load-more-container ul li:nth-child(1n+5) {
@@ -1310,7 +1305,9 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
   display: block;
   background: white;
   box-shadow: -6px 8px 10px rgba(81, 41, 10, 0.1), 0px 2px 2px rgba(81, 41, 10, 0.2);
-  color: black;
+  background: linear-gradient(to left, #471414, #f29602, #8a0808, #f29602);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   cursor: pointer;
   text-align: center;
 }
@@ -1541,11 +1538,14 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
 .tut-grid {
   display: grid;
   position: relative;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 25% 25% 25%;
   grid-template-rows: auto;
-  padding: 0%;
+  grid-gap: 3%;
+  padding: 0% 3%;
   margin: 0% 0% 3% 0%;
   width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 .tut-grid div {
   margin: 2%;
@@ -1557,29 +1557,48 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
   text-decoration: none;
   text-align: center;
   list-style-type: none;
+  border-radius: 0% 0% 0% 0%/0% 0% 0% 0%;
+  color: black;
+  box-shadow: 20px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.4s ease;
 }
 .tut-grid div h2 {
   font-size: 2.5em;
   text-decoration: none;
   text-align: center;
+  background: linear-gradient(to left, #471414, #f29602, #8a0808, #f29602);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .tut-grid div ul {
   text-decoration: none;
   list-style-type: none;
-  font-size: 1.4em;
   margin: 0%;
   padding: 0%;
+}
+.tut-grid div ul h4 {
+  font-size: 1.4em;
+}
+.tut-grid div ul li {
+  font-size: 1.2em;
 }
 .tut-grid div button {
   margin: 2% 0% 5% 0%;
   background-color: white;
   box-shadow: -6px 8px 10px rgba(81, 41, 10, 0.1), 0px 2px 2px rgba(81, 41, 10, 0.2);
+  background: linear-gradient(to left, #471414, #f29602, #8a0808, #f29602);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .tut-grid div button a {
   text-decoration: none;
   text-transform: uppercase;
   color: #8a0808;
   font-size: 1.9;
+}
+.tut-grid div:hover {
+  border-radius: 0% 0% 50% 50%/0% 0% 0% 0%;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.25);
 }
 
 .about-tut {
@@ -1658,7 +1677,7 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
   border-radius: 10px;
 }
 
-@media screen and (max-width: 471px) {
+@media screen and (max-width: 767px) {
   .tut-grid {
     display: list-item;
     align-items: center;

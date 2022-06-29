@@ -21,22 +21,12 @@
     height: 60px;
 }
 
-input.wpcf7-form-control {
+input.wpcf7-form-control, textarea.wpcf7-form-control, select.wpcf7-form-control {
     background: linear-gradient(to left, $darkred, $yellow, $red, $yellow);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
+    // box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset; 
 
-textarea.wpcf7-form-control {
-    background: linear-gradient(to left, $darkred, $yellow, $red, $yellow);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-select.wpcf7-form-control {
-    background: linear-gradient(to left, $darkred, $yellow, $red, $yellow);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 input.wpcf7-form-control.has-spinner.wpcf7-submit {
@@ -80,6 +70,9 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
 .buttons {
     display: flex;
     justify-content: space-between;
+    background: linear-gradient(to left, $darkred, $yellow, $red, $yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .formButtonArt{
     display: flex;

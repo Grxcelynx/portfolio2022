@@ -16,12 +16,12 @@
         <h2>GitHub</h2>
         <hr>
         <ul>
-            <h4>Learn the basics of GitHub</h4>
-            <li>Creating an account</li>
-            <li>SSH Keys</li>
-            <li>Cloning</li>
-            <li>Branches</li>
-            <li>Errors</li>
+            <h4>Learn How To...</h4>
+            <li>Create an account</li>
+            <li>Add An SSH Keys</li>
+            <li>Create A Repository</li>
+            <li>Clone A Repository</li>
+            <li>And More!</li>
         </ul>
         <hr>
         <button class="" >
@@ -33,7 +33,7 @@
         <h2>HTML</h2>
         <hr>
         <ul>
-            <h4>Learn the basics of HTML</h4>
+            <h4>Learn How To Create...</h4>
             <li>Tags</li>
             <li>Grids</li>
             <li>Forms</li>
@@ -50,12 +50,12 @@
         <h2>CSS</h2>
         <hr>
         <ul>
-            <h4>Learn the basics of CSS</h4>
-            <li>Classes & IDs</li>
-            <li>Colors</li>
-            <li>Fonts</li>
-            <li>Sizing</li>
-            <li>And more!</li>
+            <h4>Learn How To...</h4>
+            <li>Target Classes & IDs</li>
+            <li>Set Colors</li>
+            <li>Assign Fonts</li>
+            <li>Deal With Sizing</li>
+            <li>And More!</li>
         </ul>
         <hr>
         <button class="">
