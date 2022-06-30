@@ -7,9 +7,14 @@
 */
 ?>
 <?php get_header(); ?>
-<h1>Feautred Work </h1>
+
+<div class="title-spot">
+<h1 data-text= "Feautred Work">
+Feautred Work
+</h1>
+</div>
         <div class="gallery-preview">
-                <div><img src="http://grxcelyn2022.local/wp-content/uploads/2022/06/IMG_0288-scaled.jpg"/></div>
+                <div class="border radial-repeating"><img src="http://grxcelyn2022.local/wp-content/uploads/2022/06/IMG_0288-scaled.jpg"/></div>
                 <div class="vertical"><img src="http://grxcelyn2022.local/wp-content/uploads/2022/06/IMG_2829.jpg"/></div>
                 <div class="horizontal"><img src="http://grxcelyn2022.local/wp-content/uploads/2022/06/634023937.585602-scaled.jpg"/></div>
                 <div><img src="http://grxcelyn2022.local/wp-content/uploads/2022/06/634024181.435563-scaled.jpg"/></div>
@@ -38,6 +43,6 @@
         </div>
 
   
-</div>
+<!-- </div> -->
 
 <?php get_footer(); ?>
