@@ -43,9 +43,8 @@
 							<a href="https://www.linkedin.com/in/grace-birnam-74a761163/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
 							<a href="https://www.youtube.com/channel/UCQ0uVps2WIkXbMINDw7x7iA" target="_blank"><i class="fa fa-youtube fa-2x"></i></a>
 							<a href="https://github.com/Grxcelynx" target="_blank"><i class="fab fa-github fa-2x"></i></a>
-
-
 						</div>
+						
 					</div>
 		</div>
   

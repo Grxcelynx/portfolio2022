@@ -6,6 +6,8 @@
 *
 */
 ?>
+<div class="" id="topBtn"> hello world</div>
+
 <?php get_header(); ?>
     <div class="about">
         <section class="about-img-sec">
@@ -33,4 +35,7 @@
             </div>
         </section>
     </div>
+
+<?php get_template_part('template-parts/top-btn')?> 
+
 <?php get_footer(); ?>

@@ -6,6 +6,8 @@
 *
 */
 ?>
+<div class="" id="topBtn"> hello world</div>
+
 <?php get_header(); ?>
 <?php get_template_part('template-parts/banner')?> 
 
@@ -16,5 +18,7 @@
         - Iroh
         </p>
     </section>
-    
+
+<?php get_template_part('template-parts/top-btn')?> 
+
 <?php get_footer(); ?>

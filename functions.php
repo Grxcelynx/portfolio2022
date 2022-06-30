@@ -137,6 +137,23 @@ function grxcelyn_p2022_widgets_init() {
 }
 add_action( 'widgets_init', 'grxcelyn_p2022_widgets_init' );
 
+// Footer Widget
+function grxcelyn_footer_widgets_init() {
+	register_sidebar(
+		array(
+			'name'          => esc_html__( 'Footer Widget Area', 'grxcelyn-p2022' ),
+			'id'            => 'footer-widget-area',
+			'description'   => esc_html__( 'Add widgets here.', 'grxcelyn-p2022' ),
+			'before_widget' => '<div>',
+			'after_widget'  => '</div>',
+			'before_title'  => '<h2 class="footer-title">',
+			'after_title'   => '</h2>',
+		)
+	);
+}
+add_action( 'widgets_init', 'grxcelyn_footer_widgets_init' );
+// end footer widget
+
 /**
  * Enqueue scripts and styles.
  */

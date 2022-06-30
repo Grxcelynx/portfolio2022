@@ -6,6 +6,8 @@
 *
 */
 ?>
+<div class="" id="topBtn"> hello world</div>
+
 <?php get_header(); ?>
 
 <section class="main-contact">
@@ -57,4 +59,7 @@
 <div class="reminder">
     <h3>Please allow 3-5 business days for any and all follow up responses upon initial inquiry</h3>
 </div>
+
+<?php get_template_part('template-parts/top-btn')?> 
+
 <?php get_footer(); ?>
