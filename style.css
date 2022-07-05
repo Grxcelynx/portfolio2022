@@ -905,6 +905,7 @@ textarea {
   margin: 0%;
   padding: 0%;
   width: 100%;
+  font-weight: 600;
 }
 .klays-art p {
   text-align: right;
@@ -954,16 +955,19 @@ textarea {
   color: #000;
   width: 70%;
   height: auto;
+  font-weight: 600;
 }
 
 .wpcf7-select[type=select] {
   width: 70%;
   height: auto;
+  font-weight: 600;
 }
 
 .wpcf7 textarea {
   width: 70%;
   height: 60px;
+  font-weight: 600;
 }
 
 input.wpcf7-form-control, textarea.wpcf7-form-control, select.wpcf7-form-control {
@@ -1012,6 +1016,7 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
   background: linear-gradient(to left, #471414, #f29602, #8a0808, #f29602);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-weight: 600;
 }
 
 .formButtonArt {
@@ -1111,7 +1116,8 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
 .reminder {
   text-align: center;
   margin: 0%;
-  padding: 3% 10% 2% 10%;
+  padding: 3% 7% 2% 7%;
+  text-transform: uppercase;
 }
 
 .wpcf7 {
@@ -1168,6 +1174,8 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
   justify-content: center;
   box-sizing: border-box;
   padding: 0%;
+  font-weight: 600;
+  letter-spacing: 2px;
 }
 .load-more-container ul {
   list-style-type: none;
@@ -1273,12 +1281,15 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
   padding: 0%;
   width: 100%;
   height: auto;
+  font-weight: 600;
 }
 .work-info .web-inquiry {
   padding: 3%;
   margin: 1%;
+  letter-spacing: 2px;
 }
 .work-info .web-inquiry h2 {
+  text-transform: uppercase;
   font-size: 2em;
   padding: 3% 8% 0% 4%;
   margin: 0%;
@@ -1384,6 +1395,7 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
 .work-info .work-about .skills h4 {
   margin: 0%;
   padding: 3% 10% 5% 10%;
+  letter-spacing: 2px;
 }
 .work-info .work-about .skills h4 span {
   color: #f29602;
@@ -1394,6 +1406,7 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
   text-align: right;
   margin: 0%;
   padding: 3%;
+  text-transform: uppercase;
 }
 
 /* On smaller screens */
@@ -1478,6 +1491,9 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
   width: 100%;
   align-items: center;
   justify-content: center;
+  letter-spacing: 2px;
+  font-weight: 600;
+  height: auto;
 }
 .tut-grid div {
   margin: 2%;
@@ -1502,6 +1518,7 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
   background: linear-gradient(to left, #471414, #f29602, #8a0808, #f29602);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-weight: 900;
 }
 .tut-grid div ul {
   text-decoration: none;
@@ -1528,7 +1545,8 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
   text-decoration: none;
   text-transform: uppercase;
   color: #8a0808;
-  font-size: 1.9;
+  font-size: 1rem;
+  font-weight: 600;
 }
 .tut-grid div:hover {
   border-radius: 0% 0% 50% 50%/0% 0% 0% 0%;
@@ -1539,6 +1557,8 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
   text-align: start;
   padding: 0% 0% 3% 5%;
   margin: 0%;
+  font-weight: bolder !important;
+  letter-spacing: 2px;
 }
 .about-tut h2 {
   margin: 0%;
@@ -1635,7 +1655,6 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
 /* Art
 --------------------------------------------- */
 .artHeader {
-  font-family: "Teko", sans-serif;
   text-transform: uppercase;
   font-size: 5em;
   text-align: center;
@@ -1773,6 +1792,7 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
   font-size: 3em;
   padding: 3%;
   margin: 0%;
+  text-transform: uppercase;
 }
 .artwork-grid .inquiry-ex h3 {
   padding: 3% 8% 0% 4%;
@@ -1909,6 +1929,8 @@ footer {
   position: relative;
   padding: 0;
   margin: 0;
+  letter-spacing: 3px;
+  font-weight: 600;
 }
 
 .site-footer {
@@ -2052,6 +2074,7 @@ footer {
   justify-content: end;
   align-items: center;
   margin: 20px;
+  font-weight: 600;
 }
 
 .topButton a {

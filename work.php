@@ -118,7 +118,7 @@
             <hr>
             <h4>
             Wordpress<span>&#42;</span> | Javascript<span>&#42;</span> | PHP<span>&#42;</span> | HTML<span>&#42;</span> | CSS/SASS<span>&#42;</span> | Bootstrap<span>&#42;</span> | GitHub<span>&#42;</span> | Python | PostgreSQL | SQLAlchemy | Flask | Heroku | Jinja2 | Ajax | Jquery | AWS | React
-</h4>
+            </h4>
             <h5><span>&#42;</span> Proficient</h5>
         </div>
  
