@@ -6,7 +6,7 @@
 *
 */
 ?>
-<div class="" id="topBtn"> hello world</div>
+<div class="" id="topBtn"></div>
 
 <?php get_header(); ?>
 

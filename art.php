@@ -6,11 +6,11 @@
 *
 */
 ?>
-<div class="" id="topBtn"> hello world</div>
+<div class="" id="topBtn"></div>
 <?php get_header(); ?>
 
 <div class="title-spot">
-<h1 data-text= "Feautred Work">
+<h1 class="artHeader" data-text= "Feautred Work">
 Feautred Work
 </h1>
 </div>

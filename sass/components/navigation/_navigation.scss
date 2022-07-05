@@ -2,8 +2,11 @@ $yellow: #f29602;
 $red: #8a0808;
 $darkred: #471414;
 $offwhite: #fff8f0;
+$main: 'Tenor Sans', sans-serif;
 
-
+* {
+	font-family: $main;
+}
 .site-header {	
 		height: 55px;
 		width: 100%;
@@ -22,7 +25,8 @@ $offwhite: #fff8f0;
 
 			a {
 				img {
-					height:70px;
+					padding: 3%;
+					height:50px;
 					width:140px;
 				}
 			}

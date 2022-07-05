@@ -1,120 +1,31 @@
-.about {
-    padding: 0%;
-    margin: 0% 0% 1% 0%;
-    height: auto;
-}
-
-.about-img-sec {
-   visibility: hidden;
-   height: 0px;
-}
-
-// .fade-in-image {
-//     animation: fadeIn 5s;
-//     padding: 0%;
-//     margin: 0%;
-//  }
-@keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
-.about-info {
-    height: auto;
-    width: 100%;
-    display: flex;
-    position: relative;
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    margin: 0% auto;
+    padding: 3%;
     align-items: center;
-    justify-content: center;
     text-align: center;
-    color: black;
-    animation: fadeIn 5s;
-    background-image: url('http://grxcelyn2022.local/wp-content/uploads/2022/06/IMG_9628.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    width: 90%;
 
-    .info-text-about{
-        margin: 50% 0% 0% 0%;
-        h1 {
-            font-size: 3em;
-            padding: 0%;
-            margin: 0%;
-            color: black;
-            text-shadow:  rgb(255, 255, 255, 0.9) 1px 0 10px;
-            background-color: none;
-            background: none;
-        }
+   
+
+    .about-expt {
+        height: auto;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        background-color: transparent;
     
-        h3 {
-            font-size: 1.6em;
-            padding: 0%;
-            margin: 0%;
-            color: black;
-            text-shadow:  rgb(255, 255, 255, 0.8) 1px 0 10px;
-        }
     
         p {
-            padding: 0% 12%;
-            margin: 1% 0% 0% 0%;
-            background: linear-gradient( to left ,transparent,rgba(224,230,250,0.7), rgb(224,230,250, 0.7), transparent);
+            text-align: center;
+            padding: 1% 10% 2% 10%;
+            margin: 0;
+            height: auto;
+            font-size: 1.5rem;
         }
-    }
-
-}
-
-
-@media screen and (max-width: 816px) {
- 
-
-    .about {
-        padding: 0%;
-        margin: 0%;
     
-
-        .about-img-sec {
-            visibility: visible;
-            position: relative;
-            padding: 0%;
-            margin: 0%;
-            height: auto;
-            animation: fadeIn 5s;
-
-            img {
-                height: auto;
-                width: 100%;
-                position: relative;
-                padding: 0%;
-                margin: 0%;
-            }
-        }
-
-        .about-info {
-            animation: none;
-            background-image: none;
-            margin: 0%;
-            padding: 0%;
-            height: auto;
-            position: relative;
-
-            .info-text-about{
-                margin: 0% 0% 0% 0%;
-                h1 {
-                    font-size: 1.2em ;
-                    margin: 0%;
-                    padding: 0%;
-                    // top: -10%;
-                }
-            
-                h3 {
-                    font-size: 0.9em ;
-                }
-        
-                p {
-                    font-size: 0.7em;
-                }
-            }
-        }
-
     }
+
 }

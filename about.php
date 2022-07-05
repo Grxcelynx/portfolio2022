@@ -6,35 +6,44 @@
 *
 */
 ?>
-<div class="" id="topBtn"> hello world</div>
+<div class="" id="topBtn"></div>
 
 <?php get_header(); ?>
-    <div class="about">
-        <section class="about-img-sec">
-            <div class="fade-in-image">
-                <img src="http://grxcelyn2022.local/wp-content/uploads/2022/06/IMG_9628.jpg" alt="">
-            </div>
-        </section>
+
+<div class="about-grid">
+        <div class="heading">
+            <!-- <h1 class="about-title">About</h1> -->
+            <h1 class="about-h1">Grace Birnam</h1>
+            <h3>Artist & Developer</h3>
+        </div>
+
+        <div class="profile">
+            <img src="" alt="">
+        </div>
+
+        <div class="who">
+            <h4>Who I Am</h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda obcaecati unde excepturi vero facilis pariatur libero recusandae sed distinctio magni quia iusto accusantium reprehenderit, odio ipsum fuga saepe. Consequuntur, nostrum!
+            </p>
+        </div>
+
+        <div class="what">
+        <h4>What I Do</h4>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto dolor ratione fuga voluptate! Saepe mollitia, facilis dolorem ullam quos voluptatum repudiandae pariatur ducimus eligendi, recusandae obcaecati itaque voluptates officiis magni!
+            </p>
+        </div>
         
-        <section class="about-info">
-            <div class="info-text-about">
-                <h1>
-                    Grace 'Grxcelyn' Birnam
-                </h1>
-                <h3>
-                    Artist & Developer
-                </h3>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus labore reprehenderit, repellendus soluta enim impedit aspernatur tempora delectus quaerat voluptate eius in, ab eaque temporibus doloremque optio tenetur veniam accusantium?
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus labore reprehenderit, repellendus soluta enim impedit aspernatur tempora delectus quaerat voluptate eius in, ab eaque temporibus doloremque optio tenetur veniam accusantium?
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus labore reprehenderit, repellendus soluta enim impedit aspernatur tempora delectus quaerat voluptate eius in, ab eaque temporibus doloremque optio tenetur veniam accusantium?
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus labore reprehenderit, repellendus soluta enim impedit aspernatur tempora delectus quaerat voluptate eius in, ab eaque temporibus doloremque optio tenetur veniam accusantium?
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus labore reprehenderit, repellendus soluta enim impedit aspernatur tempora delectus quaerat voluptate eius in, ab eaque temporibus doloremque optio tenetur veniam accusantium?
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus labore reprehenderit, repellendus soluta enim impedit aspernatur tempora delectus quaerat voluptate eius in, ab eaque temporibus doloremque optio tenetur veniam accusantium?
-                </p>
-            </div>
-        </section>
-    </div>
+        <div class="about-expt">
+            <p>
+            "Failure Is Only The Opportunity To Try Again, Only More Wisely This Time" 
+            <br>
+            - Iroh
+            </p>
+        </div>
+    
+</div>
 
 <?php get_template_part('template-parts/top-btn')?> 
 

@@ -619,6 +619,10 @@ textarea {
 --------------------------------------------------------------*/
 /* Navigation
 --------------------------------------------- */
+* {
+  font-family: "Tenor Sans", sans-serif;
+}
+
 .site-header {
   height: 55px;
   width: 100%;
@@ -634,7 +638,8 @@ textarea {
   width: 150px;
 }
 .site-header .site-branding a img {
-  height: 70px;
+  padding: 3%;
+  height: 50px;
   width: 140px;
 }
 
@@ -896,124 +901,49 @@ textarea {
 
 /* Homepage
 --------------------------------------------- */
-.about-expt {
+.klays-art {
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+}
+.klays-art p {
+  text-align: right;
+  margin: 0%;
+  padding: 1%;
+  font-size: 0.8rem;
+  color: #8a0808;
+}
+.klays-art p a {
+  color: #8a0808;
+}
+
+/* About
+--------------------------------------------- */
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  margin: 0% auto;
+  padding: 3%;
+  align-items: center;
+  text-align: center;
+  width: 90%;
+}
+.about-grid .about-expt {
   height: auto;
   width: 100%;
   padding: 0;
   margin: 0;
   background-color: transparent;
 }
-.about-expt p {
+.about-grid .about-expt p {
   text-align: center;
   padding: 1% 10% 2% 10%;
   margin: 0;
   height: auto;
+  font-size: 1.5rem;
 }
 
-/* About
---------------------------------------------- */
-.about {
-  padding: 0%;
-  margin: 0% 0% 1% 0%;
-  height: auto;
-}
-
-.about-img-sec {
-  visibility: hidden;
-  height: 0px;
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-.about-info {
-  height: auto;
-  width: 100%;
-  display: flex;
-  position: relative;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: black;
-  animation: fadeIn 5s;
-  background-image: url("http://grxcelyn2022.local/wp-content/uploads/2022/06/IMG_9628.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.about-info .info-text-about {
-  margin: 50% 0% 0% 0%;
-}
-.about-info .info-text-about h1 {
-  font-size: 3em;
-  padding: 0%;
-  margin: 0%;
-  color: black;
-  text-shadow: rgba(255, 255, 255, 0.9) 1px 0 10px;
-  background-color: none;
-  background: none;
-}
-.about-info .info-text-about h3 {
-  font-size: 1.6em;
-  padding: 0%;
-  margin: 0%;
-  color: black;
-  text-shadow: rgba(255, 255, 255, 0.8) 1px 0 10px;
-}
-.about-info .info-text-about p {
-  padding: 0% 12%;
-  margin: 1% 0% 0% 0%;
-  background: linear-gradient(to left, transparent, rgba(224, 230, 250, 0.7), rgba(224, 230, 250, 0.7), transparent);
-}
-
-@media screen and (max-width: 816px) {
-  .about {
-    padding: 0%;
-    margin: 0%;
-  }
-  .about .about-img-sec {
-    visibility: visible;
-    position: relative;
-    padding: 0%;
-    margin: 0%;
-    height: auto;
-    animation: fadeIn 5s;
-  }
-  .about .about-img-sec img {
-    height: auto;
-    width: 100%;
-    position: relative;
-    padding: 0%;
-    margin: 0%;
-  }
-  .about .about-info {
-    animation: none;
-    background-image: none;
-    margin: 0%;
-    padding: 0%;
-    height: auto;
-    position: relative;
-  }
-  .about .about-info .info-text-about {
-    margin: 0% 0% 0% 0%;
-  }
-  .about .about-info .info-text-about h1 {
-    font-size: 1.2em;
-    margin: 0%;
-    padding: 0%;
-  }
-  .about .about-info .info-text-about h3 {
-    font-size: 0.9em;
-  }
-  .about .about-info .info-text-about p {
-    font-size: 0.7em;
-  }
-}
 /* Contact
 --------------------------------------------- */
 .wpcf7 input[type=text],
@@ -1704,7 +1634,7 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
 }
 /* Art
 --------------------------------------------- */
-h1 {
+.artHeader {
   font-family: "Teko", sans-serif;
   text-transform: uppercase;
   font-size: 5em;
@@ -1721,7 +1651,7 @@ h1 {
   color: #000;
 }
 
-h1:before {
+.artHeader:before {
   content: attr(data-text);
   position: absolute;
   background: radial-gradient(#8a0808, #f29602, #8a0808, #f29602, #8a0808);
@@ -2059,17 +1989,37 @@ footer {
   color: #8a0808;
 }
 
-.copyright {
+.credits {
+  display: flex;
+  justify-content: space-between;
+}
+.credits .copyright {
   margin: 0%;
   padding: 1%;
+  width: 100%;
   text-align: center;
 }
-.copyright p {
+.credits .copyright p {
   margin: 0%;
   color: #471414;
 }
-.copyright p span {
+.credits .copyright p span {
   color: #f29602;
+}
+.credits .klays-copyright {
+  margin: 0%;
+  padding: 1%;
+  width: 100%;
+}
+.credits .klays-copyright p {
+  text-align: center;
+  margin: 0%;
+  padding: 1%;
+  font-size: 0.9rem;
+  color: #8a0808;
+}
+.credits .klays-copyright p a {
+  color: #8a0808;
 }
 
 @media screen and (max-width: 691px) {

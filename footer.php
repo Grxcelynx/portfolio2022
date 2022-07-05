@@ -47,10 +47,15 @@
 						
 					</div>
 		</div>
-  
-		<div class="copyright">
-		<p> <span>&copy;</span> Grxcelyn Development</p>
+		<div class="credits">
+			<div class="copyright">
+			<p> <span>&copy;</span> Grxcelyn Development</p>
+			</div>
+			<div class="klays-copyright">
+				<p>Hompage Image | Site Logo Designed & Illustrated <span>&copy;</span><a href="https://instagram.com/paracosmparty?igshid=YmMyMTA2M2Y=" target="_blank">Klay Simmons</a></p>
+			</div>
 		</div>
+	
 	</footer><!-- #colophon -->
 </body>
 </html>
