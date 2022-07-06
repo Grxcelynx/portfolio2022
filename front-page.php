@@ -12,7 +12,7 @@
 <?php get_template_part('template-parts/banner')?> 
 
 <div class="klays-art">
-	<p> Designed & Illustrated <span>&copy;</span><a href="https://instagram.com/paracosmparty?igshid=YmMyMTA2M2Y=" target="_blank">Klay Simmons</a></p>
+	<p>Image Designed & Illustrated <span>&copy;</span><a href="https://instagram.com/paracosmparty?igshid=YmMyMTA2M2Y=" target="_blank">Klay Simmons</a></p>
 </div>
 
 <?php get_template_part('template-parts/top-btn')?> 

@@ -20,7 +20,7 @@ $main: 'Tenor Sans', sans-serif;
 
 				float: left;
 				margin: 0px 15px;
-				height:100px;
+				height:auto;
 				width:150px;
 
 			a {
@@ -28,6 +28,7 @@ $main: 'Tenor Sans', sans-serif;
 					padding: 3%;
 					height:50px;
 					width:140px;
+					margin: 0%;
 				}
 			}
 		}
@@ -36,6 +37,7 @@ $main: 'Tenor Sans', sans-serif;
 .main-navigation {
 	display: block;
 	width: 100%;
+	height: auto;
 
 	ul {
 		list-style-type: none;
