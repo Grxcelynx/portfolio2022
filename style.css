@@ -920,29 +920,118 @@ textarea {
 
 /* About
 --------------------------------------------- */
-.about-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
-  margin: 0% auto;
-  padding: 3%;
+h1 {
+  font-size: 3em;
+  letter-spacing: 1px;
+}
+
+.strips {
   align-items: center;
-  text-align: center;
-  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  height: 100vh;
+  justify-content: center;
+  overflow: hidden;
+  width: 100vw;
 }
-.about-grid .about-expt {
-  height: auto;
+
+.strip {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  overflow: hidden;
+}
+.strip .content {
+  opacity: 0;
+  transform: scale(0);
+  width: 0;
+}
+.strip .content h1,
+.strip .content p {
+  opacity: 0;
+  transition: opacity 600ms ease, transform 600ms ease;
+}
+.strip .content h1 {
+  transform: translateY(-25%);
+}
+.strip .content p {
+  transform: translateX(25%);
+  transition-delay: 600ms;
+}
+.strip .content .title-img {
+  align-items: center;
+  margin: 0% auto;
+}
+.strip.hoverin {
+  grid-column: 1/span 5;
+  justify-content: flex-start;
+  padding-left: 2.92em;
+}
+.strip.hoverin .content {
+  font-size: 0.6em;
+  opacity: 1;
+  padding: 4em;
+  transform: scale(1);
   width: 100%;
-  padding: 0;
-  margin: 0;
-  background-color: transparent;
 }
-.about-grid .about-expt p {
-  text-align: center;
-  padding: 1% 10% 2% 10%;
-  margin: 0;
-  height: auto;
-  font-size: 1.5rem;
+.strip.hoverin .content h1,
+.strip.hoverin .content p {
+  opacity: 1;
+}
+.strip.hoverin .content h1 {
+  transform: translateY(0);
+}
+.strip.hoverin .content p {
+  transform: translateX(0);
+}
+
+.strip:nth-child(1) {
+  background-color: #471414;
+  color: white;
+}
+.strip:nth-child(1):hover {
+  grid-column: 1/span 5;
+}
+
+.strip:nth-child(2) {
+  background-color: #8e2828;
+  color: #afafaf;
+}
+.strip:nth-child(2):hover {
+  grid-column: 2/span 5;
+}
+
+.strip:nth-child(3) {
+  background-color: #d53c3c;
+  color: #757575;
+}
+.strip:nth-child(3):hover {
+  grid-column: 3/span 5;
+}
+
+.strip:nth-child(4) {
+  background-color: #ff5050;
+  color: #585858;
+}
+.strip:nth-child(4):hover {
+  grid-column: 4/span 5;
+}
+
+.strip:nth-child(5) {
+  background-color: #ff6464;
+  color: #464646;
+}
+.strip:nth-child(5):hover {
+  grid-column: 5/span 5;
+}
+
+.strip:nth-child(6) {
+  background-color: #ff7878;
+  color: #3a3a3a;
+}
+.strip:nth-child(6):hover {
+  grid-column: 6/span 5;
 }
 
 /* Contact
