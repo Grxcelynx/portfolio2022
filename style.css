@@ -623,6 +623,11 @@ textarea {
   font-family: "Tenor Sans", sans-serif;
 }
 
+ul {
+  margin: 0%;
+  padding: 0%;
+}
+
 .site-header {
   height: 55px;
   width: 100%;
@@ -711,6 +716,7 @@ textarea {
   display: block;
   right: 0px;
   width: 100%;
+  background-color: #8a0808;
 }
 .main-navigation.toggled .menu-primary-menu-container {
   width: 50%;
@@ -720,14 +726,14 @@ textarea {
   width: 50%;
   display: block;
   position: absolute;
-  height: 100vh;
+  height: auto;
   right: 0;
   margin: 48px 0 0 1px;
-  background-color: white;
+  background-image: linear-gradient(to left, rgba(242, 150, 2, 0.5), transparent);
   text-align: center;
   transform: translateX(10%);
   transition: transform 5s ease-in;
-  background-color: transparent;
+  text-shadow: 2px 2px white;
 }
 .main-navigation.toggled ul li a {
   padding: 30px;
@@ -942,8 +948,8 @@ h1 {
   justify-content: center;
   overflow: hidden;
   width: 100%;
+  margin: 5% auto;
   padding: 10%;
-  margin-bottom: 10%;
 }
 
 .strip {
@@ -1101,44 +1107,26 @@ h1 {
 
 @media screen and (max-width: 821px) {
   .strips {
-    transform: rotate(0.25turn);
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: auto;
+    display: block;
+    width: 100%;
+  }
+  .strips .strip {
     height: 50vh;
-    width: 500px;
-  }
-  .strips .strip h4 {
-    font-size: 1rem;
-    writing-mode: vertical-lr;
-    text-orientation: sideways;
-    transform: rotate(0.5turn);
-  }
-  .strips .strip .content {
-    transform: rotate(0.75turn);
-  }
-  .strips .strip .content .logo-about {
-    width: 100px;
-    height: 100px;
-  }
-  .strips .strip .content h1 {
-    font-size: 1.3rem;
-  }
-  .strips .strip .content h3 {
-    font-size: 0.9rem;
-  }
-  .strips .strip .content p {
-    font-size: 0.8rem;
-    width: max-content;
-  }
-  .strips .strip .content ul {
-    margin: 0%;
-    padding: 0%;
   }
   .strips .strip .content .icon-img {
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
     object-fit: contain;
     margin: 0%;
-    padding: 1% 0%;
+    padding: 2% 0%;
     object-position: center;
+  }
+  .strips.hoverin {
+    display: none;
+    pointer-events: none;
   }
 }
 /* Contact
@@ -2123,7 +2111,7 @@ footer {
   width: 100%;
   height: auto;
   position: relative;
-  padding: 0;
+  padding: 1%;
   margin: 0;
   letter-spacing: 3px;
   font-weight: 600;

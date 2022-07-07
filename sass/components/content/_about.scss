@@ -20,9 +20,8 @@ h1 {
     justify-content: center;
     overflow: hidden;
     width: 100%;
+    margin: 5% auto;
     padding: 10%;
-    margin-bottom: 10%;
-
 }
 
 .strip {
@@ -33,18 +32,15 @@ h1 {
     overflow: hidden;
     justify-items: center;
 
+
     ul {
         list-style: none;
         text-decoration: none;
        
-
         .icon-img {
             height: 70px;
             width: 70px;
             margin:  3%;
-            // padding: 4%;
-            // box-shadow: -6px 8px 10px rgba(242, 150, 2,0.1),0px 2px 2px rgba(242, 150, 2,0.2);
-            // background-color:rgba(138, 8, 8,0.1) ;
         }
        
     }
@@ -150,56 +146,32 @@ h1 {
 
 
 @media screen and (max-width: 821px) {
-
     .strips {
-        transform: rotate(0.25turn);
-        height: 50vh;
-        width: 500px;
-        
-    .strip {
-
-        h4 {
-            font-size: 1rem;
-            writing-mode:vertical-lr;
-            text-orientation:sideways;
-            transform: rotate(0.5turn);
-
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        height: auto;
+        display: block;
+        width: 100%;
+        .strip {
+            // display: block;
+            height: 50vh;
+            .content{
+                .icon-img {
+                    height: 60px;
+                    width: 60px;
+                    object-fit: contain;
+                    margin: 0%;
+                    padding: 2% 0%;
+                    object-position: center;
+                    // background-color: aqua;
+                }
+            }
         }
 
-        .content {
-            transform: rotate(0.75turn);
+        &.hoverin {
+            display: none;
+            pointer-events: none;
             
-
-            .logo-about {
-                width: 100px;
-                height: 100px;
-            }
-            h1 {
-                font-size: 1.3rem;
-            }
-            h3 {
-                font-size: 0.9rem;
-            }
-            p {
-                font-size: 0.8rem;
-                width: max-content;
-            }
-            ul {
-                margin: 0%;
-                padding: 0%;
-            }
-            .icon-img {
-                height: 50px;
-                width: 50px;
-                object-fit: contain;
-                margin: 0%;
-                padding: 1% 0%;
-                object-position: center;
-                // background-color: aqua;
-            }
         }
     }
-}
-	
-
 }

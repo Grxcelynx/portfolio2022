@@ -7,6 +7,10 @@ $main: 'Tenor Sans', sans-serif;
 * {
 	font-family: $main;
 }
+ul {
+	margin: 0%;
+	padding: 0%;
+}
 .site-header {	
 		height: 55px;
 		width: 100%;
@@ -137,6 +141,7 @@ $main: 'Tenor Sans', sans-serif;
     display: block;
     right: 0px;
 	width: 100%;
+	background-color: #8a0808;
 	// transform: translate3d(-1px, 0, 0);
 	// transform: translateX(-1%);
 	// transition: transform 2s ease-in;
@@ -150,14 +155,14 @@ $main: 'Tenor Sans', sans-serif;
         width: 50%;
         display: block;
         position: absolute;
-        height: 100vh;
+        height: auto;
         right: 0;
         margin: 48px 0 0 1px;
-        background-color: white;
+        background-image: linear-gradient(to left, rgb(242, 150, 2, 0.5), transparent) ;
         text-align: center;
 		transform: translateX(10%);
 		transition: transform 5s ease-in;
-		background-color: transparent;
+		text-shadow: 2px 2px white;
 	
     
         li a {
