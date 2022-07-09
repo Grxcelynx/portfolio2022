@@ -27,19 +27,15 @@
         </div>
     </div>
     <div class="strip">
-        <h4>Who I Am</h4>
+        <h4>What I do</h4>
         <div class="content">
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda obcaecati unde excepturi vero facilis pariatur libero recusandae sed distinctio magni quia iusto accusantium reprehenderit, odio ipsum fuga saepe. Consequuntur, nostrum!
-            </p>
+            <p> <?php echo the_field('what_i_do'); ?></p>
         </div>
     </div>
     <div class="strip">
-        <h4>What I do</h4>
+        <h4>Who I Am</h4>
         <div class="content">
-            <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto dolor ratione fuga voluptate! Saepe mollitia, facilis dolorem ullam quos voluptatum repudiandae pariatur ducimus eligendi, recusandae obcaecati itaque voluptates officiis magni!
-            </p>
+        <p> <?php echo the_field('who_i_am'); ?></p>
         </div>
     </div>
     <div class="strip">

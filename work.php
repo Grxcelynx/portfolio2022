@@ -20,37 +20,43 @@
   <ul>
     <li>
         <figure>
-            <img src="http://grxcelyn2022.local/wp-content/uploads/2022/06/Filler-imge-for-content.png" alt="">
+            <img src="<?php the_field('site_1'); ?>" alt="">
             <figcaption>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate reiciendis est pariatur ducimus. Sunt, expedita iure? Itaque suscipit similique illum est, asperiores ab fuga iure nam. Quis est nulla impedit.
+                Travel Site Template
                 <button class="view">view</button>
             </figcaption>
         </figure>
     </li>   
     <li>
         <figure>
-            <img src="http://grxcelyn2022.local/wp-content/uploads/2022/06/Filler-imge-for-content.png" alt="">
+            <img src="<?php the_field('site_2'); ?>" alt="">
             <figcaption>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate reiciendis est pariatur ducimus. Sunt, expedita iure? Itaque suscipit similique illum est, asperiores ab fuga iure nam. Quis est nulla impedit.
-                <button class="view">view</button>
+                Fashion Blog Site Template
+                <button class="view">
+                <a href="https://github.com/Grxcelynx/fashion-beauty-clonesite" target="_blank">view</a>
+                </button>
             </figcaption>
         </figure>
     </li> 
     <li>
         <figure>
-            <img src="http://grxcelyn2022.local/wp-content/uploads/2022/06/Filler-imge-for-content.png" alt="">
+            <img src="<?php the_field('site_3'); ?>" alt="">
             <figcaption>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate reiciendis est pariatur ducimus. Sunt, expedita iure? Itaque suscipit similique illum est, asperiores ab fuga iure nam. Quis est nulla impedit.
-                <button class="view">view</button>
+                Education Blog/Info Site Template
+                <button class="view">
+                <a href="https://github.com/Grxcelynx/edu-site-clone" target="_blank">view</a>
+                </button>
             </figcaption>
         </figure>
     </li>   
     <li>
         <figure>
-            <img src="http://grxcelyn2022.local/wp-content/uploads/2022/06/Filler-imge-for-content.png" alt="">
+            <img src="<?php the_field('site_4'); ?>" alt="">
             <figcaption>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate reiciendis est pariatur ducimus. Sunt, expedita iure? Itaque suscipit similique illum est, asperiores ab fuga iure nam. Quis est nulla impedit.
-                <button class="view">view</button>
+                Magic 8 Ball | JavaScript Project 2021
+                <button class="view">
+                    <a href="https://github.com/Grxcelynx/magic8ball" target="_blank">view</a>
+                </button>
             </figcaption>
         </figure>
     </li>  
@@ -59,7 +65,9 @@
             <img src="http://grxcelyn2022.local/wp-content/uploads/2022/06/Filler-imge-for-content.png" alt="">
             <figcaption>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate reiciendis est pariatur ducimus. Sunt, expedita iure? Itaque suscipit similique illum est, asperiores ab fuga iure nam. Quis est nulla impedit.
-                <button class="view">view</button>
+                <button class="view">
+                    view
+                </button>
             </figcaption>
         </figure>
     </li>   
@@ -123,6 +131,7 @@
         </div>
  
     </div>
+\
 </div>
 <?php get_template_part('template-parts/top-btn')?> 
 

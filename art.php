@@ -14,17 +14,76 @@
 Feautred Work
 </h1>
 </div>
-
+    <div class="art-main">
         <div class="gallery-preview">
-                <div ><img class="border radial-repeating"src="http://grxcelyn2022.local/wp-content/uploads/2022/06/IMG_0288-scaled.jpg"/></div>
-                <div class=" vertical"><img class="border radial-repeating" src="http://grxcelyn2022.local/wp-content/uploads/2022/06/IMG_2829.jpg"/></div>
-                <div class="horizontal"><img class="border radial-repeating" src="http://grxcelyn2022.local/wp-content/uploads/2022/06/634023937.585602-scaled.jpg"/></div>
-                <div><img class="border radial-repeating" src="http://grxcelyn2022.local/wp-content/uploads/2022/06/634024181.435563-scaled.jpg"/></div>
-                <div><img class="border radial-repeating" src="http://grxcelyn2022.local/wp-content/uploads/2022/06/IMG_0068-2-scaled.jpg"/></div>
-                <div><img class="border radial-repeating" src="http://grxcelyn2022.local/wp-content/uploads/2022/06/633768651.546887-2-scaled.jpg"/></div>
-                <div><img class="border radial-repeating" src="http://grxcelyn2022.local/wp-content/uploads/2022/06/633768586.188566-2-scaled.jpg"/></div>
+                <div class="thumbnail-wrapper big">
+                    <a href="#img1" aria-label="Click to enlarge image">
+                    <img class="border radial-repeating"src="<?php the_field('featured_1'); ?>"/>
+                </div>
+                <div class="thumbnail-wrapper vertical">
+                    <a href="#img2" aria-label="Click to enlarge image">
+                    <img class="border radial-repeating" src="<?php the_field('featured_2_vertical'); ?>"/>
+                </div>
+                <div class="thumbnail-wrapper horizontal">
+                    <a href="#img3" aria-label="Click to enlarge image">
+                    <img class="border radial-repeating" src="<?php the_field('featured_3_horizontal'); ?>"/>
+                </div>
+                <div class="thumbnail-wrapper normal">
+                    <a href="#img4" aria-label="Click to enlarge image">
+                    <img class="border radial-repeating" src="<?php the_field('featured_4'); ?>"/>
+                </div>
+                <div class="thumbnail-wrapper big">
+                    <a href="#img5" aria-label="Click to enlarge image">
+                    <img class="border radial-repeating" src="<?php the_field('featured_5'); ?>"/>
+                </div>
+                <div class="thumbnail-wrapper horizontal">
+                    <a href="#img6" aria-label="Click to enlarge image">
+                    <img class="border radial-repeating" src="<?php the_field('featured_6'); ?>"/>
+                </div>
+                <div class="thumbnail-wrapper vertical">
+                    <a href="#img7" aria-label="Click to enlarge image">
+                    <img class="border radial-repeating" src="<?php the_field('featured_7'); ?>"/>
+                </div>
+                <div class="thumbnail-wrapper horizontal">
+                    <a href="#img8" aria-label="Click to enlarge image">
+                    <img class="border radial-repeating" src="<?php the_field('featured_8'); ?>"/>
+                </div>
+            </div>
         </div>
         
+        <div class="lightbox" id="img1">
+            <a href="#" class="close" aria-label="close image">&times;</a>
+            <img class="border radial-repeating"src="<?php the_field('featured_1'); ?>" loading="lazy">
+        </div>
+        <div class="lightbox" id="img2">
+            <a href="#" class="close" aria-label="close image">&times;</a>
+            <img class="border radial-repeating" src="<?php the_field('featured_2_vertical'); ?>" loading="lazy">
+        </div>
+        <div class="lightbox" id="img3">
+            <a href="#" class="close" aria-label="close image">&times;</a>
+            <img class="border radial-repeating" src="<?php the_field('featured_3_horizontal'); ?>" loading="lazy">
+        </div>
+        <div class="lightbox" id="img4">
+            <a href="#" class="close" aria-label="close image">&times;</a>
+            <img class="border radial-repeating" src="<?php the_field('featured_4'); ?>" loading="lazy">
+        </div>
+        <div class="lightbox" id="img5">
+            <a href="#" class="close" aria-label="close image">&times;</a>
+            <img class="border radial-repeating" src="<?php the_field('featured_5'); ?>" loading="lazy">
+        </div>
+        <div class="lightbox" id="img6">
+            <a href="#" class="close" aria-label="close image">&times;</a>
+            <img class="border radial-repeating" src="<?php the_field('featured_6'); ?>" loading="lazy">
+        </div>
+        <div class="lightbox" id="img7">
+            <a href="#" class="close" aria-label="close image">&times;</a>
+            <img class="border radial-repeating" src="<?php the_field('featured_7'); ?>" loading="lazy">
+        </div>
+        <div class="lightbox" id="img8">
+            <a href="#" class="close" aria-label="close image">&times;</a>
+            <img class="border radial-repeating" src="<?php the_field('featured_8'); ?>" loading="lazy">
+        </div>
+
         <div class="artwork-grid">
 
             <div class="inquiry-ex">

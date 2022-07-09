@@ -15,12 +15,13 @@
         <div class="banner-text">
             <h1>Contact Me</h1>
             <h4><strong>General Questions <i>only</i></strong></h4>
-            <form action="">
             <?php echo apply_shortcodes( '[contact-form-7 id="71" title="General"]' ); ?>
-            </form>
+
         </div>
     </div>
 </section>
+
+
 
 <div class="buttons">
         <div class="formButtonArt" id="artBtn">
@@ -33,25 +34,25 @@
 
 <section class="grid">
 <div class="form-grid">
-        <form class="art-form" action="" id="AformBtn">
+        <div class="art-form" id="AformBtn">
             <label id="art-title" for="">
                 <h2>Art Inquiry Form</h2>
             </label>
             <hr>
             <?php echo apply_shortcodes( '[contact-form-7 id="69" title="Contact Form Art"]' ); ?>
-        </form>
+        </div>
        
         <section class="test">
 
         </section>
         
-        <form class="web-form" action="" id="WformBtn">
+        <div class="web-form" id="WformBtn">
             <label id="web-title" for="">
                 <h2>Web Development Inquiry Form</h2>
             </label>
             <hr>
             <?php echo apply_shortcodes( '[contact-form-7 id="70" title="Web Inquiry Form"]' ); ?>
-        </form>
+        </div>
 </div>
 </section>
 
