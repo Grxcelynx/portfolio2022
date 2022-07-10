@@ -16,37 +16,84 @@ Feautred Work
 </div>
     <div class="art-main">
         <div class="gallery-preview">
-                <div class="thumbnail-wrapper big">
+                <div class="thumbnail-wrapper image-container">
                     <a href="#img1" aria-label="Click to enlarge image">
                     <img class="border radial-repeating"src="<?php the_field('featured_1'); ?>"/>
+                    <div class="image-caption">
+                        <h1 class="cap-head"><?php the_field('art_piece_header') ?></h1>
+                        <h2 class="cap-subhead"><?php the_field('art_piece_sub_1') ?></h2>
+                        <h3 class="cap-infohead"><?php the_field('art_piece_info_1') ?></h3>
+                    </div>
                 </div>
-                <div class="thumbnail-wrapper vertical">
+
+                <div class="thumbnail-wrapper image-container">
                     <a href="#img2" aria-label="Click to enlarge image">
                     <img class="border radial-repeating" src="<?php the_field('featured_2_vertical'); ?>"/>
+                    <div class="image-caption">
+                        <h1 class="cap-head"><?php the_field('art_piece_header_2') ?></h1>
+                        <h2 class="cap-subhead"><?php the_field('art_piece_sub_2') ?></h2>
+                        <h3 class="cap-infohead"><?php the_field('art_piece_info_2') ?></h3>
+                    </div>
                 </div>
-                <div class="thumbnail-wrapper horizontal">
+
+                <div class="thumbnail-wrapper image-container">
                     <a href="#img3" aria-label="Click to enlarge image">
                     <img class="border radial-repeating" src="<?php the_field('featured_3_horizontal'); ?>"/>
+                    <div class="image-caption">
+                        <h1 class="cap-head"><?php the_field('art_piece_header_3') ?></h1>
+                        <h2 class="cap-subhead"><?php the_field('art_piece_sub_3') ?></h2>
+                        <h3 class="cap-infohead"><?php the_field('art_piece_info_3') ?></h3>
+                    </div>
                 </div>
-                <div class="thumbnail-wrapper normal">
+
+                <div class="thumbnail-wrapper image-container">
                     <a href="#img4" aria-label="Click to enlarge image">
                     <img class="border radial-repeating" src="<?php the_field('featured_4'); ?>"/>
+                    <div class="image-caption">
+                        <h1 class="cap-head"><?php the_field('art_piece_header_4') ?></h1>
+                        <h2 class="cap-subhead"><?php the_field('art_piece_sub_4') ?></h2>
+                        <h3 class="cap-infohead"><?php the_field('art_piece_info_4') ?></h3>
+                    </div>
                 </div>
-                <div class="thumbnail-wrapper big">
+
+                <div class="thumbnail-wrapper image-container">
                     <a href="#img5" aria-label="Click to enlarge image">
                     <img class="border radial-repeating" src="<?php the_field('featured_5'); ?>"/>
+                    <div class="image-caption">
+                        <h1 class="cap-head"><?php the_field('art_piece_header_5') ?></h1>
+                        <h2 class="cap-subhead"><?php the_field('art_piece_sub_5') ?></h2>
+                        <h3 class="cap-infohead"><?php the_field('art_piece_info_5') ?></h3>
+                    </div>
                 </div>
-                <div class="thumbnail-wrapper horizontal">
+
+                <div class="thumbnail-wrapper image-container">
                     <a href="#img6" aria-label="Click to enlarge image">
                     <img class="border radial-repeating" src="<?php the_field('featured_6'); ?>"/>
+                    <div class="image-caption">
+                        <h1 class="cap-head"><?php the_field('art_piece_header_6') ?></h1>
+                        <h2 class="cap-subhead"><?php the_field('art_piece_sub_6') ?></h2>
+                        <h3 class="cap-infohead"><?php the_field('art_piece_info_6') ?></h3>
+                    </div>
                 </div>
-                <div class="thumbnail-wrapper vertical">
+
+                <div class="thumbnail-wrapper image-container">
                     <a href="#img7" aria-label="Click to enlarge image">
                     <img class="border radial-repeating" src="<?php the_field('featured_7'); ?>"/>
+                    <div class="image-caption">
+                        <h1 class="cap-head"><?php the_field('art_piece_header_7') ?></h1>
+                        <h2 class="cap-subhead"><?php the_field('art_piece_sub_7') ?></h2>
+                        <h3 class="cap-infohead"><?php the_field('art_piece_info_7') ?></h3>
+                    </div>
                 </div>
-                <div class="thumbnail-wrapper horizontal">
+
+                <div class="thumbnail-wrapper image-container">
                     <a href="#img8" aria-label="Click to enlarge image">
                     <img class="border radial-repeating" src="<?php the_field('featured_8'); ?>"/>
+                    <div class="image-caption">
+                        <h1 class="cap-head"><?php the_field('art_piece_header_8') ?></h1>
+                        <h2 class="cap-subhead"><?php the_field('art_piece_sub_8') ?></h2>
+                        <h3 class="cap-infohead"><?php the_field('art_piece_info_8') ?></h3>
+                    </div>
                 </div>
             </div>
         </div>

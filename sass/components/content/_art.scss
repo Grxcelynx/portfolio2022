@@ -68,7 +68,7 @@
     grid-template-rows: minmax(200px, 1fr) minmax(100px, 1fr);
     // grid-auto-rows:auto;
     grid-auto-flow: dense;
-    margin: auto;
+    margin: 0% auto;
     padding: 3%;
     height: auto;
     min-width: 0px;
@@ -89,6 +89,8 @@
     }
 
     .radial-repeating {
+      box-shadow: 20px 20px rgba(0,0,0,.08);
+
         border-width: 15px;
         border-image: repeating-radial-gradient(
                 circle at 10px,
@@ -99,6 +101,43 @@
             )
             1;
     }
+    .thumbnail-wrapper {
+      margin: 2% auto;
+    }
+      
+    .image-caption {
+      width: 100%;
+      height: auto;
+      background: rgba(0, 0, 0, 0.7);
+      position: absolute;
+      opacity: 0;
+      transition: all 300ms ease-in-out;
+      -webkit-transition: all 300ms ease-in-out;
+      -moz-transition: all 300ms ease-in-out;
+      -o-transition: all 300ms ease-in-out;
+      -ms-transition: all 300ms ease-in-out;
+      text-align: center;
+      text-transform: uppercase;
+      color: $offwhite;
+      letter-spacing: 2px;
+
+      .cap-head {
+        font-size:1rem;
+      }
+      .cap-subhead {
+        font-size:0.7rem;
+      }
+      .cap-infohead {
+        font-size:0.5rem;
+        font-weight: 600;
+      }
+}
+
+
+.image-container:hover .image-caption {
+  opacity: 1;
+}
+
 
     div {
         // display: flex;
@@ -107,12 +146,13 @@
         align-items: center;
         font-size: 2em;
         color: #ffeead;
-        box-shadow: 20px 20px rgba(0,0,0,.08);
+        // box-shadow: 20px 20px rgba(0,0,0,.08);
+        margin: 0% auto;
 
 
         img {
-            width: 100%;
-            height: 100%;
+            width: auto;
+            height: auto;
             object-fit:cover;
         }
     }
@@ -139,26 +179,30 @@
 .lightbox {
 	/* Hidden lightbox image */
 	display: none;
-	position: fixed;
+	position: absolute;
 	z-index: 999;
 	width: 100%;
-	height: 80%;
+	height: auto;
 	text-align: center;
 	top: 0;
 	left: 0;
 	background: rgba(0, 0, 0, 0.8);
-  padding: 25%;
-
+  padding: 0%;
+  align-content: center;
+  align-items: center;
+  margin: 10% auto;
   a {
     background-color: white;
     color: $red;
+    margin: 0%;
+    padding:0%;
   }
 
   img {
-    margin: 10% auto;
-    position: relative;
-    width: fit-content;
-    height: fit-content;
+    margin: 0%;
+    width: auto;
+    height: auto;
+    padding: 20%;
   }
 
 
@@ -287,7 +331,7 @@
     }
 }
     
-    @media screen and (max-width: 820px) {
+    @media screen and (max-width: 996px) {
 
         .title-spot {
             font-size: 0.8em;
@@ -350,3 +394,12 @@
          
       }
     }
+
+@media all and (min-width: 521px) and (max-width: 700px) {
+
+ 
+  .image-caption {
+    width: 250px;
+    height: 200px;
+  }
+}
