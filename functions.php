@@ -160,6 +160,8 @@ add_action( 'widgets_init', 'grxcelyn_footer_widgets_init' );
 function grxcelyn_p2022_scripts() {
 	wp_enqueue_style( 'grxcelyn-p2022-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'grxcelyn-p2022-style', 'rtl', 'replace' );
+	
+	wp_enqueue_script( 'grxcelyn-p2022-loader', get_template_directory_uri() . '/js/loader.js', array(), _S_VERSION, true );
 
 	wp_enqueue_script( 'grxcelyn-p2022-curtain', get_template_directory_uri() . '/js/curtain.js', array(), _S_VERSION, true );
 

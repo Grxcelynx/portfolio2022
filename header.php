@@ -26,6 +26,7 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 <div id="page" class="site">
+<?php get_template_part('loader'); ?>
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'grxcelyn-p2022' ); ?></a>
 
 	<header id="masthead" class="site-header">

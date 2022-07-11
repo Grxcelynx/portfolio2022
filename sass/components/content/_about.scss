@@ -139,8 +139,8 @@ h1 {
     .strip:nth-child(#{$i}) {
         // background-color: rgb($i/138, $i/8, $i/8);
         background-color: rgb(138/$i, 9/$i, 8/$i);
-        color: rgb(255/$i, 255/$i, 255/$i);
-        color: rgb($i*255, $i*255, $i*255);
+        // color: rgb(255/$i, 255/$i, 255/$i);
+        // color: rgb($i*255, $i*255, $i*255);
 
         &:hover {
             grid-column: #{$i} / span 5;

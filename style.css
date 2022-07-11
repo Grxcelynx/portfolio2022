@@ -1053,8 +1053,6 @@ h1 {
 
 .strip:nth-child(1) {
   background-color: #8a0908;
-  color: white;
-  color: white;
 }
 .strip:nth-child(1):hover {
   grid-column: 1/span 5;
@@ -1062,8 +1060,6 @@ h1 {
 
 .strip:nth-child(2) {
   background-color: #450504;
-  color: gray;
-  color: white;
 }
 .strip:nth-child(2):hover {
   grid-column: 2/span 5;
@@ -1071,8 +1067,6 @@ h1 {
 
 .strip:nth-child(3) {
   background-color: #2e0303;
-  color: #555555;
-  color: white;
 }
 .strip:nth-child(3):hover {
   grid-column: 3/span 5;
@@ -1080,8 +1074,6 @@ h1 {
 
 .strip:nth-child(4) {
   background-color: #230202;
-  color: #404040;
-  color: white;
 }
 .strip:nth-child(4):hover {
   grid-column: 4/span 5;
@@ -1089,8 +1081,6 @@ h1 {
 
 .strip:nth-child(5) {
   background-color: #1c0202;
-  color: #333333;
-  color: white;
 }
 .strip:nth-child(5):hover {
   grid-column: 5/span 5;
@@ -1098,8 +1088,6 @@ h1 {
 
 .strip:nth-child(6) {
   background-color: #170201;
-  color: #2b2b2b;
-  color: white;
 }
 .strip:nth-child(6):hover {
   grid-column: 6/span 5;
@@ -1895,7 +1883,7 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
   width: 100%;
   position: relative;
   gap: 2%;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: auto auto auto;
   grid-template-rows: minmax(200px, 1fr) minmax(100px, 1fr);
   grid-auto-flow: dense;
   margin: 0% auto;
@@ -2118,7 +2106,7 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
     background-size: contain;
   }
   .gallery-preview {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: auto auto auto;
     grid-template-rows: minmax(100px, 1fr) minmax(100px, 1fr);
     margin: 0%;
     padding: 5%;
@@ -2154,7 +2142,10 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
 }
 @media screen and (max-width: 820px) {
   .gallery-preview {
-    grid-template-rows: minmax(100px, 1fr) minmax(100px, 1fr);
+    grid-template-columns: auto auto auto;
+  }
+  .gallery-preview img {
+    object-fit: contain;
   }
 }
 @media all and (min-width: 521px) and (max-width: 700px) {
