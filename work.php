@@ -16,7 +16,7 @@
 
 
 <div class="load-more-container">
-  <input type="checkbox" id="load-more"/>
+  <!-- <input type="" id="load-more"/> -->
   <ul>
     <li>
         <figure>
@@ -99,10 +99,10 @@
         </figure>
     </li> 
   </ul>
-  <label class="load-more-btn" for="load-more">
+  <!-- <label class="load-more-btn" for="load-more">
     <span class="unloaded">LOAD MORE</span>
     <span class="loaded">VIEW LESS</span>
-  </label>  
+  </label>     -->
 </div>
 
 <div class="work-info">
@@ -131,7 +131,7 @@
         </div>
  
     </div>
-\
+
 </div>
 <?php get_template_part('template-parts/top-btn')?> 
 

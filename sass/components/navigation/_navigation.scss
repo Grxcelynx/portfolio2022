@@ -19,6 +19,9 @@ ul {
 		position: sticky;
 		top: 0;
 		z-index: 1;
+		border-bottom: $red 1px solid;
+		font-weight: 600;
+
 
 		.site-branding {
 
@@ -106,6 +109,7 @@ ul {
 		font-weight: bolder;
 		text-transform: uppercase;
 		margin: 20px 20px;
+		font-weight: 600;
 
 		&:hover {
 			color: $red;

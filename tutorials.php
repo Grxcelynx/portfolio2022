@@ -64,6 +64,22 @@
             <a href="">Coming Soon</a>
         </button>
     </div>
+
+    <!-- <div class="command">
+        <h2>Command Line</h2>
+        <hr>
+        <ul>
+            <h4>Learn How To...</h4>
+            <li>Make folders</li>
+            <li>Shortcut Commands</li>
+            <li>Style Your Terminal</li>
+            <li>And More!</li>
+        </ul>
+        <hr>
+        <button class="">
+            <a href="">Coming Soon</a>
+        </button>
+    </div> -->
     
 </div>
 
