@@ -912,6 +912,10 @@ ul {
 
 /* Homepage
 --------------------------------------------- */
+.banner-img {
+  margin: 10% 0%;
+}
+
 .klays-art {
   margin: 0%;
   padding: 0%;
@@ -933,9 +937,10 @@ ul {
 --------------------------------------------- */
 .logo-about {
   fill: #f29602;
-  padding: 3%;
+  padding: 5%;
   width: fit-content;
   height: fit-content;
+  object-fit: contain;
 }
 
 h1 {
@@ -962,6 +967,8 @@ h1 {
   justify-content: center;
   overflow: hidden;
   justify-items: center;
+  padding: 0%;
+  margin: 0%;
 }
 .strip ul {
   list-style: none;
@@ -1003,6 +1010,8 @@ h1 {
   opacity: 0;
   transform: scale(0);
   width: 0;
+  padding: 3%;
+  margin: 0% auto;
 }
 .strip .content h1, .strip .content p {
   opacity: 0;
@@ -1012,6 +1021,8 @@ h1 {
   transform: translateY(-25%);
   text-transform: uppercase;
   font-weight: 400;
+  padding: 1% 0%;
+  margin: 0%;
 }
 .strip .content p {
   transform: translateX(25%);
@@ -1032,7 +1043,7 @@ h1 {
   grid-column: 1/span 5;
   justify-content: flex-start;
   padding-left: 1em;
-  height: 100vh;
+  height: 100vh !important;
 }
 .strip.hoverin .content {
   font-size: 0.6em;
@@ -1109,6 +1120,9 @@ h1 {
     height: auto;
     display: block;
     width: 100%;
+  }
+  .strips .logo-about {
+    padding: 15%;
   }
   .strips .strip {
     height: 50vh;
@@ -2204,6 +2218,7 @@ footer {
   width: 100%;
   height: auto;
   background-color: white;
+  border-top: #8a0808 solid 0.5px;
 }
 
 .container {
@@ -2291,9 +2306,12 @@ footer {
 .credits .copyright p {
   margin: 0%;
   color: #471414;
+  font-size: 0.7rem;
+  text-transform: uppercase;
 }
 .credits .copyright p span {
   color: #f29602;
+  font-size: 0.8rem;
 }
 .credits .klays-copyright {
   margin: 0%;
@@ -2304,7 +2322,7 @@ footer {
   text-align: center;
   margin: 0%;
   padding: 1%;
-  font-size: 0.9rem;
+  font-size: 0.6rem;
   color: #8a0808;
 }
 .credits .klays-copyright p a {

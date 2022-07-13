@@ -15,7 +15,7 @@ footer{
     // height: 20vh;
     height: auto;
     background-color: white;
-    // border: black solid 1px;
+    border-top: $red solid 0.5px;
 }
 
 .container {
@@ -103,9 +103,12 @@ footer{
         p {
             margin: 0%;
             color: $darkred;
+            font-size: 0.7rem;
+            text-transform: uppercase;
     
             span {
                 color: $yellow;
+                font-size: 0.8rem;
             }
         }
     }
@@ -118,7 +121,7 @@ footer{
             text-align: center;
             margin: 0%;
             padding: 1%;
-            font-size: 0.9rem;
+            font-size: 0.6rem;
             color: $red;
     
             a{

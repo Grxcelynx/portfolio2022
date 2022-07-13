@@ -10,8 +10,6 @@
 
 <?php get_header(); ?>
 
-
-
 <div class="strips">
     <div class="strip hoverin">
         <div class="content">
@@ -68,9 +66,7 @@
                 </li>
                 <li>
                     <img class="icon-img" src="<?php the_field('sql'); ?>" alt="">
-                </li>
-            
-            
+                </li>                 
             </ul>
         </div>
     </div>
@@ -84,12 +80,9 @@
             </h3>
         </div>
     </div>
-
 </div>
 
-
 <?php get_template_part('template-parts/calendly')?> 
-
 
 <?php get_template_part('template-parts/top-btn')?> 
 
