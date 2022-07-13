@@ -12,10 +12,24 @@
 
 <div class="strips">
     <div class="strip hoverin">
-        <div class="content">
-            <img class="logo-about" src="http://grxcelyn2022.local/wp-content/uploads/2022/07/G_Logo-Copy.svg" alt="">
+        <div class="content drips">
+        <img class="logo-about" src="http://grxcelyn2022.local/wp-content/uploads/2022/07/glitter-logo.png" alt="">
+
+        <div class="drip"></div>
+        <div class="drip"></div>
+        <div class="drip"></div>
+        <div class="drip"></div>
+        <div class="drip"></div>
+        <div class="drip"></div>
+        <div class="drip"></div>
+        <div class="drip"></div>
+        <div class="drip"></div>
+        <div class="drip"></div>
+
         </div>
+        
     </div>
+   
     <div class="strip">
         <h4>grxcelyn</h4>
         <div class="content">

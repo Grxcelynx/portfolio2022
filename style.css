@@ -647,7 +647,7 @@ ul {
 .site-header .site-branding a img {
   padding: 3%;
   height: 50px;
-  width: 140px;
+  width: 40px;
   margin: 0%;
 }
 
@@ -941,6 +941,7 @@ ul {
   width: fit-content;
   height: fit-content;
   object-fit: contain;
+  z-index: 2;
 }
 
 h1 {
@@ -1004,6 +1005,126 @@ h1 {
   }
   to {
     text-shadow: 0px 0px 20px #fff, 0px 0px 20px #614ad3;
+  }
+}
+.strip .dripsvg {
+  display: none !important;
+}
+.strip #testsvg {
+  display: none !important;
+}
+.strip .drips {
+  filter: url("#goo");
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.strip .drips .drip {
+  top: 15%;
+  border-radius: 50%;
+  height: 100px;
+  position: absolute;
+  width: 75px;
+  background: linear-gradient(to bottom, darkred, red);
+  transform: translate(0, 0) scale(1.5);
+  animation: drip-1 cubic-bezier(0.66, 0.1, 0.97, 0.36) 7s infinite;
+}
+.strip .drips .drip:nth-child(1) {
+  animation-name: drip-1;
+  animation-delay: 1.25s;
+  left: 5%;
+  top: -29%;
+}
+.strip .drips .drip:nth-child(2) {
+  animation-name: drip-2;
+  animation-delay: 0.5s;
+  left: 10%;
+  top: -20%;
+}
+.strip .drips .drip:nth-child(3) {
+  animation-name: drip-3;
+  animation-delay: 2s;
+  left: 20%;
+  top: -25%;
+}
+.strip .drips .drip:nth-child(4) {
+  animation-name: drip-4;
+  animation-delay: 1s;
+  left: 30%;
+  top: -25%;
+}
+.strip .drips .drip:nth-child(5) {
+  animation-name: drip-5;
+  animation-delay: 1.75s;
+  left: 50%;
+  height: 75px;
+  width: 50px;
+  top: -20%;
+}
+.strip .drips .drip:nth-child(6) {
+  animation-name: drip-1;
+  animation-delay: 2.25s;
+  left: 60%;
+  top: -20%;
+}
+.strip .drips .drip:nth-child(7) {
+  animation-name: drip-2;
+  animation-delay: 1.5s;
+  left: 75%;
+  top: -20%;
+  height: 50px;
+  width: 30px;
+}
+.strip .drips .drip:nth-child(8) {
+  animation-name: drip-3;
+  animation-delay: 1s;
+  left: 90%;
+  top: -25%;
+}
+.strip .drips .drip:nth-child(9) {
+  animation-name: drip-4;
+  animation-delay: 0.75s;
+  left: 100%;
+  top: -25%;
+}
+.strip .drips .drip:nth-child(10) {
+  animation-name: drip-5;
+  animation-delay: 2.5s;
+  left: 50%;
+  top: -20%;
+  height: 50px;
+  width: 40px;
+}
+.strip .drips .drip:nth-child(11) {
+  animation-name: drip-5;
+  animation-delay: 0.25s;
+  left: -20%;
+  top: -20%;
+}
+@keyframes drip-1 {
+  to {
+    transform: translateY(500px) scale(0);
+  }
+}
+@keyframes drip-2 {
+  to {
+    transform: translateY(800px) scale(0);
+  }
+}
+@keyframes drip-3 {
+  to {
+    transform: translateY(600px) scale(0);
+  }
+}
+@keyframes drip-4 {
+  to {
+    transform: translateY(500px) scale(0.4);
+  }
+}
+@keyframes drip-5 {
+  to {
+    transform: translateY(400px) scale(0.2);
   }
 }
 .strip .content {
