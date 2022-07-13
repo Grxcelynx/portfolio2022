@@ -635,7 +635,7 @@ ul {
   position: sticky;
   top: 0;
   z-index: 1;
-  border-bottom: #8a0808 1px solid;
+  border-bottom: #8a0808 0.5px solid;
   font-weight: 600;
 }
 .site-header .site-branding {
@@ -1056,6 +1056,7 @@ h1 {
 
 .strip:nth-child(1) {
   background-color: #8a0908;
+  color: white;
 }
 .strip:nth-child(1):hover {
   grid-column: 1/span 5;
@@ -1063,6 +1064,7 @@ h1 {
 
 .strip:nth-child(2) {
   background-color: #450504;
+  color: white;
 }
 .strip:nth-child(2):hover {
   grid-column: 2/span 5;
@@ -1070,6 +1072,7 @@ h1 {
 
 .strip:nth-child(3) {
   background-color: #2e0303;
+  color: white;
 }
 .strip:nth-child(3):hover {
   grid-column: 3/span 5;
@@ -1077,6 +1080,7 @@ h1 {
 
 .strip:nth-child(4) {
   background-color: #230202;
+  color: white;
 }
 .strip:nth-child(4):hover {
   grid-column: 4/span 5;
@@ -1084,6 +1088,7 @@ h1 {
 
 .strip:nth-child(5) {
   background-color: #1c0202;
+  color: white;
 }
 .strip:nth-child(5):hover {
   grid-column: 5/span 5;
@@ -1091,6 +1096,7 @@ h1 {
 
 .strip:nth-child(6) {
   background-color: #170201;
+  color: white;
 }
 .strip:nth-child(6):hover {
   grid-column: 6/span 5;

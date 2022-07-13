@@ -22,7 +22,6 @@
 </section>
 
 
-
 <div class="buttons">
         <div class="formButtonArt" id="artBtn">
             <a href="#AformBtn">Art Inquiry</a>
@@ -31,6 +30,11 @@
             <a href="#WformBtn">Web Development Inquiry</a>
         </div>
 </div>
+
+<!-- Calendly inline widget begin -->
+<div class="calendly-inline-widget" data-url="https://calendly.com/grxcelyn?hide_gdpr_banner=1&primary_color=8a0808" style="min-width:320px;height:auto;padding:0px;margin:2%;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+<!-- Calendly inline widget end -->
 
 <section class="grid">
 <div class="form-grid">
@@ -60,6 +64,9 @@
 <div class="reminder">
     <h3>Please allow 3-5 business days for any and all follow up responses upon initial inquiry</h3>
 </div>
+
+<?php get_template_part('template-parts/calendly')?> 
+
 
 <?php get_template_part('template-parts/top-btn')?> 
 

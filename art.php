@@ -141,7 +141,7 @@ Feautred Work
                     <a href="<?php echo get_permalink(get_page_by_path('contact'))?>">Inquire now</a>
                 </button>
                 <button class="fancy">
-                    <a href="https://www.etsy.com/shop/GracelynArts?ref=profile_header">Buy art now</a>
+                    <a href="https://www.etsy.com/shop/GracelynArts?ref=profile_header" target="_blank">Buy art now</a>
                 </button>     
             </div>
 
