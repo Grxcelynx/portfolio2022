@@ -12,10 +12,11 @@
 
 <div class="strips">
     <div class="strip hoverin">
-        <div class="content cont">
+        <div class="content">
+            <div class="cont">
             <img class="logo-about" src="http://grxcelyn2022.local/wp-content/uploads/2022/07/glitter-logo.png" alt="">
-           
-                <div class="drip"></div>
+
+                <!-- <div class="drip"></div>
                 <div class="drip"></div>
                 <div class="drip"></div>
                 <div class="drip"></div>
@@ -48,8 +49,9 @@
                         <feBlend in="SourceGraphic" in2="goo" />
                     </filter>
                     </defs>
-                </svg>
-            
+                </svg> -->
+
+            </div>
         </div>
     </div>
    
