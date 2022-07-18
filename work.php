@@ -23,7 +23,9 @@
             <img src="<?php the_field('site_1'); ?>" alt="">
             <figcaption>
                 Travel Site Template
-                <button class="view">view</button>
+                <button class="view">
+                    <a href="https://github.com/Grxcelynx/travel-site" target="_blank">view</a>
+                </button>
             </figcaption>
         </figure>
     </li>   
