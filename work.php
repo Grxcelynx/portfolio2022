@@ -118,7 +118,7 @@
             Get connected with Grxcelyn Development and set up your first Discovery Meeting TODAY
             </h3>
         <button class="fancy">
-        <a href="<?php echo get_permalink(get_page_by_path('contact'))?>">Inquire Now</a>
+        <a href="http://grxcelyn2022.local/contact/#linked">Inquire Now</a>
         </button>
     </div>
 

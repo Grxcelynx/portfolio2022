@@ -37,7 +37,7 @@
 <!-- Calendly inline widget end -->
 
 <section class="grid">
-<div class="form-grid">
+<div class="form-grid" id="linked" name="linkedForms">
         <div class="art-form" id="AformBtn">
             <label id="art-title" for="">
                 <h2>Art Inquiry Form</h2>

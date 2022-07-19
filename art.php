@@ -138,7 +138,7 @@ Feautred Work
                 <hr>
                 <h3>All potential Murals and Showcases must first submit an inquiry form.  All finished products (canvas/prints) are available on Etsy at Grxcelyn Arts.</h3>
                 <button class="fancy">
-                    <a href="<?php echo get_permalink(get_page_by_path('contact'))?>">Inquire now</a>
+                    <a href="http://grxcelyn2022.local/contact/#linked">Inquire Now</a>
                 </button>
                 <button class="fancy">
                     <a href="https://www.etsy.com/shop/GracelynArts?ref=profile_header" target="_blank">Buy art now</a>

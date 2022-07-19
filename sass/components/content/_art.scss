@@ -1,12 +1,4 @@
-.title-spot {
-  // background-image: url('http://grxcelyn2022.local/wp-content/uploads/2022/06/curtain-1.png');
-  // background-repeat: no-repeat;
-  // background-size: cover;
-  // width: 100%;
-  // height:25vh;
-  // background-position: top;
-}
-  .artHeader{
+.artHeader{
     text-transform: uppercase;
     font-size: 5em;
     text-align: center;
@@ -193,10 +185,12 @@
   align-items: center;
   margin: 10% auto;
   a {
-    background-color: white;
     color: $red;
     margin: 0%;
-    padding:0%;
+    padding:5%;
+    height: auto;
+    width: auto;
+    text-shadow: $yellow 2px 2px;
   }
 
   img {
@@ -218,8 +212,8 @@
 	top: 20px;
 	right: 20px;
 	font-size: 3em;
-	color: #fff;
 	text-decoration: none;
+  border-radius: 100%;
 }
 .artwork-grid {
     display: grid;
@@ -266,7 +260,8 @@
             text-transform: uppercase;
             a {
                 text-decoration: none;
-                color: white;
+                color: $red;
+                font-weight: 600;
 
             }
         }
@@ -274,8 +269,6 @@
                 padding: 0.6em 2em;
                 border: none;
                 outline: none;
-                color: white;
-                text-shadow: 3px 0px 7px rgba(81,67,21,0.9), -3px 0px 7px rgba(81,67,21,0.9), 0px 4px 7px rgba(81,67,21,0.9);
                 cursor: pointer;
                 position: relative;
                 z-index: 0;
