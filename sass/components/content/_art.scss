@@ -185,14 +185,20 @@
   align-items: center;
   margin: 10% auto;
   a {
-    color: $red;
+    color: $yellow;
     margin: 0%;
     padding:5%;
     height: auto;
     width: auto;
-    text-shadow: $yellow 2px 2px;
+    text-shadow: $red 2px 2px;
+    animation-name:glow;
+    animation-duration:1s;
+    animation-iteration-count:infinite;
   }
-
+  @keyframes glow{
+    from{text-shadow:0px 0px 5px #fff,0px 0px 5px #614ad3;}
+    to{text-shadow:0px 0px 20px #fff,0px 0px 20px #614ad3;}
+  }
   img {
     margin: 0%;
     width: auto;
@@ -246,7 +252,14 @@
             font-size: 3em;
             padding: 3%;
             margin: 0%;
+            color: black;
             text-transform: uppercase;
+            .redx {
+              color: $red;
+            }
+            .ydot{
+              color: $yellow;
+            }
         }
 
        h3 {

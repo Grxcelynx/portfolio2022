@@ -1207,8 +1207,8 @@ h1 {
     height: 50vh;
   }
   .strips .strip .content .icon-img {
-    height: 60px;
-    width: 60px;
+    height: 100px;
+    width: 100px;
     object-fit: contain;
     margin: 0%;
     padding: 2% 0%;
@@ -2084,12 +2084,23 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
   margin: 10% auto;
 }
 .lightbox a {
-  color: #8a0808;
+  color: #f29602;
   margin: 0%;
   padding: 5%;
   height: auto;
   width: auto;
-  text-shadow: #f29602 2px 2px;
+  text-shadow: #8a0808 2px 2px;
+  animation-name: glow;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes glow {
+  from {
+    text-shadow: 0px 0px 5px #fff, 0px 0px 5px #614ad3;
+  }
+  to {
+    text-shadow: 0px 0px 20px #fff, 0px 0px 20px #614ad3;
+  }
 }
 .lightbox img {
   margin: 0%;
@@ -2139,7 +2150,14 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
   font-size: 3em;
   padding: 3%;
   margin: 0%;
+  color: black;
   text-transform: uppercase;
+}
+.artwork-grid .inquiry-ex h2 .redx {
+  color: #8a0808;
+}
+.artwork-grid .inquiry-ex h2 .ydot {
+  color: #f29602;
 }
 .artwork-grid .inquiry-ex h3 {
   padding: 3% 8% 0% 4%;
@@ -2461,6 +2479,81 @@ footer {
   background-color: #f29602;
 }
 
+/* 404
+--------------------------------------------- */
+.zuko {
+  display: block;
+  position: relative;
+  margin: 0% auto;
+  padding: 0%;
+  height: 60vh;
+  width: auto;
+}
+.zuko .zuko-img {
+  position: relative;
+  margin: 0% auto;
+  padding: 0%;
+  height: 60vh;
+  width: fit-content;
+}
+
+.site-main {
+  margin: 0% auto !important;
+}
+
+.page-content {
+  margin: 0% auto;
+  padding: 0%;
+}
+
+.info-404 {
+  display: block;
+  padding: 0% 5% 1% 5%;
+  margin: 0% auto;
+  position: relative;
+  background-color: white;
+}
+.info-404 .wpcf7 input[type=text],
+.info-404 .wpcf7 input[type=email] {
+  color: #000;
+  width: 30%;
+  height: auto;
+  font-weight: 600;
+}
+.info-404 .wpcf7 textarea {
+  width: 30%;
+}
+.info-404 #wpcf7-f228-o1 {
+  padding: 0%;
+}
+.info-404 input.wpcf7-form-control.has-spinner.wpcf7-submit {
+  width: 30%;
+}
+
+.p-404 {
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+@media screen and (max-width: 780px) {
+  .zuko {
+    height: 48vh;
+  }
+  .zuko .zuko-img {
+    height: 48vh;
+  }
+}
+@media screen and (max-width: 428px) {
+  .zuko {
+    height: 20vh;
+  }
+  .zuko .zuko-img {
+    height: 20vh;
+    float: left;
+  }
+}
 /*--------------------------------------------------------------
 # Plugins
 --------------------------------------------------------------*/

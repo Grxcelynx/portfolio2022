@@ -134,7 +134,7 @@ Feautred Work
         <div class="artwork-grid">
 
             <div class="inquiry-ex">
-                <h2>Grxcelyn Arts</h2>
+                <h2>Gr<span class="redx">x</span>celyn<span class="ydot">.</span> Arts</h2>
                 <hr>
                 <h3>All potential Murals and Showcases must first submit an inquiry form.  All finished products (canvas/prints) are available on Etsy at Grxcelyn Arts.</h3>
                 <button class="fancy">
@@ -143,8 +143,8 @@ Feautred Work
                 <button class="fancy">
                     <a href="https://www.etsy.com/shop/GracelynArts?ref=profile_header" target="_blank">Buy art now</a>
                 </button>     
-                <button>
-                    <a href="http://grxcelyn2022.local/coe">test</a>
+                <button class="fancy">
+                    <a href="http://grxcelyn2022.local/coe">View more</a>
                 </button>
             </div>
 
