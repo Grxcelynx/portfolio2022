@@ -154,6 +154,7 @@ h1 {
         width: 0;
         padding: 3%;
         margin: 0% auto;
+        letter-spacing: 1.8px;
         h1,p{
             opacity: 0;
             transition: opacity 600ms ease, transform 600ms ease;
@@ -168,7 +169,14 @@ h1 {
         p {
             transform: translateX(25%);
             transition-delay: 600ms;
-            font-size: 1rem;
+            font-size: 1.1rem;
+            font-weight: 500;
+            // color: hsl(0, 0%, 63%);
+            color: #F8F8FF;
+            text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+                0px -4px 10px rgba(0,0,0,0.3);
+            // background-color: rgb(128, 128, 128, 0.5);
+            background-image: linear-gradient(to right, transparent, rgba(128, 81, 81, 0.5), transparent);
         }
         h1 {
             font-size: 2.2rem;
@@ -208,6 +216,10 @@ h1 {
                 transform: translateX(0);
                 padding: 2%;
             }
+            .icon-img {
+                height: 100px;
+                width: 100px;
+            }
         }
     }
 }
@@ -242,8 +254,8 @@ h1 {
             height: 50vh;
             .content{
                 .icon-img {
-                    height: 100px;
-                    width: 100px;
+                    height: 148px;
+                    width: 148px;
                     object-fit: contain;
                     margin: 0%;
                     padding: 2% 0%;
