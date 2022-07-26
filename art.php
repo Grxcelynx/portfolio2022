@@ -142,10 +142,7 @@ Feautred Work
                 </button>
                 <button class="fancy">
                     <a href="https://www.etsy.com/shop/GracelynArts?ref=profile_header" target="_blank">Buy art now</a>
-                </button>     
-                <button class="fancy">
-                    <a href="http://grxcelyn2022.local/coe">View more</a>
-                </button>
+                </button>  
             </div>
 
             <div class="shop-prev">
