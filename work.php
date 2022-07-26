@@ -109,13 +109,13 @@
 
 <div class="work-info">
     <div class="web-inquiry">
-        <h2>Grxcelyn Development</h2>
+    <h2>Gr<span class="redx">x</span>celyn<span class="ydot">.</span> Development</h2>
         <hr>
             <h4 class="text-start">Want to create a portfolio?</h4>
             <h4 class="text-middle">Have an idea for your website?</h4> 
             <h4 class="text-end">Expand your small business to an online store?</h4> 
             <h3 class="text-center">
-            Get connected with Grxcelyn Development and set up your first Discovery Meeting TODAY
+            Get connected with Grxcelyn Development and set up your first Discovery Meeting <span class="today">TODAY</span>
             </h3>
         <button class="fancy">
         <a href="http://grxcelyn2022.local/contact/#linked">Inquire Now</a>

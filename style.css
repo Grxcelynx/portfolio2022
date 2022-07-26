@@ -1579,17 +1579,25 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
   letter-spacing: 2px;
 }
 .work-info .web-inquiry h2 {
-  text-transform: uppercase;
-  font-size: 2em;
-  padding: 3% 8% 0% 4%;
+  font-size: 2.5em;
+  padding: 0% 3%;
   margin: 0%;
-  background: linear-gradient(to right, #8a0808 50%, #f29602 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: black;
+  text-transform: uppercase;
+}
+.work-info .web-inquiry h2 .redx {
+  color: #8a0808;
+}
+.work-info .web-inquiry h2 .ydot {
+  color: #f29602;
 }
 .work-info .web-inquiry h3, .work-info .web-inquiry h4 {
   padding: 3% 8% 3% 4%;
   margin: 0%;
+}
+.work-info .web-inquiry h3 .today, .work-info .web-inquiry h4 .today {
+  color: black;
+  text-decoration: underline;
 }
 .work-info .web-inquiry .text-start {
   text-align: left;
@@ -1677,7 +1685,7 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
   padding: 25% 0% 0% 0%;
 }
 .work-info .work-about .skills h2 {
-  font-size: 1.8em;
+  font-size: 1.5rem;
   margin: 0%;
   padding: 1%;
   text-transform: uppercase;
