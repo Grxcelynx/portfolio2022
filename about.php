@@ -30,7 +30,7 @@
             <h1 class="about-h1">Grace Birnam</h1>
             <h3>Artist & Developer</h3>
             <h3>Bay Area, CA</h3>
-            <img src="http://grxcelyn2022.local/wp-content/uploads/2022/06/IMG_9628.jpg" alt="">
+            <img class="icon-img" src="<?php the_field('profile'); ?>" alt="">
         </div>
     </div>
     <div class="strip">
