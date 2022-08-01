@@ -147,7 +147,7 @@ Feautred Work
 
             <div class="shop-prev">
                 <a href="https://www.etsy.com/shop/GracelynArts?ref=profile_header" target="_blank">
-                <img src="http://grxcelyn2022.local/wp-content/uploads/2022/06/Screen-Shot-2022-06-27-at-2.53.28-PM.png" alt="">
+                <img src="<?php the_field('print_pics') ?>" alt="">
                 </a>
             </div>
 
