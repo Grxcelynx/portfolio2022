@@ -30,7 +30,9 @@
             <h1 class="about-h1">Grace Birnam</h1>
             <h3>Artist & Developer</h3>
             <h3>Bay Area, CA</h3>
-            <img class="icon-img" src="<?php the_field('profile'); ?>" alt="">
+            <div class="profile-image">
+                <img class="profile-img" src="<?php the_field('profile'); ?>" alt="">
+            </div>
         </div>
     </div>
     <div class="strip">

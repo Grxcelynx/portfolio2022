@@ -42,12 +42,17 @@ h1 {
     ul {
         list-style: none;
         text-decoration: none;
-       
-        .icon-img {
-            height: auto;
-            width: auto;
-            margin:  3%;
+
+        .profile-image {
+
+            .profile-img {
+                height: auto;
+                width: auto;
+                margin:  3%;
+            }
         }
+       
+    
        
     }
     #first-dot {
