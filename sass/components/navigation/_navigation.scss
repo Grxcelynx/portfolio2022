@@ -17,7 +17,7 @@ ul {
 		background-color: white;
 		position: sticky;
 		top: 0;
-		z-index: 1;
+		z-index: 99999;
 		border-bottom: $red 0.5px solid;
 		font-weight: 600;
 		letter-spacing: 2px;

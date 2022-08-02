@@ -22,32 +22,40 @@
 
 .wpcf7 textarea {
     width: 70%;
-    height: 60px;
+    height: 200px;
     font-weight: 600;
-    
+    resize: none;
+    overflow:auto;
 
 }
 
 input.wpcf7-form-control, textarea.wpcf7-form-control, select.wpcf7-form-control {
-    background: linear-gradient(to left, $darkred, $yellow, $red, $yellow);
+    background: linear-gradient(to left,$red, $darkred, $yellow, $red);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    
     // box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset; 
 
 }
 
 input.wpcf7-form-control.has-spinner.wpcf7-submit {
+    padding: 2%;
     width: 40%;
     transition: box-shadow .15s,transform .15s;
     box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset; 
     
 }
 .wpcf7 input:hover[type="submit"] {
-    background: #494949;
+    background: linear-gradient(to left, $darkred, $yellow, $red, $yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
     transition: all 0.4s ease 0s;
+    box-shadow: rgba(138, 8, 8, 0.7) 0 2px 4px,rgba(138, 8, 8, 0.5) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset; 
+
 }
 .wpcf7 input:active[type="submit"] {
-    background: #000000;
+    background: blue;
 }
 
 .main-contact {
@@ -59,6 +67,27 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
     justify-content: center;
     padding: 0%;
     margin: 0%;
+
+    .wpcf7 textarea {
+        width: 100%;
+        height: 200px;
+        font-weight: 600;
+        resize: none;
+        overflow:auto;
+    
+    }
+
+    .wpcf7 input[type="text"],
+    .wpcf7 input[type="email"]
+    {       
+        width: 100%;       
+    }
+
+    .wpcf7 input[type="submit"]
+    {   
+        width: 40%; 
+        margin: 0% auto;
+    }
 
     fieldset {
         border: none;

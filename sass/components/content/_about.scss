@@ -110,7 +110,7 @@ h1 {
         top:-100%;
         left:50%;
         transform: translateX(-50%);
-        animation: drip 6s linear ; 
+        animation: drip 4.5s linear ; 
         z-index:1;
         animation-fill-mode: forwards;
         
@@ -162,7 +162,7 @@ h1 {
         letter-spacing: 1.8px;
         h1,p{
             opacity: 0;
-            transition: opacity 600ms ease, transform 600ms ease;
+            transition: opacity 400ms ease, transform 400ms ease;
         }
         h1, h3{
             transform: translateY(-25%);
@@ -173,7 +173,7 @@ h1 {
         }
         p {
             transform: translateX(25%);
-            transition-delay: 600ms;
+            // transition-delay: 300ms;
             font-size: 1.1rem;
             font-weight: 500;
             // color: hsl(0, 0%, 63%);
