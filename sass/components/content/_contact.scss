@@ -137,6 +137,7 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
 }
 .formButtonArt a:hover{
     background-color: #fff8f0;
+    -webkit-text-fill-color: $red;
 }
 .formButtonArt a:active{
     background-color: #f29602;
@@ -160,6 +161,8 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
 }
 .formButtonWeb a:hover{
     background-color: #fff8f0;
+    -webkit-text-fill-color: $red;
+
 }
 .formButtonWeb a:active{
     background-color: #f29602;
