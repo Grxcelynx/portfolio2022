@@ -1107,11 +1107,13 @@ h1 {
   margin: 0% auto;
   letter-spacing: 1.8px;
 }
-.strip .content h1, .strip .content p {
+.strip .content h1,
+.strip .content p {
   opacity: 0;
   transition: opacity 400ms ease, transform 400ms ease;
 }
-.strip .content h1, .strip .content h3 {
+.strip .content h1,
+.strip .content h3 {
   transform: translateY(-25%);
   text-transform: uppercase;
   font-weight: 400;
@@ -1136,6 +1138,36 @@ h1 {
   align-items: center;
   margin: 0% auto;
 }
+@media (max-width: 821px) {
+  .strip {
+    grid-column: 1/span 5;
+    justify-content: flex-start;
+    padding-left: 1em;
+    height: 80vh !important;
+  }
+  .strip .content {
+    font-size: 0.6em;
+    opacity: 1;
+    padding: 4em;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    width: 100%;
+  }
+  .strip .content h1,
+.strip .content p {
+    opacity: 1;
+  }
+  .strip .content h1 {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    margin: 0%;
+  }
+  .strip .content p {
+    transform: translateX(0);
+    -webkit-transform: translateY(0);
+    padding: 2%;
+  }
+}
 .strip.hoverin {
   grid-column: 1/span 5;
   justify-content: flex-start;
@@ -1147,6 +1179,7 @@ h1 {
   opacity: 1;
   padding: 4em;
   transform: scale(1);
+  -webkit-transform: scale(1);
   width: 100%;
 }
 .strip.hoverin .content h1,
@@ -1155,15 +1188,13 @@ h1 {
 }
 .strip.hoverin .content h1 {
   transform: translateY(0);
+  -webkit-transform: translateY(0);
   margin: 0%;
 }
 .strip.hoverin .content p {
   transform: translateX(0);
+  -webkit-transform: translateY(0);
   padding: 2%;
-}
-.strip.hoverin .content .icon-img {
-  height: 100px;
-  width: 100px;
 }
 
 .strip:nth-child(1) {
@@ -1215,9 +1246,14 @@ h1 {
 }
 
 @media screen and (max-width: 821px) {
+  .circle svg {
+    width: 300px;
+    height: 300px;
+  }
+
   .strips {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 80vh;
     height: auto;
     display: block;
     width: 100%;
@@ -1225,20 +1261,53 @@ h1 {
   .strips .logo-about {
     padding: 15%;
   }
-  .strips .strip {
-    height: 50vh;
+  .strips .strip h4 {
+    font-size: 1rem;
   }
   .strips .strip .content .icon-img {
-    height: 148px;
-    width: 148px;
+    height: 80px;
+    width: 80px;
     object-fit: contain;
     margin: 0%;
     padding: 2% 0%;
     object-position: center;
   }
-  .strips.hoverin {
-    display: none;
-    pointer-events: none;
+  .strips .strip .content h1 {
+    font-size: 1.5rem;
+  }
+  .strips .strip .content h3 {
+    font-size: 1rem;
+  }
+  .strips .strip .content p {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 821px) and (min-width: 821px) {
+  .strips .strip.hoverin {
+    grid-column: 1/span 5;
+    justify-content: flex-start;
+    padding-left: 1em;
+    height: 80vh !important;
+  }
+  .strips .strip.hoverin .content {
+    font-size: 0.6em;
+    opacity: 1;
+    padding: 4em;
+    transform: scale(1);
+    height: auto;
+    width: 100%;
+  }
+  .strips .strip.hoverin .content h1,
+.strips .strip.hoverin .content p {
+    opacity: 1;
+  }
+  .strips .strip.hoverin .content h1 {
+    margin: 0%;
+    display: block;
+  }
+  .strips .strip.hoverin .content p {
+    padding: 2%;
+    display: block;
   }
 }
 /* Contact
