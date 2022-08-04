@@ -947,6 +947,18 @@ main .banner-img img {
   color: #8a0808;
 }
 
+@media screen and (max-width: 415px) {
+  main .banner-img img {
+    margin: 40% auto 40% auto;
+  }
+
+  .klays-art p {
+    font-size: 0.5rem;
+  }
+  .klays-art p a {
+    color: #8a0808;
+  }
+}
 /* About
 --------------------------------------------- */
 .logo-about {

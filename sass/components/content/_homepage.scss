@@ -36,3 +36,22 @@ main {
         }
     }
 }
+
+@media screen and (max-width:415px) {
+    main {
+        .banner-img{
+            img {
+                margin: 40% auto 40% auto;
+            }
+        }
+    }
+
+    .klays-art {
+        p {
+            font-size: 0.5rem;
+            a{
+                color: $red;
+            }
+        }
+    }
+}
