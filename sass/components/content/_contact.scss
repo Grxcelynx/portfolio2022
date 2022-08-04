@@ -1,4 +1,5 @@
 
+
 .wpcf7 input[type="text"],
 .wpcf7 input[type="email"],
 .wpcf7 input[type="tel"],
@@ -6,14 +7,14 @@
 .wpcf7 input[type="submit"]
 {
     color: #000;
-    width: 70%;
+    width: auto;
     height: auto;
     font-weight: 600;
 }
 
 .wpcf7-select[type="select"]
 {
-    width: 70%;
+    width: auto;
     height: auto;
     font-weight: 600;
   
@@ -21,7 +22,7 @@
 }
 
 .wpcf7 textarea {
-    width: 70%;
+    width: auto;
     height: 200px;
     font-weight: 600;
     resize: none;
@@ -55,7 +56,7 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
 
 }
 .wpcf7 input:active[type="submit"] {
-    background: blue;
+    background: rgb(255, 196, 0);
 }
 
 .main-contact {
@@ -63,7 +64,6 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
     height: 70vh;
     align-items: center;
     text-align: center;
-    display: flex;
     justify-content: center;
     padding: 0%;
     margin: 0%;
@@ -85,12 +85,18 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
 
     .wpcf7 input[type="submit"]
     {   
-        width: 40%; 
+        width: auto; 
         margin: 0% auto;
+        display: flex;
     }
 
     fieldset {
         border: none;
+    }
+
+    .banner-text {
+        padding: 2%;
+        margin-top: 3%;
     }
 
     h1{
@@ -120,7 +126,7 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
 
 }
 .formButtonArt{
-    display: flex;
+    width: auto;
     margin: 5%;
     transition: box-shadow .15s,transform .15s;
     box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset; 
@@ -132,6 +138,7 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
     text-transform: uppercase;
     color: black;
     align-items: center;
+    width: auto;
 
     
 }
@@ -144,7 +151,6 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
 }
 
 .formButtonWeb{
-    display: flex;
     margin: 5%;
     transition: box-shadow .15s,transform .15s;
     box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
@@ -238,7 +244,9 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
 .wpcf7 {
     padding: 5%;
     font-weight: bold;
-   
+    margin: 0% auto;
+    height: auto;
+    width: 100%;
 
 }
 
@@ -252,6 +260,12 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
     justify-content: center;
     margin: 1%;
     padding: 0%;
+    width: auto;
+
+    .formButtonWeb{
+        width: auto;
+
+    }
      div {
         font-size: 1.2em;
      }
@@ -263,6 +277,14 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
     justify-content: center;
     margin: 0%;
     padding: 0%;
+
+    .web-form {
+        padding: 0%;
+    }
+
+    .art-form {
+        padding: 0%;
+    }
 
 
   }
