@@ -36,7 +36,7 @@ footer{
     li, a{
         list-style-type: none;
         text-decoration: none;
-        
+        font-size: 1rem;
 
     }
  
@@ -86,7 +86,8 @@ footer{
 .footer-menu3,.footer-menu2 {
     height: auto;
     a{
-        color: $red;;
+        color: $red;
+        font-size: 1rem;
     }
 }
 
@@ -121,7 +122,7 @@ footer{
             text-align: center;
             margin: 0%;
             padding: 1%;
-            font-size: 0.6rem;
+            font-size: 0.7rem;
             color: $red;
     
             a{
@@ -156,5 +157,37 @@ footer{
         }
     }
 
+}
 
+@media screen and (max-width: 415px) {
+    .footer-menu3,.footer-menu2 {
+        a{
+            font-size: 0.7rem;
+        }
+    }
+
+    .credits {
+        .copyright {
+            p {
+                font-size: 0.4rem;
+            }
+            span {
+                font-size: 0.6rem;
+            }
+        }
+    }
+    .klays-copyright {
+        p {
+            font-size: 0.5rem !important;
+            a{
+                color: $red;
+                font-size: 0.5rem;
+
+            }
+        }
+    }
+    .socialMedia i {
+        font-size: 1.5rem;
+    }
+    
 }

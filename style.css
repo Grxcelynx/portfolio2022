@@ -2386,6 +2386,7 @@ footer {
 .container li, .container a {
   list-style-type: none;
   text-decoration: none;
+  font-size: 1rem;
 }
 
 .footerBox {
@@ -2438,6 +2439,7 @@ footer {
 }
 .footer-menu3 a, .footer-menu2 a {
   color: #8a0808;
+  font-size: 1rem;
 }
 
 .credits {
@@ -2469,7 +2471,7 @@ footer {
   text-align: center;
   margin: 0%;
   padding: 1%;
-  font-size: 0.6rem;
+  font-size: 0.7rem;
   color: #8a0808;
 }
 .credits .klays-copyright p a {
@@ -2495,6 +2497,30 @@ footer {
   .footer-menu3 ul {
     margin: 0%;
     padding: 8%;
+  }
+}
+@media screen and (max-width: 415px) {
+  .footer-menu3 a, .footer-menu2 a {
+    font-size: 0.7rem;
+  }
+
+  .credits .copyright p {
+    font-size: 0.4rem;
+  }
+  .credits .copyright span {
+    font-size: 0.6rem;
+  }
+
+  .klays-copyright p {
+    font-size: 0.5rem !important;
+  }
+  .klays-copyright p a {
+    color: #8a0808;
+    font-size: 0.5rem;
+  }
+
+  .socialMedia i {
+    font-size: 1.5rem;
   }
 }
 /* variables
