@@ -135,8 +135,7 @@ ul {
     padding: 16px 16px 18px 16px;
     position: absolute;
     right: 2px;
-    margin-top: -10px;
-    background-color: white;
+    background-color: transparent;
     border: none;
     border-radius: 0;
 }
@@ -149,7 +148,6 @@ ul {
 
 	.menu-primary-menu-container {
 		width: 50%;
-		background-color: aqua;
 	}
     
     ul {
@@ -159,15 +157,17 @@ ul {
         height: auto;
         right: 0;
         margin: 48px 0 0 1px;
-        background-image: linear-gradient(to left, rgb(242, 150, 2, 0.5), transparent) ;
+        background-image: linear-gradient(to left, rgb(242, 150, 2), transparent) ;
         text-align: center;
 		transform: translateX(10%);
 		transition: transform 5s ease-in;
-		text-shadow: 2px 2px white;
+		text-shadow: 1px 1px $red;
 	
     
         li a {
-            padding: 30px;
+            padding: 3%;
+			background-image: linear-gradient(to bottom,transparent, rgba(250, 245, 245, 0.5), transparent);
+			width: 100%;
             
         }
     }
@@ -178,6 +178,8 @@ ul {
     font-weight: 800;
     font-size: 1.5rem;
     color: #40282C;
+	padding: 4%;
+	margin: 0%;
 }
 
 @media screen and (min-width: 948px) {
