@@ -232,7 +232,7 @@ h1 {
 @for $i from 1 through $strips {
     .strip:nth-child(#{$i}) {
         // background-color: rgb($i/138, $i/8, $i/8);
-        background-color: rgb(138/$i, 9/$i, 8/$i);
+        background-color: rgb(calc(138 / $i), calc(9 / $i), calc(8 / $i));
         // color: rgb(255/$i, 255/$i, 255/$i);
         color: rgb($i*255, $i*255, $i*255);
 
@@ -240,7 +240,7 @@ h1 {
             grid-column: #{$i} / span 5;
         }
     }
-}
+} 
 
 
 @media screen and (max-width: 821px) {

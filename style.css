@@ -2510,7 +2510,7 @@ footer {
 }
 
 .topButton a {
-  padding: 0px 15px;
+  padding: 1% 2%;
   background-color: transparent;
   border: 2px solid #f29602;
   border-radius: 40px;
@@ -2518,6 +2518,7 @@ footer {
   text-transform: uppercase;
   color: black;
   align-items: center;
+  font-size: 1rem;
 }
 
 .topButton a:hover {
@@ -2528,6 +2529,11 @@ footer {
   background-color: #f29602;
 }
 
+@media screen and (max-width: 414px) {
+  .topButton a {
+    font-size: 0.5rem;
+  }
+}
 /* 404
 --------------------------------------------- */
 .zuko {
