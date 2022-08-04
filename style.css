@@ -2080,14 +2080,35 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
     width: 100%;
   }
   .tut-grid div {
-    width: 50%;
+    width: 65%;
     align-items: center;
     text-align: center;
     padding: 0%;
-    margin: 5% auto;
+    margin: 10% auto;
   }
   .tut-grid h2 {
     font-size: 1.5em;
+  }
+
+  .about-tut h2 {
+    margin: 0%;
+    padding: 0%;
+    text-transform: uppercase;
+    font-size: 1.8em;
+  }
+  .about-tut p {
+    margin: 3% auto;
+    padding: 1% 10% 2% 0%;
+    font-size: 0.8rem;
+  }
+  .about-tut button {
+    margin: 0%;
+    text-transform: uppercase;
+  }
+  .about-tut button a {
+    text-decoration: none;
+    color: #8a0808;
+    font-weight: 600;
   }
 }
 /* Art
