@@ -1172,7 +1172,7 @@ h1 {
   grid-column: 1/span 5;
   justify-content: flex-start;
   padding-left: 1em;
-  height: 100vh !important;
+  height: 100vh;
 }
 .strip.hoverin .content {
   font-size: 0.6em;
@@ -1272,6 +1272,9 @@ h1 {
     padding: 2% 0%;
     object-position: center;
   }
+  .strips .strip .content .who {
+    font-size: 0.7rem !important;
+  }
   .strips .strip .content h1 {
     font-size: 1.5rem;
   }
@@ -1280,34 +1283,6 @@ h1 {
   }
   .strips .strip .content p {
     font-size: 0.8rem;
-  }
-}
-@media screen and (max-width: 821px) and (min-width: 821px) {
-  .strips .strip.hoverin {
-    grid-column: 1/span 5;
-    justify-content: flex-start;
-    padding-left: 1em;
-    height: 80vh !important;
-  }
-  .strips .strip.hoverin .content {
-    font-size: 0.6em;
-    opacity: 1;
-    padding: 4em;
-    transform: scale(1);
-    height: auto;
-    width: 100%;
-  }
-  .strips .strip.hoverin .content h1,
-.strips .strip.hoverin .content p {
-    opacity: 1;
-  }
-  .strips .strip.hoverin .content h1 {
-    margin: 0%;
-    display: block;
-  }
-  .strips .strip.hoverin .content p {
-    padding: 2%;
-    display: block;
   }
 }
 /* Contact
@@ -2189,16 +2164,16 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
   display: grid;
   place-items: center;
   min-height: 200px;
-  border: 8px solid;
-  padding: 1rem;
+  border: 5px solid;
+  padding: 0.2rem;
 }
 .gallery-preview .radial-repeating {
   box-shadow: 20px 20px rgba(0, 0, 0, 0.08);
-  border-width: 15px;
+  border-width: 10px;
   border-image: repeating-radial-gradient(circle at 10px, tan, #662d2d 2px, tan 4px, #6e400b 2px) 1;
 }
 .gallery-preview .thumbnail-wrapper {
-  margin: 2% auto;
+  margin: 2%;
 }
 .gallery-preview .image-caption {
   width: 100%;
@@ -2402,18 +2377,23 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
 
 @media screen and (max-width: 996px) {
   .title-spot {
-    font-size: 0.8em;
+    font-size: 0.5rem;
     padding: 2%;
     width: 100%;
     margin: 0%;
     background-size: contain;
   }
   .gallery-preview {
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     grid-template-rows: minmax(100px, 1fr) minmax(100px, 1fr);
     margin: 0%;
     padding: 5%;
     width: 100%;
+  }
+  .gallery-preview img {
+    height: fit-content;
+    width: fit-content;
+    padding: 0%;
   }
 
   .artwork-grid {
@@ -2432,12 +2412,16 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
   }
   .artwork-grid .shop-prev img {
     height: auto;
-    width: 100%;
+    width: auto;
+    margin: 0% auto;
   }
   .artwork-grid .inquiry-ex {
     width: fit-content;
     padding: 0%;
     margin: 0%;
+  }
+  .artwork-grid .inquiry-ex h2 {
+    font-size: 2.2rem;
   }
   .artwork-grid .inquiry-ex p {
     padding-right: 20%;

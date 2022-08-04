@@ -77,14 +77,14 @@
         display: grid;
         place-items: center;
         min-height: 200px;
-        border: 8px solid;
-        padding: 1rem;
+        border: 5px solid;
+        padding: 0.2rem;
     }
 
     .radial-repeating {
       box-shadow: 20px 20px rgba(0,0,0,.08);
 
-        border-width: 15px;
+        border-width: 10px;
         border-image: repeating-radial-gradient(
                 circle at 10px,
                 tan,
@@ -95,7 +95,7 @@
             1;
     }
     .thumbnail-wrapper {
-      margin: 2% auto;
+      margin: 2% ;
     }
       
     .image-caption {
@@ -341,7 +341,7 @@
     @media screen and (max-width: 996px) {
 
         .title-spot {
-            font-size: 0.8em;
+            font-size: 0.5rem;
             padding: 2%;
             width: 100%;
             margin: 0%;
@@ -353,11 +353,27 @@
 
         .gallery-preview {
             // grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)) ;
-            grid-template-columns: auto auto auto;
+            grid-template-columns: auto auto;
             grid-template-rows: minmax(100px, 1fr) minmax(100px, 1fr);
             margin: 0%;
             padding: 5%;
             width:100%;
+
+          //   .border {
+          //     font-size: 1.6rem;
+          //     display: grid;
+          //     place-items: center;
+          //     min-height: 200px;
+          //     border: 8px solid;
+          //     padding: 1rem;
+          // }
+
+            img{
+              height: fit-content;
+              width: fit-content;
+              padding: 0%;
+              // object-fit: contain !important;
+            }
         }
         .artwork-grid {
             display: list-item;
@@ -375,7 +391,8 @@
                 // height: 10vh;
                 img {
                     height: auto;
-                    width: 100%;
+                    width: auto;
+                    margin: 0% auto;
                 }
             }
 
@@ -383,6 +400,9 @@
                 width:fit-content;
                 padding: 0%;
                 margin: 0%;
+                h2{
+                  font-size: 2.2rem;
+                }
                 p{
                     padding-right: 20%;
                 }

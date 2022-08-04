@@ -222,6 +222,7 @@ h1 {
 
             width: 100%;
 
+
             h1,
             p {
                 opacity: 1;
@@ -247,7 +248,7 @@ h1 {
         grid-column: 1 / span 5;
         justify-content: flex-start;
         padding-left: 1em;
-        height: 100vh !important;
+        height: 100vh;
 
         .content {
             font-size: .6em;
@@ -319,10 +320,6 @@ h1 {
             h4 {
                 font-size: 1rem;
             }
-
-            // display: block;
-            // height: 30vh;
-
             .content {
                 .icon-img {
                     height: 80px;
@@ -333,7 +330,10 @@ h1 {
                     object-position: center;
                     // background-color: aqua;
                 }
-
+                .who {
+                    font-size: 0.7rem !important;
+                }
+      
                 h1 {
                     font-size: 1.5rem;
                 }
@@ -346,40 +346,40 @@ h1 {
                     font-size: 0.8rem;
                 }
             }
-            @media (min-width:821px) {
-                &.hoverin {
-                    grid-column: 1 / span 5;
-                    justify-content: flex-start;
-                    padding-left: 1em;
-                    height: 80vh !important;
+            // @media (min-width:821px) {
+            //     &.hoverin {
+            //         grid-column: 1 / span 5;
+            //         justify-content: flex-start;
+            //         padding-left: 1em;
+            //         height: 80vh !important;
     
-                    .content {
-                        font-size: .6em;
-                        opacity: 1;
-                        padding: 4em;
-                        transform: scale(1);
-                        height: auto;
-                        width: 100%;
+            //         .content {
+            //             font-size: .6em;
+            //             opacity: 1;
+            //             padding: 4em;
+            //             transform: scale(1);
+            //             height: auto;
+            //             width: 100%;
     
-                        h1,
-                        p {
-                            opacity: 1;
-                        }
+            //             h1,
+            //             p {
+            //                 opacity: 1;
+            //             }
     
-                        h1 {
-                            // transform: translateY(0);
-                            margin: 0%;
-                            display: block;
-                        }
+            //             h1 {
+            //                 // transform: translateY(0);
+            //                 margin: 0%;
+            //                 display: block;
+            //             }
     
-                        p {
-                            // transform: translateX(0);
-                            padding: 2%;
-                            display: block;
-                        }
-                    }
-                }
-            }
+            //             p {
+            //                 // transform: translateX(0);
+            //                 padding: 2%;
+            //                 display: block;
+            //             }
+            //         }
+            //     }
+            // }
     
         }
             }

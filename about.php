@@ -44,7 +44,7 @@
     <div class="strip">
         <h4>Who I Am</h4>
         <div class="content">
-        <p> <?php echo the_field('who_i_am'); ?></p>
+        <p class="who"> <?php echo the_field('who_i_am'); ?></p>
         </div>
     </div>
     <div class="strip">
