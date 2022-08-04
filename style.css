@@ -1841,6 +1841,10 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
 
 /* On smaller screens */
 @media only screen and (max-width: 870px) {
+  main .banner-img img {
+    margin: 0% auto 40% auto;
+  }
+
   .load-more-container ul li {
     width: calc(100% - 10px);
   }
@@ -1869,31 +1873,33 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
   .work-info .web-inquiry h2 {
     padding: 3% 8% 0% 4%;
     margin: 0%;
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
-  .work-info .web-inquiry p {
+  .work-info .web-inquiry h4, .work-info .web-inquiry h3 {
     padding: 3% 8% 3% 4%;
     margin: 0%;
-    font-size: 0.9em;
+    font-size: 0.8em;
   }
   .work-info .web-inquiry button {
     padding: auto;
-    margin: 3% 8% 3% 4%;
-    text-transform: uppercase;
-  }
-  .work-info .work-about h2 {
-    font-size: 1.5em;
-    margin: 0%;
-    padding: 0% 0% 0% 4%;
+    margin: 0% auto;
+    display: flex;
     text-transform: uppercase;
   }
   .work-info .work-about .skills {
     margin: 0%;
     padding: 0%;
   }
-  .work-info .work-about .skills p {
+  .work-info .work-about .skills h2 {
+    font-size: 1.2em;
+    margin: 0%;
+    padding: 0% 0% 0% 4%;
+    text-transform: uppercase;
+  }
+  .work-info .work-about .skills h4, .work-info .work-about .skills h5 {
     margin: 0%;
     padding: 3% 10% 5% 10%;
+    font-size: 0.8rem;
   }
 }
 @media only screen and (max-width: 480px) {
