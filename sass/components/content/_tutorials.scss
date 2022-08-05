@@ -190,6 +190,13 @@
 
 
 @media screen and (max-width: 767px) {
+  .tutorial-title {
+    h1 {
+      font-size: 4rem;
+   
+    }
+    
+  }
   
     .tut-grid {
       display: list-item;

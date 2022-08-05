@@ -11,14 +11,12 @@
 <?php get_header(); ?>
 
 <section class="main-contact">
-    <div class="banner-img-contact">
         <div class="banner-text">
-            <h1>Contact Me</h1>
-            <h4><strong>General Questions <i>only</i></strong></h4>
+        <h1>C<span class="red-o">o</span>ntact<span class="contact-dot">.</span></h1>
+        <h4><strong>General Questions <i>only</i></strong></h4>
             <?php echo apply_shortcodes( '[contact-form-7 id="71" title="General"]' ); ?>
 
         </div>
-    </div>
 </section>
 
 

@@ -35,6 +35,7 @@
     // background: white;
     position: relative;
     color: #000;
+    padding: 2%;
 
   }
   
@@ -172,24 +173,6 @@
         }
     }
 
-    //   .horizontal {
-    //     grid-column: span 2;
-    // }
-    
-    // .vertical {
-    //     grid-row: span 2;
-    // }
-    
-    // .big {
-    //     grid-column: span 2;
-    //     grid-row: span 2;
-    // }
-
-    // .normal {
-    //     grid-column: span 1.5;
-    //     grid-row: span 1;
-    // }
-
 }
 .lightbox {
 	/* Hidden lightbox image */
@@ -246,8 +229,8 @@
 .artwork-grid {
     display: grid;
     position: relative;
-    grid-template-columns: 63% 37%;
-    grid-template-rows: auto auto;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: auto;
     grid-gap: 0%;
     padding: 0%;
     width: 100%;
@@ -263,6 +246,7 @@
             margin: 0%;
             color: black;
             text-transform: uppercase;
+            font-weight: 400;
             .redx {
               color: $red;
             }
@@ -349,86 +333,67 @@
     
     @media screen and (max-width: 996px) {
 
-        .title-spot {
-            font-size: 0.5rem;
-            padding: 2%;
-            width: 100%;
-            margin: 0%;
-            background-size: contain;
-
-            h1 {
-            }
+      .art-title{
+        h1{
+          font-size: 3rem;
         }
+      }
 
-        .gallery-preview {
-            // grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)) ;
-            grid-template-columns: auto auto;
-            grid-template-rows: minmax(100px, 1fr) minmax(100px, 1fr);
-            margin: 0%;
-            padding: 5%;
-            width:100%;
+      .artwork-grid {
+          display: list-item;
+          position: relative;
+          margin: 0% auto;
+          padding: 2%;
 
-  
-
-            img{
-              height: fit-content;
-              width: fit-content;
-              padding: 0%;
+          .title-spot {
+            margin: 0% auto;
+            .artHeader{
+              font-size: 2rem;
+              margin: 0% auto;
             }
-        }
-        .artwork-grid {
-            display: list-item;
-            list-style-type: none;
-            align-items: center !important;
-            justify-content: center;
-            margin: 0%;
-            padding: 0%;
-            align-content: center;
-
-            .shop-prev {
-                width: 100%;
-                margin: 0% !important;
-                padding: 1%;
-                // height: 10vh;
-                img {
-                    height: auto;
-                    width: auto;
-                    margin: 0% auto;
-                }
-            }
-
-            .inquiry-ex {
-                width:fit-content;
-                padding: 0%;
-                margin: 0%;
-                h2{
-                  font-size: 2.2rem;
-                }
-                p{
-                    padding-right: 20%;
-                }
-            }
-        }
-    }
-    @media screen and (max-width: 820px) {
-
-      .gallery-preview {
-          // grid-template-rows: minmax(100px, 1fr) minmax(100px, 1fr);
-          grid-template-columns: auto auto auto;
-
-          img {
-            object-fit: contain;
           }
 
-         
+          .inquiry-ex {
+            h2 {
+              font-size: 2rem;
+              font-weight: 400;
+            }
+            h3{
+              font-size: 1rem;
+            }
+
+            button{
+              margin: 3% 1%;
+            }
+          }
+
+          .fancy {
+            width: auto;
+            padding: 0%;
+            a{
+              font-size: 0.8rem;
+              margin: 0%;
+            }
+          }
+
+          .gallery-preview {
+            display: inline-block;
+            position: relative;
+            margin: 0% auto;
+            .thumbnail-wrapper{
+              margin: 0% auto 30% auto;
+
+              .radial-repeating {
+                box-shadow: 10px 10px rgba(0,0,0,.08);
+              }
+            }
+          }
       }
+
+     
+
+
+
+       
     }
-
-@media all and (min-width: 521px) and (max-width: 700px) {
-
- 
-  .image-caption {
-    width: 250px;
-    height: 200px;
-  }
-}
+  

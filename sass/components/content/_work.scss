@@ -319,11 +319,11 @@
 
 /* On smaller screens */
 @media only screen and (max-width: 870px) {
-  main {
-    .banner-img {
-      img {
-          margin: 0% auto 40% auto;
-      }
+  .work-title {
+   
+    h1 {
+      font-size: 3rem;
+      font-weight: 400;
     }
   }
 
