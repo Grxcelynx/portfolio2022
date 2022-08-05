@@ -9,11 +9,16 @@
 <div class="" id="topBtn"></div>
 <?php get_header(); ?>
 
-<div class="title-spot">
-<h1 class="artHeader" data-text= "Feautred Work">
-Feautred Work
-</h1>
-</div>
+    <div class="art-title">
+        <h1>Ar<span class="red-t">t</span>s<span class="art-dot">.</span></h1>
+    </div>
+
+    <div class="title-spot">
+    <h1 class="artHeader" data-text= "Feautred Work">
+    Feautred Work
+    </h1>
+    </div>
+
     <div class="art-main">
         <div class="gallery-preview">
                 <div class="thumbnail-wrapper image-container">
@@ -146,9 +151,7 @@ Feautred Work
             </div>
 
             <div class="shop-prev">
-                <a href="https://www.etsy.com/shop/GracelynArts?ref=profile_header" target="_blank">
-                <img src="<?php the_field('print_pics') ?>" alt="">
-                </a>
+                
             </div>
 
   

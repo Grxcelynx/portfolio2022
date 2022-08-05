@@ -963,6 +963,29 @@ main .banner-img img {
 }
 /* About
 --------------------------------------------- */
+.about-title {
+  height: auto;
+  width: 100%;
+  padding: 1%;
+  margin: 0% auto;
+  line-height: 6rem;
+  z-index: 999;
+}
+.about-title h1 {
+  text-align: center;
+  font-size: 6rem;
+  color: black;
+  font-family: "Tenor Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.about-title .red-x {
+  color: #8a0808;
+}
+.about-title .about-dot {
+  color: #f29602;
+}
+
 .logo-about {
   padding: 5%;
   width: fit-content;
@@ -1035,70 +1058,6 @@ h1 {
     text-shadow: 0px 0px 20px #fff, 0px 0px 20px #614ad3;
   }
 }
-.strip .dripsvg {
-  display: none !important;
-}
-.strip #testsvg {
-  display: none !important;
-}
-.strip .circles {
-  position: absolute;
-  top: -500px;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-  align-items: center;
-  align-content: center;
-}
-.strip .circle {
-  width: 150px;
-  height: 150px;
-  line-height: 150px;
-  background: transparent;
-  text-align: center;
-  border-radius: 100%;
-  position: absolute;
-  top: -100%;
-  left: 50%;
-  transform: translateX(-50%);
-  animation: drip 4.5s linear;
-  z-index: 1;
-  animation-fill-mode: forwards;
-}
-.strip .circle svg {
-  object-fit: cover;
-}
-@keyframes drip {
-  0% {
-    opacity: 1;
-    top: -27px;
-    transform: translateX(-50%) scale(0.3);
-  }
-  30% {
-    top: 30px;
-    transform: translateX(-50%) scale(0.4, 1);
-  }
-  33% {
-    top: 40px;
-    transform: translateX(-50%) scale(1, 0.5);
-  }
-  35% {
-    top: 55px;
-    transform: translateX(-50%) scale(1, 0.7);
-  }
-  80% {
-    top: 460px;
-    opacity: 1;
-    transform: translateX(-50%) scale(1, 1.3);
-  }
-  100% {
-    top: 35%;
-    transform: translateX(-50%) scale(1, 1);
-    height: 150px;
-    width: 350px;
-  }
-}
 .strip .content {
   opacity: 0;
   transform: scale(0);
@@ -1106,6 +1065,12 @@ h1 {
   padding: 3%;
   margin: 0% auto;
   letter-spacing: 1.8px;
+}
+.strip .content .logo-about {
+  height: auto;
+  width: auto;
+  margin: 0% auto;
+  padding: 3%;
 }
 .strip .content h1,
 .strip .content p {
@@ -1137,6 +1102,10 @@ h1 {
 .strip .content .title-img {
   align-items: center;
   margin: 0% auto;
+}
+.strip .content .icon-img {
+  height: 100px;
+  width: 100px;
 }
 @media (max-width: 821px) {
   .strip {
@@ -1339,13 +1308,14 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
 }
 
 .main-contact {
-  width: 100%;
+  width: 50%;
   height: 70vh;
   align-items: center;
   text-align: center;
   justify-content: center;
+  display: flex;
   padding: 0%;
-  margin: 0%;
+  margin: 0% auto;
 }
 .main-contact .wpcf7 textarea {
   width: 100%;
@@ -1554,6 +1524,27 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
 }
 /* work
 --------------------------------------------- */
+.work-title {
+  height: auto;
+  width: 100%;
+  padding: 2%;
+  margin: 3% auto 5% auto;
+  color: black;
+  font-family: "Tenor Sans", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+.work-title h1 {
+  font-size: 5rem;
+  font-weight: 400;
+}
+.work-title .red-v {
+  color: #8a0808;
+}
+.work-title .work-dot {
+  color: #f29602;
+}
+
 .load-more-container {
   background: #fff;
   width: 100%;
@@ -1891,6 +1882,28 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
 }
 /* Tutorials
 --------------------------------------------- */
+.tutorial-title {
+  height: auto;
+  width: 100%;
+  padding: 2%;
+  margin: 3% auto 5% auto;
+  line-height: 6rem;
+}
+.tutorial-title h1 {
+  text-align: center;
+  font-size: 6rem;
+  color: black;
+  font-family: "Tenor Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.tutorial-title .red-t {
+  color: #8a0808;
+}
+.tutorial-title .tut-dot {
+  color: #f29602;
+}
+
 .tut-grid {
   display: grid;
   position: relative;
@@ -2088,9 +2101,32 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
 }
 /* Art
 --------------------------------------------- */
+.art-title {
+  height: auto;
+  width: 100%;
+  padding: 2%;
+  margin: 3% auto 1% auto;
+  line-height: 6rem;
+  z-index: 9999;
+}
+.art-title h1 {
+  text-align: center;
+  font-size: 6rem;
+  color: black;
+  font-family: "Tenor Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.art-title .red-t {
+  color: #8a0808;
+}
+.art-title .art-dot {
+  color: #f29602;
+}
+
 .artHeader {
   text-transform: uppercase;
-  font-size: 5em;
+  font-size: 3rem;
   text-align: center;
   display: -webkit-flex;
   display: flex;
@@ -2282,16 +2318,6 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
   padding: 0%;
   width: 100%;
   height: auto;
-}
-.artwork-grid .shop-prev {
-  width: auto;
-  height: auto;
-  padding: 2%;
-  margin: 0%;
-}
-.artwork-grid .shop-prev a img {
-  height: fit-content;
-  width: 100%;
 }
 .artwork-grid .inquiry-ex {
   padding: 3%;

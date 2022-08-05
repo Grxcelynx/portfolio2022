@@ -1,4 +1,23 @@
-
+.work-title {
+  height: auto;
+  width: 100%;
+  padding: 2%;
+  margin: 3% auto 5% auto;
+  color: black;
+  font-family: $main;
+  text-transform: uppercase;
+  text-align: center;
+  h1 {
+    font-size: 5rem;
+    font-weight: 400;
+  }
+  .red-v {
+    color: $red;
+  }
+  .work-dot {
+    color: $yellow;
+  }
+}
 
 .load-more-container {
     background: #fff;

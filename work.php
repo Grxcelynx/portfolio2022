@@ -11,7 +11,9 @@
 <?php get_header(); ?>
 
 
-<?php get_template_part('template-parts/banner')?> 
+<div class="work-title">
+    <h1>De<span class="red-v">v</span>elopment<span class="work-dot">.</span></h1>
+</div>
 
 
 

@@ -10,7 +10,9 @@
 
 <?php get_header(); ?>
 
-<?php get_template_part('template-parts/banner')?> 
+<div class="tutorial-title">
+    <h1>Tu<span class="red-t">t</span>orials<span class="tut-dot">.</span></h1>
+</div>
 
 <div class="tut-grid">
 

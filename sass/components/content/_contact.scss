@@ -60,13 +60,14 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
 }
 
 .main-contact {
-    width: 100%;
+    width: 50%;
     height: 70vh;
     align-items: center;
     text-align: center;
     justify-content: center;
+    display: flex;
     padding: 0%;
-    margin: 0%;
+    margin: 0% auto;
 
     .wpcf7 textarea {
         width: 100%;
