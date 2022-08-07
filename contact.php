@@ -20,21 +20,16 @@
 </section>
 
 
-<div class="buttons">
+<!-- <div class="buttons">
         <div class="formButtonArt" id="artBtn">
             <a href="#AformBtn">Art Inquiry</a>
         </div>
         <div class="formButtonWeb" id="webBtn">
             <a href="#WformBtn">Web Development Inquiry</a>
         </div>
-</div>
+</div> -->
 
-<!-- Calendly inline widget begin -->
-<div class="calendly-inline-widget" data-url="https://calendly.com/grxcelyn?hide_gdpr_banner=1&primary_color=8a0808" style="min-width:320px;height:auto;padding:0px;margin:2%;"></div>
-<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-<!-- Calendly inline widget end -->
-
-<section class="grid">
+<!-- <section class="grid">
 <div class="form-grid" id="linked" name="linkedForms">
         <div class="art-form" id="AformBtn">
             <label id="art-title" for="">
@@ -56,7 +51,7 @@
             <?php echo apply_shortcodes( '[contact-form-7 id="70" title="Web Inquiry Form"]' ); ?>
         </div>
 </div>
-</section>
+</section> -->
 
 
 <div class="reminder">
