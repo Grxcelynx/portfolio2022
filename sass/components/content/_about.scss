@@ -190,9 +190,13 @@ h1 {
         margin: 0% auto;
         letter-spacing: 1.8px;
 
+        .who {
+            font-size: 0.8rem;
+        }
+
         .logo-about {
-            height: auto;
-            width: auto;
+            height: 90%;
+            width: 90%;
             margin: 0% auto;
             padding: 3%;
         }
@@ -343,8 +347,8 @@ h1 {
     .circle {
 
         svg {
-            width: 300px;
-            height: 300px;
+            width: 290px;
+            height: 290px;
         }
     }
 
@@ -374,7 +378,7 @@ h1 {
                     // background-color: aqua;
                 }
                 .who {
-                    font-size: 0.7rem !important;
+                    font-size: 0.7rem ;
                 }
       
                 h1 {
@@ -389,40 +393,6 @@ h1 {
                     font-size: 0.8rem;
                 }
             }
-            // @media (min-width:821px) {
-            //     &.hoverin {
-            //         grid-column: 1 / span 5;
-            //         justify-content: flex-start;
-            //         padding-left: 1em;
-            //         height: 80vh !important;
-    
-            //         .content {
-            //             font-size: .6em;
-            //             opacity: 1;
-            //             padding: 4em;
-            //             transform: scale(1);
-            //             height: auto;
-            //             width: 100%;
-    
-            //             h1,
-            //             p {
-            //                 opacity: 1;
-            //             }
-    
-            //             h1 {
-            //                 // transform: translateY(0);
-            //                 margin: 0%;
-            //                 display: block;
-            //             }
-    
-            //             p {
-            //                 // transform: translateX(0);
-            //                 padding: 2%;
-            //                 display: block;
-            //             }
-            //         }
-            //     }
-            // }
     
         }
             }
@@ -432,4 +402,17 @@ h1 {
 
 
 
-@media screen and (max-width:415px) {}
+@media screen and (max-width:1122px) {
+    .who {
+        font-size: 0.7rem !important ;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width:401px) {
+    .who {
+        font-size: 0.5rem !important ;
+        font-weight: 600;
+    }
+}
+
