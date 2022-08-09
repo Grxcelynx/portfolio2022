@@ -1553,6 +1553,15 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
   height: auto;
   width: 100%;
 }
+.load-more-container ul li figure figcaption .view:hover {
+  background: linear-gradient(to left, #471414, #f29602, #8a0808, #f29602);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: all 0.2s ease 0s;
+  box-shadow: rgba(138, 8, 8, 0.7) 0 2px 4px, rgba(138, 8, 8, 0.5) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
 .load-more-container ul li figure figcaption .view {
   background-color: white;
   margin: 2%;
@@ -1572,46 +1581,6 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
   max-height: 0;
   opacity: 0;
   transition: 0.1s ease-in;
-}
-.load-more-container .load-more-container .load-more-btn {
-  width: 150px;
-  line-height: 40px;
-  border-radius: 2px;
-  margin: 0 auto;
-  display: block;
-  background: white;
-  box-shadow: -6px 8px 10px rgba(81, 41, 10, 0.1), 0px 2px 2px rgba(81, 41, 10, 0.2);
-  background: linear-gradient(to left, #471414, #f29602, #8a0808, #f29602);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  cursor: pointer;
-  text-align: center;
-}
-.load-more-container .load-more-container .load-more-btn:hover {
-  background: #f29602;
-}
-.load-more-container .load-more-container .load-more-btn .loaded {
-  display: none;
-}
-.load-more-container .load-more-container .load-more-btn:hover {
-  background: #333;
-}
-.load-more-container .load-more-container .load-more-btn .loaded {
-  display: none;
-}
-.load-more-container .load-more-container #load-more {
-  display: none;
-}
-.load-more-container .load-more-container #load-more:checked ~ ul li:nth-child(1n+5) {
-  max-height: 999px;
-  opacity: 1;
-  transition: 0.2s ease-in;
-}
-.load-more-container .load-more-container #load-more:checked ~ .load-more-btn .loaded {
-  display: block;
-}
-.load-more-container .load-more-container #load-more:checked ~ .load-more-btn .unloaded {
-  display: none;
 }
 
 .work-info {
@@ -1680,6 +1649,10 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
   text-decoration: none;
   color: #8a0808;
   font-weight: 600;
+}
+.work-info .web-inquiry button a:hover {
+  color: #f29602;
+  background: linear-gradient(to bottom, transparent, rgba(252, 216, 117, 0.4), transparent);
 }
 .work-info .web-inquiry .fancy {
   padding: 0.6em 2em;
@@ -1929,6 +1902,14 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
   font-size: 1rem;
   font-weight: 600;
 }
+.tut-grid div button:hover {
+  background: linear-gradient(to left, #471414, #f29602, #8a0808, #f29602);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  transition: all 0.2s ease 0s;
+  box-shadow: rgba(138, 8, 8, 0.7) 0 4px 6px, rgba(202, 11, 11, 0.5) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
 .tut-grid div:hover {
   border-radius: 0% 0% 50% 50%/0% 0% 0% 0%;
   box-shadow: 10px 10px rgba(0, 0, 0, 0.25);
@@ -1959,6 +1940,10 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
   text-decoration: none;
   color: #8a0808;
   font-weight: 600;
+}
+.about-tut button a:hover {
+  color: #f29602;
+  background: linear-gradient(to bottom, transparent, rgba(252, 216, 117, 0.4), transparent);
 }
 .about-tut .fancy {
   padding: 0.6em 2em;
@@ -2311,6 +2296,10 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
   color: #8a0808;
   font-weight: 600;
 }
+.artwork-grid .inquiry-ex button a:hover {
+  color: #f29602;
+  background: linear-gradient(to bottom, transparent, rgba(252, 216, 117, 0.4), transparent);
+}
 .artwork-grid .inquiry-ex .fancy {
   padding: 0.6em 2em;
   border: none;
@@ -2494,7 +2483,7 @@ footer {
 }
 
 .footerBox ul li:hover {
-  color: #f29602;
+  color: #f29602 !important;
 }
 
 .footerBox ul li:active {
@@ -2520,6 +2509,9 @@ footer {
 .footer-menu3 a, .footer-menu2 a {
   color: #8a0808;
   font-size: 1rem;
+}
+.footer-menu3 a:hover, .footer-menu2 a:hover {
+  color: #f29602;
 }
 
 .credits {
@@ -2715,6 +2707,13 @@ footer {
     float: left;
   }
 }
+/* Calendly
+--------------------------------------------- */
+.calendly-badge-widget .calendly-badge-content:hover {
+  background-color: #f29602 !important;
+  color: #8a0808 !important;
+}
+
 /*--------------------------------------------------------------
 # Plugins
 --------------------------------------------------------------*/

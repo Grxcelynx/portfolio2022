@@ -90,7 +90,18 @@
                 color: $red;
                 font-size: 1rem;
                 font-weight: 600;
-            }       
+            }  
+              
+         }
+
+         button:hover{
+          background: linear-gradient(to left, $darkred, $yellow, $red, $yellow);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          text-transform: uppercase;
+          transition: all 0.2s ease 0s;
+          box-shadow: rgba(138, 8, 8, 0.7) 0 4px 6px,rgba(202, 11, 11, 0.5) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset; 
+      
          }
       } 
       div:hover {
@@ -126,6 +137,10 @@
             color: $red;
             font-weight: 600;
             
+            }
+        a:hover {
+              color: $yellow;
+              background: linear-gradient(to bottom, transparent, rgba(252, 216, 117, 0.4), transparent);
             }
         }
 

@@ -268,7 +268,10 @@
                 text-decoration: none;
                 color: $red;
                 font-weight: 600;
-
+            }
+            a:hover {
+              color: $yellow;
+              background: linear-gradient(to bottom, transparent, rgba(252, 216, 117, 0.4), transparent);
             }
         }
             .fancy {

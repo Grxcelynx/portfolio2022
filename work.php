@@ -26,7 +26,7 @@
             <figcaption>
                 Travel Site Template
                 <button class="view">
-                    <a href="https://github.com/Grxcelynx/travel-site" target="_blank">view</a>
+                    <a class="viewbtn" href="https://github.com/Grxcelynx/travel-site" target="_blank">view</a>
                 </button>
             </figcaption>
         </figure>

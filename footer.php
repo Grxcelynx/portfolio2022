@@ -39,11 +39,11 @@
 		
 					<div class="footerBox">
 						<div class="socialMedia">
-							<a href="https://www.instagram.com/gracelyn.__/" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
-							<a href="https://www.etsy.com/shop/GracelynArts?ref=profile_header" target="_blank"><i class='fa fa-etsy fa-2x'></i></a>
-							<a href="https://www.linkedin.com/in/grace-birnam-74a761163/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
-							<a href="https://www.youtube.com/channel/UCQ0uVps2WIkXbMINDw7x7iA" target="_blank"><i class="fa fa-youtube fa-2x"></i></a>
-							<a href="https://github.com/Grxcelynx" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+							<a href="https://www.instagram.com/gracelyn.__/" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram fa-2x"></i></a>
+							<a href="https://www.etsy.com/shop/GracelynArts?ref=profile_header" target="_blank" aria-label="Etsy"><i class='fa fa-etsy fa-2x'></i></a>
+							<a href="https://www.linkedin.com/in/grace-birnam-74a761163/" target="_blank" aria-label="LinkedIn"><i class="fa fa-linkedin fa-2x"></i></a>
+							<a href="https://www.youtube.com/channel/UCQ0uVps2WIkXbMINDw7x7iA" target="_blank" aria-label="YouTube"><i class="fa fa-youtube fa-2x"></i></a>
+							<a href="https://github.com/Grxcelynx" target="_blank" aria-label="GitHub"><i class="fab fa-github fa-2x"></i></a>
 						</div>
 						
 					</div>
