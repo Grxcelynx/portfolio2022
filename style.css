@@ -2368,8 +2368,8 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
     width: 100%;
     overflow-y: hidden;
     height: auto;
-    bottom: 30%;
     z-index: 999;
+    top: 50%;
   }
   .inquiry-ex h2 {
     font-size: 2rem;
@@ -2426,24 +2426,37 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
 @media screen and (max-width: 500px) {
   .inquiry-ex {
     background: linear-gradient(to bottom, transparent, rgba(140, 8, 8, 0.575), transparent);
+    height: auto;
+    top: 10%;
+    width: 20%;
+    align-items: center;
+    text-align: center;
   }
   .inquiry-ex h2 {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     font-weight: 600;
     padding: 0%;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    height: 35vh;
   }
   .inquiry-ex h3 {
-    font-size: 0.7rem;
-    padding: 0%;
+    display: none;
   }
   .inquiry-ex button {
-    margin: 3% 1%;
-    width: auto;
-    padding: 2%;
+    margin: 2% 1%;
+    padding: 1%;
+    height: 10vh;
+    width: 90%;
+    align-items: center;
   }
   .inquiry-ex button a {
-    font-size: 0.5rem;
+    font-size: 0.6rem;
     font-weight: 800;
+    text-align: center;
+    width: 50%;
+    padding: 0%;
+    margin: 0%;
   }
 }
 /* Banner
