@@ -226,6 +226,107 @@
 	text-decoration: none;
   border-radius: 100%;
 }
+.inquiry-ex {
+  padding: 3%;
+  // margin: 1%;
+  position: fixed;
+  width: 40%;
+  overflow-y: hidden;
+  height: auto;
+  bottom: 30%;
+  h2 {
+      font-size: 3em;
+      padding: 3%;
+      margin: 0%;
+      color: black;
+      text-transform: uppercase;
+      font-weight: 400;
+      .redx {
+        color: $red;
+      }
+      .ydot{
+        color: $yellow;
+      }
+  }
+
+ h3 {
+      padding: 3% 8% 0% 4%;
+      margin: 0%;
+  }
+
+  button {
+      padding: auto;
+      margin: 3% 8% 3% 4%;
+      text-transform: uppercase;
+      a {
+          text-decoration: none;
+          color: $red;
+          font-weight: 600;
+      }
+      a:hover {
+        color: $yellow !important;
+        background: linear-gradient(to bottom, transparent, rgba(252, 216, 117, 0.4), transparent);
+      }
+  }
+
+      .fancy {
+          padding: 0.6em 1em;
+          border: none;
+          outline: none;
+          cursor: pointer;
+          position: relative;
+          z-index: 0;
+          border-radius: 10px;
+          user-select: none;
+          -webkit-user-select: none;
+          touch-action: manipulation;
+        }
+        
+        .fancy:before {
+          content: "";
+          background: linear-gradient(
+            45deg,
+            #8a0808, #f29602, #471414, #8a0808, #f29602
+          );
+          position: absolute;
+          top: -2px;
+          left: -2px;
+          background-size: 400%;
+          z-index: -1;
+          filter: blur(5px);
+          -webkit-filter: blur(5px);
+          width: calc(100% + 4px);
+          height: calc(100% + 4px);
+          animation: glowing-button-85 20s linear infinite;
+          transition: opacity 0.3s ease-in-out;
+          border-radius: 10px;
+        }
+        
+        @keyframes glowing-button-85 {
+          0% {
+            background-position: 0 0;
+          }
+          50% {
+            background-position: 400% 0;
+          }
+          100% {
+            background-position: 0 0;
+          }
+        }
+        
+        .fancy:after {
+          z-index: -1;
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          background: white;
+          left: 0;
+          top: 0;
+          border-radius: 10px;
+        }
+  
+}
 .artwork-grid {
     display: grid;
     position: relative;
@@ -237,101 +338,7 @@
     height: auto;
 
 
-    .inquiry-ex {
-        padding: 3%;
-        margin: 1%;
-        h2 {
-            font-size: 3em;
-            padding: 3%;
-            margin: 0%;
-            color: black;
-            text-transform: uppercase;
-            font-weight: 400;
-            .redx {
-              color: $red;
-            }
-            .ydot{
-              color: $yellow;
-            }
-        }
-
-       h3 {
-            padding: 3% 8% 0% 4%;
-            margin: 0%;
-        }
-
-        button {
-            padding: auto;
-            margin: 3% 8% 3% 4%;
-            text-transform: uppercase;
-            a {
-                text-decoration: none;
-                color: $red;
-                font-weight: 600;
-            }
-            a:hover {
-              color: $yellow;
-              background: linear-gradient(to bottom, transparent, rgba(252, 216, 117, 0.4), transparent);
-            }
-        }
-            .fancy {
-                padding: 0.6em 2em;
-                border: none;
-                outline: none;
-                cursor: pointer;
-                position: relative;
-                z-index: 0;
-                border-radius: 10px;
-                user-select: none;
-                -webkit-user-select: none;
-                touch-action: manipulation;
-              }
-              
-              .fancy:before {
-                content: "";
-                background: linear-gradient(
-                  45deg,
-                  #8a0808, #f29602, #471414, #8a0808, #f29602
-                );
-                position: absolute;
-                top: -2px;
-                left: -2px;
-                background-size: 400%;
-                z-index: -1;
-                filter: blur(5px);
-                -webkit-filter: blur(5px);
-                width: calc(100% + 4px);
-                height: calc(100% + 4px);
-                animation: glowing-button-85 20s linear infinite;
-                transition: opacity 0.3s ease-in-out;
-                border-radius: 10px;
-              }
-              
-              @keyframes glowing-button-85 {
-                0% {
-                  background-position: 0 0;
-                }
-                50% {
-                  background-position: 400% 0;
-                }
-                100% {
-                  background-position: 0 0;
-                }
-              }
-              
-              .fancy:after {
-                z-index: -1;
-                content: "";
-                position: absolute;
-                width: 100%;
-                height: 100%;
-                background: white;
-                left: 0;
-                top: 0;
-                border-radius: 10px;
-              }
-        
-    }
+    
 }
     
     @media screen and (max-width: 996px) {
@@ -341,7 +348,39 @@
           font-size: 3rem;
         }
       }
+      .inquiry-ex {
+        padding: 3%;
+        // background-color: hsla(0, 89%, 29%, 0.283);
+        background: linear-gradient(to bottom, transparent,hsla(0, 89%, 29%, 0.466),transparent );
+        position: fixed;
+        width: 100%;
+        overflow-y: hidden;
+        height: auto;
+        bottom: 30%;
+        z-index: 999;
 
+        h2 {
+          font-size: 2rem;
+          font-weight: 400;
+          padding: 0%;
+        }
+        h3{
+          font-size: 1rem;
+          padding: 0%;
+
+        }
+
+        button{
+          margin: 3% 1%;
+          width: auto;
+          padding: 2%;
+          a {
+            font-size: 0.7rem;
+            font-weight: 600;
+          }
+        }
+ 
+      }
       .artwork-grid {
           display: list-item;
           position: relative;
@@ -356,19 +395,7 @@
             }
           }
 
-          .inquiry-ex {
-            h2 {
-              font-size: 2rem;
-              font-weight: 400;
-            }
-            h3{
-              font-size: 1rem;
-            }
-
-            button{
-              margin: 3% 1%;
-            }
-          }
+         
 
           .fancy {
             width: auto;
@@ -383,6 +410,7 @@
             display: inline-block;
             position: relative;
             margin: 0% auto;
+            
             .thumbnail-wrapper{
               margin: 0% auto 30% auto;
 
@@ -392,11 +420,41 @@
             }
           }
       }
-
-     
-
-
-
        
     }
   
+    @media screen and (max-width: 500px) {
+
+      .inquiry-ex {
+        // padding: 3%;
+        background: linear-gradient(to bottom, transparent,hsla(0, 89%, 29%, 0.575),transparent );
+        // position: fixed;
+        // width: 100%;
+        // overflow-y: hidden;
+        // height: auto;
+        // bottom: 30%;
+        // z-index: 999;
+
+        h2 {
+          font-size: 1.2rem;
+          font-weight: 600;
+          padding: 0%;
+        }
+        h3{
+          font-size: 0.7rem;
+          padding: 0%;
+
+        }
+
+        button{
+          margin: 3% 1%;
+          width: auto;
+          padding: 2%;
+          a {
+            font-size: 0.5rem;
+            font-weight: 800;
+          }
+        }
+ 
+      }
+    }

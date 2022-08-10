@@ -1089,7 +1089,7 @@ h1 {
 }
 .strip .content p {
   transform: translateX(25%);
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   font-weight: 500;
   color: #F8F8FF;
   text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3), 0px -4px 10px rgba(0, 0, 0, 0.3);
@@ -2254,21 +2254,15 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
   border-radius: 100%;
 }
 
-.artwork-grid {
-  display: grid;
-  position: relative;
-  grid-template-columns: 40% 60%;
-  grid-template-rows: auto;
-  grid-gap: 0%;
-  padding: 0%;
-  width: 100%;
-  height: auto;
-}
-.artwork-grid .inquiry-ex {
+.inquiry-ex {
   padding: 3%;
-  margin: 1%;
+  position: fixed;
+  width: 40%;
+  overflow-y: hidden;
+  height: auto;
+  bottom: 30%;
 }
-.artwork-grid .inquiry-ex h2 {
+.inquiry-ex h2 {
   font-size: 3em;
   padding: 3%;
   margin: 0%;
@@ -2276,32 +2270,32 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
   text-transform: uppercase;
   font-weight: 400;
 }
-.artwork-grid .inquiry-ex h2 .redx {
+.inquiry-ex h2 .redx {
   color: #8a0808;
 }
-.artwork-grid .inquiry-ex h2 .ydot {
+.inquiry-ex h2 .ydot {
   color: #f29602;
 }
-.artwork-grid .inquiry-ex h3 {
+.inquiry-ex h3 {
   padding: 3% 8% 0% 4%;
   margin: 0%;
 }
-.artwork-grid .inquiry-ex button {
+.inquiry-ex button {
   padding: auto;
   margin: 3% 8% 3% 4%;
   text-transform: uppercase;
 }
-.artwork-grid .inquiry-ex button a {
+.inquiry-ex button a {
   text-decoration: none;
   color: #8a0808;
   font-weight: 600;
 }
-.artwork-grid .inquiry-ex button a:hover {
-  color: #f29602;
+.inquiry-ex button a:hover {
+  color: #f29602 !important;
   background: linear-gradient(to bottom, transparent, rgba(252, 216, 117, 0.4), transparent);
 }
-.artwork-grid .inquiry-ex .fancy {
-  padding: 0.6em 2em;
+.inquiry-ex .fancy {
+  padding: 0.6em 1em;
   border: none;
   outline: none;
   cursor: pointer;
@@ -2312,7 +2306,7 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
   -webkit-user-select: none;
   touch-action: manipulation;
 }
-.artwork-grid .inquiry-ex .fancy:before {
+.inquiry-ex .fancy:before {
   content: "";
   background: linear-gradient(45deg, #8a0808, #f29602, #471414, #8a0808, #f29602);
   position: absolute;
@@ -2339,7 +2333,7 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
     background-position: 0 0;
   }
 }
-.artwork-grid .inquiry-ex .fancy:after {
+.inquiry-ex .fancy:after {
   z-index: -1;
   content: "";
   position: absolute;
@@ -2351,9 +2345,49 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
   border-radius: 10px;
 }
 
+.artwork-grid {
+  display: grid;
+  position: relative;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: auto;
+  grid-gap: 0%;
+  padding: 0%;
+  width: 100%;
+  height: auto;
+}
+
 @media screen and (max-width: 996px) {
   .art-title h1 {
     font-size: 3rem;
+  }
+
+  .inquiry-ex {
+    padding: 3%;
+    background: linear-gradient(to bottom, transparent, rgba(140, 8, 8, 0.466), transparent);
+    position: fixed;
+    width: 100%;
+    overflow-y: hidden;
+    height: auto;
+    bottom: 30%;
+    z-index: 999;
+  }
+  .inquiry-ex h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 0%;
+  }
+  .inquiry-ex h3 {
+    font-size: 1rem;
+    padding: 0%;
+  }
+  .inquiry-ex button {
+    margin: 3% 1%;
+    width: auto;
+    padding: 2%;
+  }
+  .inquiry-ex button a {
+    font-size: 0.7rem;
+    font-weight: 600;
   }
 
   .artwork-grid {
@@ -2368,16 +2402,6 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
   .artwork-grid .title-spot .artHeader {
     font-size: 2rem;
     margin: 0% auto;
-  }
-  .artwork-grid .inquiry-ex h2 {
-    font-size: 2rem;
-    font-weight: 400;
-  }
-  .artwork-grid .inquiry-ex h3 {
-    font-size: 1rem;
-  }
-  .artwork-grid .inquiry-ex button {
-    margin: 3% 1%;
   }
   .artwork-grid .fancy {
     width: auto;
@@ -2397,6 +2421,29 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
   }
   .artwork-grid .gallery-preview .thumbnail-wrapper .radial-repeating {
     box-shadow: 10px 10px rgba(0, 0, 0, 0.08);
+  }
+}
+@media screen and (max-width: 500px) {
+  .inquiry-ex {
+    background: linear-gradient(to bottom, transparent, rgba(140, 8, 8, 0.575), transparent);
+  }
+  .inquiry-ex h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0%;
+  }
+  .inquiry-ex h3 {
+    font-size: 0.7rem;
+    padding: 0%;
+  }
+  .inquiry-ex button {
+    margin: 3% 1%;
+    width: auto;
+    padding: 2%;
+  }
+  .inquiry-ex button a {
+    font-size: 0.5rem;
+    font-weight: 800;
   }
 }
 /* Banner
@@ -2425,7 +2472,7 @@ footer {
   height: auto;
   position: relative;
   padding: 1%;
-  margin: 0;
+  margin: 2% 0% 0% 0%;
   letter-spacing: 3px;
   font-weight: 600;
 }

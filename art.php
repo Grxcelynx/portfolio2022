@@ -13,19 +13,21 @@
         <h1>Ar<span class="red-t">t</span>work<span class="art-dot">.</span></h1>
     </div>
 
-
-        <div class="artwork-grid">
-            <div class="inquiry-ex">
+    <div class="inquiry-ex">
                 <h2>Gr<span class="redx">x</span>celyn<span class="ydot">.</span> Arts</h2>
                 <hr>
-                <h3>All potential Murals and Showcases must first submit an inquiry form.  All finished products (canvas/prints) are available on Etsy at Grxcelyn Arts.</h3>
+                <h3><?php the_field('art_info_text') ?></h3>
                 <button class="fancy">
-                    <a href="http://grxcelyn2022.local/contact/#linked">Inquire Now</a>
+                    <a href="http://grxcelyn2022.local/contact/">Inquire Now</a>
                 </button>
                 <button class="fancy">
                     <a href="https://www.etsy.com/shop/GracelynArts?ref=profile_header" target="_blank">Buy art now</a>
                 </button>  
-            </div>
+    </div>
+        <div class="artwork-grid">
+        <div>
+
+        </div>
 
             <div class="art-main">
             <div class="title-spot">
