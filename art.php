@@ -38,7 +38,7 @@
                 <div class="gallery-preview">
                         <div class="thumbnail-wrapper image-container">
                             <a href="#img1" aria-label="Click to enlarge image">
-                            <img class="border radial-repeating"src="<?php the_field('featured_1'); ?>"/>
+                            <img class="border radial-repeating"src="<?php the_field('featured_1'); ?>" alt="<?php the_field('art_alt_1') ?>"/>
                             <div class="image-caption">
                                 <h1 class="cap-head"><?php the_field('art_piece_header') ?></h1>
                                 <h2 class="cap-subhead"><?php the_field('art_piece_sub_1') ?></h2>
@@ -48,7 +48,7 @@
 
                         <div class="thumbnail-wrapper image-container">
                             <a href="#img2" aria-label="Click to enlarge image">
-                            <img class="border radial-repeating" src="<?php the_field('featured_2_vertical'); ?>"/>
+                            <img class="border radial-repeating" src="<?php the_field('featured_2_vertical'); ?>"  alt="<?php the_field('art_alt_2') ?>"/>
                             <div class="image-caption">
                                 <h1 class="cap-head"><?php the_field('art_piece_header_2') ?></h1>
                                 <h2 class="cap-subhead"><?php the_field('art_piece_sub_2') ?></h2>
@@ -58,7 +58,7 @@
 
                         <div class="thumbnail-wrapper image-container">
                             <a href="#img3" aria-label="Click to enlarge image">
-                            <img class="border radial-repeating" src="<?php the_field('featured_3_horizontal'); ?>"/>
+                            <img class="border radial-repeating" src="<?php the_field('featured_3_horizontal'); ?>"  alt="<?php the_field('art_alt_3') ?>"/>
                             <div class="image-caption">
                                 <h1 class="cap-head"><?php the_field('art_piece_header_3') ?></h1>
                                 <h2 class="cap-subhead"><?php the_field('art_piece_sub_3') ?></h2>
@@ -68,7 +68,7 @@
 
                         <div class="thumbnail-wrapper image-container">
                             <a href="#img4" aria-label="Click to enlarge image">
-                            <img class="border radial-repeating" src="<?php the_field('featured_4'); ?>"/>
+                            <img class="border radial-repeating" src="<?php the_field('featured_4'); ?>"  alt="<?php the_field('art_alt_4') ?>"/>
                             <div class="image-caption">
                                 <h1 class="cap-head"><?php the_field('art_piece_header_4') ?></h1>
                                 <h2 class="cap-subhead"><?php the_field('art_piece_sub_4') ?></h2>
@@ -78,7 +78,7 @@
 
                         <div class="thumbnail-wrapper image-container">
                             <a href="#img5" aria-label="Click to enlarge image">
-                            <img class="border radial-repeating" src="<?php the_field('featured_5'); ?>"/>
+                            <img class="border radial-repeating" src="<?php the_field('featured_5'); ?>"  alt="<?php the_field('art_alt_5') ?>"/>
                             <div class="image-caption">
                                 <h1 class="cap-head"><?php the_field('art_piece_header_5') ?></h1>
                                 <h2 class="cap-subhead"><?php the_field('art_piece_sub_5') ?></h2>
@@ -88,7 +88,7 @@
 
                         <div class="thumbnail-wrapper image-container">
                             <a href="#img6" aria-label="Click to enlarge image">
-                            <img class="border radial-repeating" src="<?php the_field('featured_6'); ?>"/>
+                            <img class="border radial-repeating" src="<?php the_field('featured_6'); ?>"  alt="<?php the_field('art_alt_6') ?>"/>
                             <div class="image-caption">
                                 <h1 class="cap-head"><?php the_field('art_piece_header_6') ?></h1>
                                 <h2 class="cap-subhead"><?php the_field('art_piece_sub_6') ?></h2>
@@ -98,7 +98,7 @@
 
                         <div class="thumbnail-wrapper image-container">
                             <a href="#img7" aria-label="Click to enlarge image">
-                            <img class="border radial-repeating" src="<?php the_field('featured_7'); ?>"/>
+                            <img class="border radial-repeating" src="<?php the_field('featured_7'); ?>"  alt="<?php the_field('art_alt_7') ?>"/>
                             <div class="image-caption">
                                 <h1 class="cap-head"><?php the_field('art_piece_header_7') ?></h1>
                                 <h2 class="cap-subhead"><?php the_field('art_piece_sub_7') ?></h2>
@@ -108,7 +108,7 @@
 
                         <div class="thumbnail-wrapper image-container">
                             <a href="#img8" aria-label="Click to enlarge image">
-                            <img class="border radial-repeating" src="<?php the_field('featured_8'); ?>"/>
+                            <img class="border radial-repeating" src="<?php the_field('featured_8'); ?>"  alt="<?php the_field('art_alt_8') ?>"/>
                             <div class="image-caption">
                                 <h1 class="cap-head"><?php the_field('art_piece_header_8') ?></h1>
                                 <h2 class="cap-subhead"><?php the_field('art_piece_sub_8') ?></h2>

@@ -64,49 +64,7 @@
             </figcaption>
         </figure>
     </li>  
-    <li>
-        <figure>
-            <img src="http://grxcelyn2022.local/wp-content/uploads/2022/06/Filler-imge-for-content.png" alt="">
-            <figcaption>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate reiciendis est pariatur ducimus. Sunt, expedita iure? Itaque suscipit similique illum est, asperiores ab fuga iure nam. Quis est nulla impedit.
-                <button class="view">
-                    view
-                </button>
-            </figcaption>
-        </figure>
-    </li>   
-    <li>
-        <figure>
-            <img src="http://grxcelyn2022.local/wp-content/uploads/2022/06/Filler-imge-for-content.png" alt="">
-            <figcaption>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate reiciendis est pariatur ducimus. Sunt, expedita iure? Itaque suscipit similique illum est, asperiores ab fuga iure nam. Quis est nulla impedit.
-                <button class="view">view</button>
-            </figcaption>
-        </figure>
-    </li> 
-    <li>
-        <figure>
-            <img src="http://grxcelyn2022.local/wp-content/uploads/2022/06/Filler-imge-for-content.png" alt="">
-            <figcaption>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate reiciendis est pariatur ducimus. Sunt, expedita iure? Itaque suscipit similique illum est, asperiores ab fuga iure nam. Quis est nulla impedit.
-                <button class="view">view</button>
-            </figcaption>
-        </figure>
-    </li>   
-    <li>
-        <figure>
-            <img src="http://grxcelyn2022.local/wp-content/uploads/2022/06/Filler-imge-for-content.png" alt="">
-            <figcaption>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate reiciendis est pariatur ducimus. Sunt, expedita iure? Itaque suscipit similique illum est, asperiores ab fuga iure nam. Quis est nulla impedit.
-                <button class="view">view</button>
-            </figcaption>
-        </figure>
-    </li> 
-  </ul>
-  <!-- <label class="load-more-btn" for="load-more">
-    <span class="unloaded">LOAD MORE</span>
-    <span class="loaded">VIEW LESS</span>
-  </label>     -->
+   
 </div>
 
 <div class="work-info">
