@@ -18,7 +18,7 @@
                 
                 <h3><?php the_field('art_info_text') ?></h3>
                 <button class="fancy">
-                    <a href="http://grxcelyn2022.local/contact/">Inquire Now</a>
+                    <a href="http://grxcelyn2022.local/contact/">Book Now</a>
                 </button>
                 <button class="fancy">
                     <a href="https://www.etsy.com/shop/GracelynArts?ref=profile_header" target="_blank">Buy art now</a>

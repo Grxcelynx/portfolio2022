@@ -2259,11 +2259,14 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
   position: fixed;
   width: 40%;
   overflow-y: hidden;
-  height: auto;
-  bottom: 30%;
+  height: 50vh;
+  bottom: 40%;
+  top: 35%;
+  z-index: 999;
 }
 .inquiry-ex h2 {
-  font-size: 3em;
+  font-size: 2.2em;
+  line-height: auto;
   padding: 3%;
   margin: 0%;
   color: black;
@@ -2279,16 +2282,20 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
 .inquiry-ex h3 {
   padding: 3% 8% 0% 4%;
   margin: 0%;
+  height: 15vh;
+  font-size: 0.9rem;
 }
 .inquiry-ex button {
   padding: auto;
   margin: 3% 8% 3% 4%;
   text-transform: uppercase;
+  height: 4vh;
 }
 .inquiry-ex button a {
   text-decoration: none;
   color: #8a0808;
   font-weight: 600;
+  font-size: 0.7rem;
 }
 .inquiry-ex button a:hover {
   color: #f29602 !important;
@@ -2356,38 +2363,49 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
   height: auto;
 }
 
-@media screen and (max-width: 996px) {
+@media screen and (max-width: 910px) {
   .art-title h1 {
     font-size: 3rem;
   }
 
   .inquiry-ex {
-    padding: 3%;
-    background: linear-gradient(to bottom, transparent, rgba(140, 8, 8, 0.466), transparent);
     position: fixed;
-    width: 100%;
     overflow-y: hidden;
-    height: auto;
     z-index: 999;
-    top: 50%;
+    background: linear-gradient(to right, white, transparent);
+    height: auto;
+    top: 10%;
+    width: 18%;
+    align-items: center;
+    text-align: center;
+    padding: 1%;
   }
   .inquiry-ex h2 {
-    font-size: 2rem;
-    font-weight: 400;
+    font-size: 0.9rem;
+    font-weight: 600;
     padding: 0%;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    height: 35vh;
   }
   .inquiry-ex h3 {
-    font-size: 1rem;
-    padding: 0%;
+    display: none;
   }
   .inquiry-ex button {
-    margin: 3% 1%;
+    margin: 3% 0%;
+    padding: 1%;
+    height: 5vh;
     width: auto;
-    padding: 2%;
+    align-items: center;
+    font-weight: 800;
   }
   .inquiry-ex button a {
     font-size: 0.7rem;
-    font-weight: 600;
+    font-weight: 800;
+    text-align: center;
+    width: 50%;
+    padding: 0%;
+    margin: 0%;
   }
 
   .artwork-grid {
@@ -2424,39 +2442,15 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
   }
 }
 @media screen and (max-width: 500px) {
-  .inquiry-ex {
-    background: linear-gradient(to bottom, transparent, rgba(140, 8, 8, 0.575), transparent);
-    height: auto;
-    top: 10%;
-    width: 20%;
-    align-items: center;
-    text-align: center;
-  }
   .inquiry-ex h2 {
     font-size: 0.8rem;
-    font-weight: 600;
-    padding: 0%;
-    writing-mode: vertical-lr;
-    text-orientation: upright;
-    height: 35vh;
-  }
-  .inquiry-ex h3 {
-    display: none;
   }
   .inquiry-ex button {
-    margin: 2% 1%;
-    padding: 1%;
-    height: 10vh;
-    width: 90%;
-    align-items: center;
+    height: 3.5vh;
+    margin: 4% 1%;
   }
   .inquiry-ex button a {
-    font-size: 0.6rem;
-    font-weight: 800;
-    text-align: center;
-    width: 50%;
-    padding: 0%;
-    margin: 0%;
+    font-size: 0.4rem;
   }
 }
 /* Banner
