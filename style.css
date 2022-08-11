@@ -2116,6 +2116,9 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
 .art-main {
   height: auto;
 }
+.art-main .info-smaller-screen {
+  display: none;
+}
 
 .gallery-preview {
   animation: fadeIn 5s;
@@ -2365,7 +2368,14 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
 
 @media screen and (max-width: 910px) {
   .art-title h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
+  }
+
+  .info-smaller-screen {
+    display: flex !important;
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 1% 15%;
   }
 
   .inquiry-ex {
@@ -2418,7 +2428,7 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
     margin: 0% auto;
   }
   .artwork-grid .title-spot .artHeader {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin: 0% auto;
   }
   .artwork-grid .fancy {
@@ -2442,6 +2452,10 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
   }
 }
 @media screen and (max-width: 500px) {
+  .info-smaller-screen {
+    font-size: 0.7rem;
+  }
+
   .inquiry-ex h2 {
     font-size: 0.8rem;
   }

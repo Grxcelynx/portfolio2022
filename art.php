@@ -31,6 +31,7 @@
 
             <div class="art-main">
             <div class="title-spot">
+            <h3 class="info-smaller-screen"><?php the_field('art_info_text') ?></h3>
             <h1 class="artHeader" data-text= "Feautred Work">
             Feautred Work
             </h1>

@@ -72,6 +72,10 @@
 
 .art-main {
   height: auto;
+
+  .info-smaller-screen {
+    display: none;
+  }
 }
 .gallery-preview { 
     animation: fadeIn 5s; 
@@ -350,8 +354,17 @@
 
       .art-title{
         h1{
-          font-size: 3rem;
+          font-size: 2.5rem;
         }
+
+       
+      }
+      .info-smaller-screen{
+        display: flex !important;
+        text-align: center;
+        font-size: 0.9rem;
+        padding: 1% 15%;
+
       }
       .inquiry-ex {
         position: fixed;
@@ -404,7 +417,7 @@
           .title-spot {
             margin: 0% auto;
             .artHeader{
-              font-size: 2rem;
+              font-size: 1.8rem;
               margin: 0% auto;
             }
           }
@@ -439,6 +452,12 @@
     }
   
     @media screen and (max-width: 500px) {
+
+      .info-smaller-screen{
+        font-size: 0.7rem;
+        
+
+      }
 
       .inquiry-ex {
      
