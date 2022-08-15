@@ -274,6 +274,7 @@
           color: $red;
           font-weight: 600;
           font-size: 0.7rem;
+          padding: 0% auto;
       }
       a:hover {
         color: $yellow !important;
@@ -371,9 +372,9 @@
         overflow-y: hidden;
         z-index: 999;
         background: linear-gradient(to right, white, transparent );   
-        height: auto;
+        height: 80vh;
         top: 10%;
-        width: 18%;
+        width: 15%;
         align-items: center;
         text-align: center;
         padding: 1%;
@@ -383,26 +384,27 @@
           padding: 0%;
           writing-mode: vertical-lr;
           text-orientation: upright;
-          height: 35vh;
+          height: 45vh;
         } 
         h3{
           display: none;
         }
 
         button{
-          margin: 3% 0%;          
-          padding: 1%;
-          height: 5vh;
-          width: auto;
+          margin: 10%;          
+          padding: 5%;
+          height: auto;
+          width: 50%;
           align-items: center;
           font-weight: 800;
           a {
             font-size: 0.7rem;
             font-weight: 800;
             text-align: center;
-            width: 50%;
-            padding: 0%;
-            margin: 0% ;
+            width: auto;
+            padding: 2% auto;
+            margin: 0% auto;
+            position: relative;
            
           }
         }
@@ -451,25 +453,58 @@
     
     }
   
-    @media screen and (max-width: 500px) {
+    // @media screen and (max-width: 610px) {
 
-      .info-smaller-screen{
-        font-size: 0.7rem;
+    //   .info-smaller-screen{
+    //     font-size: 0.7rem;
         
 
-      }
+    //   }
+
+    //   .inquiry-ex {
+     
+    //     h2 {
+    //       font-size: 0.8rem;
+    //     } 
+    
+    //     button{
+    //       height: auto;
+    //       margin: 7%;
+    //       a {
+    //         font-size: 0.4rem;
+           
+    //       }
+    //     }
+ 
+    //   }
+    // }
+
+    // @media screen and (max-width: 491px) {
+    //   .inquiry-ex {
+    
+    //     button{
+    //       height: auto;
+    //       margin: 25% 25% 25% 1%;
+    //       a {
+    //         font-size: 0.4rem;
+           
+    //       }
+    //     }
+ 
+    //   }
+    // }
+
+    @media screen and (max-width: 600px) {
 
       .inquiry-ex {
      
-        h2 {
-          font-size: 0.8rem;
-        } 
-    
         button{
-          height: 3.5vh;
-          margin: 4% 1%;
+          height: auto;
+          margin: 20% auto;
+          padding: 5% auto;
           a {
             font-size: 0.4rem;
+            padding: 0% auto !important;
            
           }
         }

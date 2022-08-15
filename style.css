@@ -918,8 +918,11 @@ ul {
 main {
   height: auto;
   width: 100%;
-  margin: 10% 0% !important;
+  margin: 0% auto;
   padding: 0;
+}
+main .banner-img {
+  margin: 15% auto 5% auto;
 }
 main .banner-img img {
   align-items: center;
@@ -941,7 +944,7 @@ main .banner-img img {
   text-align: right;
   margin: 0%;
   padding: 1%;
-  font-size: 0.7rem;
+  font-size: 0.4rem;
   color: #8a0808;
   letter-spacing: 1px;
 }
@@ -949,16 +952,62 @@ main .banner-img img {
   color: #8a0808;
 }
 
-@media screen and (max-width: 415px) {
-  main .banner-img img {
-    margin: 40% auto 40% auto;
-  }
+.previews {
+  margin: 0% auto;
+  padding: 0%;
+  height: auto;
+  width: 100%;
+}
+.previews .preview {
+  height: auto;
+  width: 100%;
+  margin: 5% auto;
+  padding: 10%;
+}
+.previews .preview img {
+  margin: 1%;
+  padding: 2%;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  box-shadow: #26394d 0px 20px 30px -10px;
+}
+.previews .preview .see-more:hover {
+  background: linear-gradient(to left, #471414, #f29602, #8a0808, #f29602);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  font-weight: 800;
+  transition: all 0.2s ease 0s;
+  box-shadow: rgba(138, 8, 8, 0.7) 0 2px 4px, rgba(138, 8, 8, 0.5) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+.previews .preview .see-more {
+  background-color: white;
+  margin: 8% auto;
+  padding: 3%;
+  font-size: 0.5rem;
+  text-align: center;
+  align-items: center;
+  font-weight: 600;
+  height: auto;
+  width: fit-content;
+  text-transform: uppercase;
+  background: linear-gradient(to left, #471414, #f29602, #8a0808, #f29602);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  box-shadow: -6px 8px 10px rgba(81, 41, 10, 0.1), 0px 2px 2px rgba(81, 41, 10, 0.2);
+}
 
+@media screen and (min-width: 800px) {
   .klays-art p {
     font-size: 0.5rem;
+    font-weight: 800;
   }
-  .klays-art p a {
-    color: #8a0808;
+
+  .previews {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
   }
 }
 /* About
@@ -2299,6 +2348,7 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
   color: #8a0808;
   font-weight: 600;
   font-size: 0.7rem;
+  padding: 0% auto;
 }
 .inquiry-ex button a:hover {
   color: #f29602 !important;
@@ -2383,9 +2433,9 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
     overflow-y: hidden;
     z-index: 999;
     background: linear-gradient(to right, white, transparent);
-    height: auto;
+    height: 80vh;
     top: 10%;
-    width: 18%;
+    width: 15%;
     align-items: center;
     text-align: center;
     padding: 1%;
@@ -2396,16 +2446,16 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
     padding: 0%;
     writing-mode: vertical-lr;
     text-orientation: upright;
-    height: 35vh;
+    height: 45vh;
   }
   .inquiry-ex h3 {
     display: none;
   }
   .inquiry-ex button {
-    margin: 3% 0%;
-    padding: 1%;
-    height: 5vh;
-    width: auto;
+    margin: 10%;
+    padding: 5%;
+    height: auto;
+    width: 50%;
     align-items: center;
     font-weight: 800;
   }
@@ -2413,9 +2463,10 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
     font-size: 0.7rem;
     font-weight: 800;
     text-align: center;
-    width: 50%;
-    padding: 0%;
-    margin: 0%;
+    width: auto;
+    padding: 2% auto;
+    margin: 0% auto;
+    position: relative;
   }
 
   .artwork-grid {
@@ -2451,20 +2502,15 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
     box-shadow: 10px 10px rgba(0, 0, 0, 0.08);
   }
 }
-@media screen and (max-width: 500px) {
-  .info-smaller-screen {
-    font-size: 0.7rem;
-  }
-
-  .inquiry-ex h2 {
-    font-size: 0.8rem;
-  }
+@media screen and (max-width: 600px) {
   .inquiry-ex button {
-    height: 3.5vh;
-    margin: 4% 1%;
+    height: auto;
+    margin: 20% auto;
+    padding: 5% auto;
   }
   .inquiry-ex button a {
     font-size: 0.4rem;
+    padding: 0% auto !important;
   }
 }
 /* Banner
@@ -2585,6 +2631,7 @@ footer {
 .credits {
   display: flex;
   justify-content: space-between;
+  margin: 4% auto;
 }
 .credits .copyright {
   margin: 0%;
