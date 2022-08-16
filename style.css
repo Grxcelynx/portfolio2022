@@ -1009,6 +1009,9 @@ main .banner-img img {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
   }
+  .previews .preview .see-more {
+    font-size: 0.6rem;
+  }
 }
 /* About
 --------------------------------------------- */
@@ -2433,12 +2436,13 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
     overflow-y: hidden;
     z-index: 999;
     background: linear-gradient(to right, white, transparent);
-    height: 80vh;
-    top: 10%;
+    height: 70vh;
+    top: 6%;
     width: 15%;
     align-items: center;
     text-align: center;
     padding: 1%;
+    bottom: 70vh !important;
   }
   .inquiry-ex h2 {
     font-size: 0.9rem;
@@ -2452,10 +2456,10 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
     display: none;
   }
   .inquiry-ex button {
-    margin: 10%;
-    padding: 5%;
+    margin: 10% auto;
+    padding: 15% !important;
     height: auto;
-    width: 50%;
+    width: 100%;
     align-items: center;
     font-weight: 800;
   }
@@ -2506,11 +2510,12 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
   .inquiry-ex button {
     height: auto;
     margin: 20% auto;
-    padding: 5% auto;
+    padding: 0% auto;
   }
   .inquiry-ex button a {
     font-size: 0.4rem;
     padding: 0% auto !important;
+    text-align: center;
   }
 }
 /* Banner
