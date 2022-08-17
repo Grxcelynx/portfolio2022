@@ -231,23 +231,24 @@
   border-radius: 100%;
 }
 .inquiry-ex {
-  padding: 3%;
+  padding: 1%;
   // margin: 1%;
   position: fixed;
   width: 40%;
   overflow-y: hidden;
-  height: 50vh;
-  bottom: 40%;
+  height: 30vh;
+  bottom: 70%;
   top: 35%;
   z-index: 999;
   h2 {
-      font-size: 2.2em;
+      font-size: 2rem;
       line-height: auto;
-      padding: 3%;
+      padding: 1%;
       margin: 0%;
       color: black;
       text-transform: uppercase;
       font-weight: 400;
+      height: 5vh;
      
       .redx {
         color: $red;
@@ -258,15 +259,17 @@
   }
 
  h3 {
-      padding: 3% 8% 0% 4%;
-      margin: 0%;
-      height: 15vh;
+      padding: 1% ;
+      margin: 1%;
+      height: 13vh;
       font-size: 0.9rem;
   }
 
   button {
       padding: auto;
-      margin: 5% 8% 3% 4%;
+      position: relative;
+      // margin: 5% 8% 3% 4%;
+      margin: 0% 2%;
       text-transform: uppercase;
       height: 4vh;
       a {
