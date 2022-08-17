@@ -2342,7 +2342,7 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
 }
 .inquiry-ex button {
   padding: auto;
-  margin: 3% 8% 3% 4%;
+  margin: 5% 8% 3% 4%;
   text-transform: uppercase;
   height: 4vh;
 }
@@ -2436,7 +2436,7 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
     overflow-y: hidden;
     z-index: 999;
     background: linear-gradient(to right, white, transparent);
-    height: 70vh;
+    height: 60vh;
     top: 6%;
     width: 15%;
     align-items: center;
@@ -2450,7 +2450,7 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
     padding: 0%;
     writing-mode: vertical-lr;
     text-orientation: upright;
-    height: 45vh;
+    height: 40vh;
   }
   .inquiry-ex h3 {
     display: none;
@@ -2464,7 +2464,7 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
     font-weight: 800;
   }
   .inquiry-ex button a {
-    font-size: 0.7rem;
+    font-size: 0.5rem;
     font-weight: 800;
     text-align: center;
     width: auto;
@@ -2507,6 +2507,9 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
   }
 }
 @media screen and (max-width: 600px) {
+  .inquiry-ex {
+    bottom: 90%;
+  }
   .inquiry-ex button {
     height: auto;
     margin: 20% auto;
