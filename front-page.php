@@ -19,7 +19,7 @@
 	<div class="preview">
 		<img src="<?php the_field('work_preview_1') ?> " alt="<?php the_field('work_preview_alt_1') ?>">
 		<button class="see-more">
-			<a href="http://grxcelyn2022.local/work">
+			<a href="/work>
 			<?php the_field('work_prev_more') ?>
 			</a>
 		</button>
@@ -28,7 +28,7 @@
 	<div class="preview">
 	<img src="<?php the_field('art_preview_1') ?> " alt="<?php the_field('art_preview_alt_1') ?>">
 		<button class="see-more">
-			<a href="http://grxcelyn2022.local/art">
+			<a href="/art">
 			<?php the_field('art_prev_more') ?>
 			</a>
 		</button>
@@ -37,7 +37,7 @@
 	<div class="preview">
 	<img src="<?php the_field('work_preview_2') ?> " alt="<?php the_field('work_preview_alt_2') ?>">
 		<button class="see-more">
-			<a href="http://grxcelyn2022.local/work">
+			<a href="/work">
 			<?php the_field('work_prev_more') ?>
 			</a>
 		</button>

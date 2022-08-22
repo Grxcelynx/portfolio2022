@@ -78,7 +78,7 @@
             Get connected with Grxcelyn Development and set up your first Discovery Meeting <span class="today">TODAY</span>
             </h3>
         <button class="fancy">
-        <a href="http://grxcelyn2022.local/contact">Inquire Now</a>
+        <a href="/contact">Inquire Now</a>
         </button>
     </div>
 
