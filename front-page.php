@@ -28,7 +28,7 @@
 	<div class="preview">
 	<img src="<?php the_field('art_preview_1') ?> " alt="<?php the_field('art_preview_alt_1') ?>">
 		<button class="see-more">
-			<a href="/art">
+			<a href="/artwork">
 			<?php the_field('art_prev_more') ?>
 			</a>
 		</button>
