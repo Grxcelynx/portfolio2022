@@ -22,7 +22,8 @@
   <ul>
     <li>
         <figure>
-            <img src="<?php the_field('site_1'); ?>" alt="">
+            <video playsinline autoplay muted loop src="<?php the_field('site_1'); ?>"></video>
+            <!-- <img src="<?php the_field('site_1'); ?>" alt=""> -->
             <figcaption>
                 Travel Site Template
                 <button class="view">
@@ -33,7 +34,8 @@
     </li>   
     <li>
         <figure>
-            <img src="<?php the_field('site_2'); ?>" alt="">
+        <video playsinline autoplay muted loop src="<?php the_field('site_2'); ?>"></video>
+            <!-- <img src="<?php the_field('site_2'); ?>" alt=""> -->
             <figcaption>
                 Fashion Blog Site Template
                 <button class="view">
@@ -44,7 +46,8 @@
     </li> 
     <li>
         <figure>
-            <img src="<?php the_field('site_3'); ?>" alt="">
+        <video playsinline autoplay muted loop src="<?php the_field('site_3'); ?>"></video>
+            <!-- <img src="<?php the_field('site_3'); ?>" alt=""> -->
             <figcaption>
                 Education Blog/Info Site Template
                 <button class="view">
@@ -55,7 +58,8 @@
     </li>   
     <li>
         <figure>
-            <img src="<?php the_field('site_4'); ?>" alt="">
+        <video playsinline autoplay muted loop src="<?php the_field('site_4'); ?>"></video>
+            <!-- <img src="<?php the_field('site_4'); ?>" alt=""> -->
             <figcaption>
                 Magic 8 Ball | JavaScript Project 2021
                 <button class="view">

@@ -26,7 +26,7 @@
 						?>
 					</div>
 
-					<div class="footer-menu3">
+					<div class="footer-menu3">   
 						<?php 
 						     wp_nav_menu(array(
 								'menu' => 'Nav Menu',
