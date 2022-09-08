@@ -105,7 +105,7 @@
     border-radius: 0%;
     border: 1px solid rgba(133, 131, 131, 0.01);
     box-shadow: 0px 4px 4px rgba(71, 20, 20, 0.5);
-    width: 30%;
+    width: 100%;
 }
 
 .wpcf7 input[type="text"],
@@ -200,22 +200,22 @@
                 align-items: center;
                 justify-content: center;
             }
-            .wpcf7 textarea {
-                width: 70%;
-                height: 200px;
-                font-weight: 600;
-                resize: none;
-                overflow:auto;
+            // .wpcf7 textarea {
+            //     width: 70%;
+            //     height: 200px;
+            //     font-weight: 600;
+            //     resize: none;
+            //     overflow:auto;
             
-            }
+            // }
         
-            .wpcf7 input[type="text"],
-            .wpcf7 input[type="tel"],
-            .wpcf7 input[type="email"],
-            .wpcf7 input[type="select"]
-            {       
-                width: 70%;       
-            }
+            // .wpcf7 input[type="text"],
+            // .wpcf7 input[type="tel"],
+            // .wpcf7 input[type="email"],
+            // .wpcf7 input[type="select"]
+            // {       
+            //     width: 70%;       
+            // }
         
             .wpcf7 input[type="submit"]
             {   
@@ -333,6 +333,24 @@
 
     font-size: 1rem;
     padding: 1.5% 3%;
+}
 
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 input[type="tel"],
+.wpcf7 input[type="select"]
+{
+    width: 60%;
+
+}
+
+.wpcf7 input[type="date"]
+{
+    width: 25%;
+
+}
+
+.wpcf7 textarea{
+    width: 60%;
 }
 }
