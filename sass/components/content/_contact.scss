@@ -29,7 +29,7 @@
 
 .wpcf7 select{
     box-shadow: 0px 4px 4px rgba(71, 20, 20, 0.5);
-    border: none;
+    border: 1px solid rgba(71, 20, 20, 0.8);
     cursor: pointer;
 
 }
@@ -37,6 +37,7 @@
     // color: #F39C12;
     font-weight: 600;
     color: $darkred;
+
 }
 .wpcf7-select:hover{
     // color: #F39C12;
@@ -60,7 +61,7 @@
     border-radius: 0%;
     letter-spacing: 2px;
     resize: none;
-    border: 1px solid rgba(133, 131, 131, 0.01);
+    border: 1px solid rgba(71, 20, 20, 0.8);
     box-shadow: 0px 4px 4px rgba(71, 20, 20, 0.5);
 }
 
@@ -77,11 +78,11 @@
     font-size: 0.8rem;
     padding: 1% 2%;
     border-radius: 0%;
-    border: 1px solid rgba(133, 131, 131, 0.01);
+    border: 1px solid rgba(71, 20, 20, 0.8);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
     background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.02);
-    box-shadow: 0px 4px 4px rgba(71, 20, 20, 0.5);
+    box-shadow: 0px 4px 4px rgba(71, 20, 20, 0.7);
 }
 
 
@@ -91,7 +92,7 @@
     font-weight: 400;
     letter-spacing: 2px;
     background: $darkred;
-    border: 1px solid rgba(0, 0, 0, 0.02);
+    border: 1px solid rgba(71, 20, 20, 0.8);
     box-shadow: 0px 4px 4px rgba(255, 187, 0, 0.5);
 } 
 
@@ -103,16 +104,16 @@
     font-family: $main;
     padding: 1.5% 2%;
     border-radius: 0%;
-    border: 1px solid rgba(133, 131, 131, 0.01);
-    box-shadow: 0px 4px 4px rgba(71, 20, 20, 0.5);
+    border: 1px solid rgba(71, 20, 20, 0.8);
+    box-shadow: 0px 4px 4px rgba(71, 20, 20, 0.7);
     width: 100%;
 }
 
 .wpcf7 input[type="text"],
 .wpcf7 input[type="email"],
 .wpcf7 input[type="tel"],
-.wpcf7 input[type="select"]
-// .wpcf7 input[type="date"]
+.wpcf7 input[type="select"],
+.wpcf7 input[type="date"]
 
 {
     color: #000;
@@ -124,8 +125,8 @@
     font-family: $main;
     padding: 1.5% 2%;
     border-radius: 0%;
-    border: 1px solid rgba(133, 131, 131, 0.01);
-    box-shadow: 0px 4px 4px rgba(71, 20, 20, 0.5);
+    border: 1px solid rgba(71, 20, 20, 0.8);
+    box-shadow: 0px 4px 4px rgba(71, 20, 20, 0.7);
 }
 
 // input.wpcf7-form-control.has-spinner.wpcf7-submit {
